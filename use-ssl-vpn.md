@@ -9,7 +9,7 @@ lastupdated: "2017-12-01"
 
 # Use SSL VPN
 
-1. Navigate to the **SSL VPN Login** link in the Customer Portal by seleting to **Support > SSL VPN Login** from the Navigation menu, then enter your credentials
+1. Navigate to the **SSL VPN Login** link in the Customer Portal by selecting to **Support > SSL VPN Login** from the Navigation menu, then enter your credentials
 2. The SSL VPN tunnel is established when you observe the "A" in your task bar.
 3. Congrats - you are now in your private VLAN.
 

@@ -63,7 +63,7 @@ An example may be found with the following:
 
 If the tunnel isn't directing traffic correctly, you may need to [add routes manually](https://discussions.apple.com/thread/2735376).
 
-*Please uninstall any previous verions before updating.*
+*Please uninstall any previous versions before updating.*
 
 ## SSL VPN POPs (sites)
 
