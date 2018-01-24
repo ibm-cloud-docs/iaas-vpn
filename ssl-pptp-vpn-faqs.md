@@ -36,7 +36,7 @@ Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprieta
 <a name="278"></a>
 ## When I connect to the PPTP VPN, it states "Error 691: Access was denied because the username and/or password is invalid." How do I fix this problem?
 
-All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activated-a-user.html) for more information.
+All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activate-a-user.html) for more information.
 
 <a name="1154"></a>
 ## Why am I unable to add additional users for PPTP VPN?
