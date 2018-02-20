@@ -13,7 +13,7 @@ lastupdated: "2017-11-01"
 
 IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. For more general information regarding IPSec, refer to the [reference documents](external-reference.html).
 
-{{site.data.keyword.BluSoftlayer_notm}} provides a tunnel mode configuration which provides you with an encrypted site-to-site network, allowing networks at multiple remote locations to communicate securely.
+{{site.data.keyword.BluSoftlayer_notm}} provides a tunnel mode configuration which provides you with an encrypted site-to-site network, allowing networks at multiple remote locations to communicate securely. The IPSec service is provided tobcustomers for management of their environments and is not recommended for production workloads.
 
 ## Setting up an IPSec Connection
 
