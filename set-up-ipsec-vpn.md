@@ -11,9 +11,13 @@ lastupdated: "2017-11-01"
 
 ## What is IPSec VPN?
 
-IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. For more general information regarding IPSec, refer to the [reference documents](external-reference.html).
+IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure.   For more general information regarding IPSec, refer to the [reference documents](external-reference.html).
 
-{{site.data.keyword.BluSoftlayer_notm}} provides a tunnel mode configuration which provides you with an encrypted site-to-site network, allowing networks at multiple remote locations to communicate securely.
+IBM Cloud's VPN access is designed to allow users to remotely manage all servers securely over IBM Cloud's private network.  A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel.  With VPN access, you can:
+
+   -Establish a VPN connection to the private network via SSL, PPTP or IPSEC
+   -Access your server via its private 10.x.x.x IP address via SSH or RDP
+   -Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
 ## Setting up an IPSec Connection
 
