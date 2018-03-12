@@ -1,13 +1,27 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 1994, 2017, 2018
+lastupdated: "2018-01-24"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # VPN FAQ
+
+## What is IBM Cloud VPN?
+
+IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
+
+* Establish a VPN connection to the private network using SSL, PPTP or IPSEC
+* Access your server via its private 10.x.x.x IP address using SSH or RDP
+* Connect to your server’s IPMI IP address for additional server management or rescue needs.
+
+
+## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
+
+Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility.
+
 
 <a name="152"></a>
 ## Can I mount the NAS/FTP server from my remote location over the SSL VPN gateway?
@@ -28,15 +42,10 @@ Our SSL VPN gateway is a security product from Array Networks.  The gateway itse
 
 **PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. PPTP VPN is a great solution for users unable to utilize an SSL connection.
 
-<a name="277"></a>
-## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
-
-Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility.
-
 <a name="278"></a>
 ## When I connect to the PPTP VPN, it states "Error 691: Access was denied because the username and/or password is invalid." How do I fix this problem?
 
-All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activated-a-user.html) for more information.
+All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activate-a-user.html) for more information.
 
 <a name="1154"></a>
 ## Why am I unable to add additional users for PPTP VPN?

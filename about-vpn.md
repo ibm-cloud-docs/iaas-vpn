@@ -9,7 +9,7 @@ lastupdated: "2017-12-01"
 
 # About VPN
 
-VPN access enables you to manage all servers and services associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows unlimited file transfers, out-of-band management, and server rescue through an encrypted VPN tunnel.
+VPN access enables you to manage all servers and services associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel.
 
 Communicating using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as both SSL and PPTP. VPN interactions through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) allow for VPN access customization at the user level.
 
@@ -17,10 +17,8 @@ Communicating using the private network is inherently more secure. It gives you 
 
 This out-of-band secure gateway gives you access to your server over the private network. Common uses are:
 
-* Upload or download files to your server without using public bandwidth.
 * Connect to your server's private IP address (10.x.x.x) for SSH or RDC.
 * Connect to your IPMI card for remote console/access/monitoring.
-* Transfer files and information securely through VPN tunnel over the Web.
 * Mount drives in Windows or Red Hat from home or work PC for convenience.
 * Shut down public interface on database servers and manage over the private network.
 * Shut down public interface while setting up the server for the first time.
