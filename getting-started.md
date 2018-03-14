@@ -11,7 +11,7 @@ lastupdated: "2017-12-01"
 
 ## What is IBM Cloud VPN?
 
-VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows unlimited file transfers, out-of-band management, and server rescue through an encrypted VPN tunnel. With VPN access, you can:
+VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
 * Establish a VPN connection to the private network by SSL, PPTP or IPSEC
 * Access your server via its private 10.x.x.x IP address by SSH or RDP
