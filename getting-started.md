@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 1994, 2017, 2018
+lastupdated: "2018-03-16"
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,9 +13,11 @@ lastupdated: "2017-12-01"
 
 VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-* Establish a VPN connection to the private network by SSL, PPTP or IPSEC
-* Access your server via its private 10.x.x.x IP address by SSH or RDP
+* Establish a VPN connection to the private network by SSL, PPTP, or IPSec.
+* Access your server through its private 10.x.x.x IP address by SSH or RDP.
 * Connect to your server’s IPMI IP address for additional server management or rescue needs.
+
+**Note: PPTP VPN services will be deprecated effective June 12, 2018, as described in [our recent anouncement](pptp-deprecation.html).**
 
 A number of services require access through the private network, and the VPN is one method that allows private network access. A VPN is good to use when you need to log in to the private network, do your work, and then log out. For example, this access often is needed to reach the KVM of the server.
 
