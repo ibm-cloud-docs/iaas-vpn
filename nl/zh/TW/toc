@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="VPN" audience="service" href="/docs/infrastructure/iaas-vpn/getting-started.html"}
+虛擬專用網路 (VPN)
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about-vpn.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    use-ssl-vpn.md
+    set-up-ipsec-vpn.md
+    set-up-ssl-vpn-connections.md
+    update-password.md
+    activate-a-user.md
+    connect-windows.md
+    customize-subnet-access.md
+    set-up-specific-os.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ssl-pptp-vpn-faqs.md
+    resolve-connection-errors.md
+    getting-help.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    external-reference.md
+    {: .navgroup-end}

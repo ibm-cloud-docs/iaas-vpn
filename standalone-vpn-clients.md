@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-20-03"
 ---
 
 {:shortdesc: .shortdesc}
@@ -49,6 +49,7 @@ Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubunt
 
 ## Mac OS X 10.10 Standalone Client
 
+**Note**: MacOS 10.11 is not supported. 
 Steps for the MacOS StandAlone Array SSL VPN Motion Pro Plus client:
 
 1. Install "Motion Pro Plus" client from the Apple store.
