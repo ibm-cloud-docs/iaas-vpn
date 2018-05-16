@@ -28,20 +28,36 @@ Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/Arra
 
 ## Linux Standalone Client
 
-CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.0.4.sh
+1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
 
-Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.0.4.sh
+CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh
 
-Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.0.4.sh
+Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh
 
-Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.0.4.sh
+Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh
 
-Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.0.4.sh
+Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh
 
-1. Make it executable: `chmod +x MotionPro_Linux_CentOS_x86-64_1.0.4.sh`
-* Run the script:  `./MotionPro_Linux_CentOS_x86-64_1.0.4.sh.`
-* Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
-* To stop it:  `[control-c]`
+Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
+
+
+1. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
+1. Run the script:  `./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh.`
+   * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
+   * To stop it:  `[control-c]`
+1. Enable rc.local, if needed.
+    
+  ```
+     # If you are using systemd, you might not have /etc/rc.local file, and you will get an error that says "Auto start script file was not found in system!"
+     # Make an empty one. systemd will know what to do with it
+     # <https://askubuntu\.com/a/919598>
+
+     $ printf '%s\n' '#!/bin/bash' 'exit 0' | sudo tee -a /etc/rc.local
+     $ sudo chmod +x /etc/rc.local
+
+     # Try installing again
+     $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
+```     
 
 **Notes:**  
  * To start the MotionPro client, you must input at least the `hostname` and `username` as arguments.

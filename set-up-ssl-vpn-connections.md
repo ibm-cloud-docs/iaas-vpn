@@ -18,7 +18,7 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 * Testing your website on the backend IPs before you make them live on your public IPs.
 * File transfer of secure data between your server(s) and your home/office.
 * Backup of configuration files your server(s) to your home/office.
-* Securely connect to our Web Portal at http://manage.service.softlayer.com.
+* Securely connect to our Web Portal at http://control.softlayer.com.
 
 ## Windows (Internet Explorer)
 
