@@ -1,12 +1,14 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-03-14"
+lastupdated: "2018-07-23"
 ---
 
-# PPTP VPN Deprecation June 12, 2018
+# PPTP VPN Deprecation
 
-## What is IBM Cloud VPN?
+PPTP VPN was deprecated effective June 12, 2018, and it is no longer offered to customers. Thank you for your interest. To find out about some possible alternatives, read on.
+
+## What is VPN?
 VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
 * Establish a VPN connection to the private network by SSL, **PPTP** or IPSec
@@ -14,16 +16,16 @@ VPN access enables users to manage all servers remotely and securely over the IB
 * Connect to your server’s IPMI IP address for additional server management or rescue needs
 
 ## PPTP Deprecation
-As other VPN options become more secure and versatile, the need for PPTP has diminished. {{site.data.keyword.BluSoftlayer_notm}} provides several other options, such as SSL or IPSec, that are more sophisticated and protective than PPTP.
+As other VPN options become more secure and versatile, the need for PPTP is diminished. {{site.data.keyword.BluSoftlayer_notm}} provides several other options, such as SSL or IPSec, that are more sophisticated and protective than PPTP.
 
-## **For these reasons, {{site.data.keyword.BluSoftlayer_notm}} no longer will offer PPTP as of June 12th, 2018.**
+## **For these reasons, {{site.data.keyword.BluSoftlayer_notm}} no longer is offering PPTP as of June 12th, 2018.**
 
 
 ## Frequently Asked Questions
 
-**Q: Why is PPTP being deprecated?**
+**Q: Why was PPTP deprecated?**
 
-**A:** To provide the highest quality protection, {{site.data.keyword.BluSoftlayer_notm}} has decided to discontinue the use of PPTP. {{site.data.keyword.BluSoftlayer_notm}} wishes to uphold the promise to our customers that the security of their privacy and data are of the utmost importance. 
+**A:** To provide the highest quality protection, {{site.data.keyword.BluSoftlayer_notm}} discontinued the use of PPTP. {{site.data.keyword.BluSoftlayer_notm}} wishes to uphold the promise to our customers that the security of their privacy and data are of the utmost importance. 
 
 **Q: What other VPN access types are available other than PPTP?**
 
