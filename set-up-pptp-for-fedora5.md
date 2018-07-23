@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-05-18"
 ---
 
 {:shortdesc: .shortdesc}
@@ -21,7 +21,14 @@ Install PPTP and the `pptpconfig` GUI using one of the following commands:
 **2. Configuration**
 
 1. IBM Cloud PPTP information:
-<table><tr><td>Server:</td><td>pptpvpn.dal01.softlayer.com (Dallas)<br/>pptpvpn.sea01.softlayer.com (Seattle)<br/>pptpvpn.wdc01.softlayer.com (Washington D.C.)</td></tr><tr><td>Domain Name:</td><td>Leave blank</td></tr><tr><td>Username:</td><td>(example: SL12345)</td></tr><tr><td>Password:</td><td>&nbsp;</td></tr></table>
+
+|Field|Entry|
+|-----|-----|
+|Server:|<ul><li>pptpvpn.dal01.softlayer.com (Dallas)</li><li>pptpvpn.sea01.softlayer.com (Seattle)</li><li>pptpvpn.wdc01.softlayer.com (Washington D.C.)</li></ul>|
+|Domain Name:|Leave blank|
+|Username:|(example: SL12345)|
+|Password:|  |
+
 
 2. Run *pptpconfig* <span style="text-decoration: underline">as root</span>, and a window should appear,<br/>
 ![Figure 1](images/ss1.jpeg)
