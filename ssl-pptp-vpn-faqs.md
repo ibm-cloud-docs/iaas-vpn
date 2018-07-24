@@ -13,14 +13,14 @@ lastupdated: "2018-01-24"
 
 IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-* Establish a VPN connection to the private network using SSL, PPTP or IPSEC
+* Establish a VPN connection to the private network using SSL or IPSEC
 * Access your server via its private 10.x.x.x IP address using SSH or RDP
 * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
 
-Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility.
+Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility. PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
 
 
 <a name="152"></a>
@@ -40,20 +40,16 @@ Our SSL VPN gateway is a security product from Array Networks.  The gateway itse
 
 **SSL VPN** allows a user to create a secure tunnel from the remote desktop to the {{site.data.keyword.BluSoftlayer_notm}} Private Network. It is compatible with a variety of operating systems.
 
-**PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. PPTP VPN is a great solution for users unable to utilize an SSL connection.
+**PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. However, PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
 
 ## When I connect to the PPTP VPN, it states "Error 691: Access was denied because the username and/or password is invalid." How do I fix this problem?
 
-All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activate-a-user.html) for more information.
+All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activate-a-user.html) for more information. However, PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
+
 
 ## Why am I unable to add additional users for PPTP VPN?
 
-PPTP VPN is available on all accounts, but is initially configured to enable access for one user at a time. To request an account to be enabled for unlimited PPTP at no additional charge, please create a ticket through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) with the following information, along with any additional details that may be desired:
-
-* Topic: PPTP VPN Request
-* Text: I currently have PPTP limited to one user at a time. Please enable unlimited PPTP VPN access for my account.
-
-An IBM support team member will update the account to enable unlimited PPTP access, which is available at no additional charge. The ticket will be updated if any additional information is required.
+PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
 
 ## What are the available categories for a user's VPN management status within the Customer Portal?
 

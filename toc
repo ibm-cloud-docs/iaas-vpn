@@ -19,8 +19,7 @@ Virtual Private Networks (VPN)
     connect-windows.md
     connect-mac.md
     customize-subnet-access.md
-    set-up-specific-os.md
-    {: .navgroup-end}
+        {: .navgroup-end}
 
     {: .navgroup id="help"}
     ssl-pptp-vpn-faqs.md
