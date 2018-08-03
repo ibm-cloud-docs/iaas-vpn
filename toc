@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="VPN" audience="service" href="/docs/infrastructure/iaas-vpn/getting-started.html"}
+{: .toc subcollection="VPN" audience="service" arm="4032109" href="/docs/infrastructure/iaas-vpn/getting-started.html"}
 Virtual Private Networks (VPN)
 
     {: .navgroup id="learn"}
