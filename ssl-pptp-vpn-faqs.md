@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-10-16"
 ---
 
 {:shortdesc: .shortdesc}
@@ -41,11 +41,6 @@ Our SSL VPN gateway is a security product from Array Networks.  The gateway itse
 **SSL VPN** allows a user to create a secure tunnel from the remote desktop to the {{site.data.keyword.BluSoftlayer_notm}} Private Network. It is compatible with a variety of operating systems.
 
 **PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. However, PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
-
-## When I connect to the PPTP VPN, it states "Error 691: Access was denied because the username and/or password is invalid." How do I fix this problem?
-
-All users have the ability to connect to the PPTP VPN, but must have permission to log in through the Customer Portal.  PPTP VPN permissions are easily verified and updated quickly.  Refer to [Activate or Deactivate PPTP VPN Access](activate-a-user.html) for more information. However, PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
-
 
 ## Why am I unable to add additional users for PPTP VPN?
 

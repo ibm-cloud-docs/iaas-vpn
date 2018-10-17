@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-01"
+lastupdated: "2018-10-16"
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,9 +16,9 @@ IPSec is a suite of protocols designed to authenticate and encrypt all IP traffi
 
 IBM Cloud's VPN access allows users to manage all servers remotely and securely over IBM Cloud's private network.  A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel.  With VPN access, you can:
 
-   -Establish a VPN connection to the private network via SSL, PPTP or IPSEC
-   -Access your server via its private 10.x.x.x IP address via SSH or RDP
-   -Connect to your server’s IPMI IP address for additional server management or rescue needs.
+   * Establish a VPN connection to the private network via SSL or IPSEC
+   * Access your server via its private 10.x.x.x IP address via SSH or RDP
+   * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
 We provide the IPSec service to customers for management of their environments. It is not recommended for production workloads.
 
@@ -40,14 +40,12 @@ You will need to know the following information for the remote side of the IPSec
 Once you have this information available, you can configure the basic negotiation parameters of the VPN connection.
 
 ### Protected Networks
-![Protected Networks](http://14bc7.http.dal05.cdn.softlayer.net/images/protected_networks.png)
 
 In the VPN connection properties, you must define the networks on the remote end of the tunnel as well as the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPSec tunnel.
 
 <span style="text-decoration: underline">For example:</span>  If your network on the remote end of the tunnel uses a single subnet 10.0.0.0 with a netmask of 255.255.255.0, you would enter IP Address 10.0.0.0 / CIDR 24 for the “Protected Customer (Remote) Subnet” section.
 
 ### Network Address Translation (NAT)
-![Network Address Translation](http://14bc7.http.dal05.cdn.softlayer.net/images/nat.png)
 
 With the IPSec VPN, you also are allowed to define Private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection.  This allows you to have Private Internet traffic forwarded to one of your internal IP addresses of a machine behind your VPN, without exposing the remote location to full Internet access.  
 
