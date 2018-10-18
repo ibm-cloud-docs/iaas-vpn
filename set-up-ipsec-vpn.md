@@ -7,7 +7,7 @@ lastupdated: "2018-10-16"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Set Up IPSec VPN
+# Set up IPSec VPN
 
 ## What is IPSec VPN?
 
@@ -23,9 +23,9 @@ IBM Cloud's VPN access allows users to manage all servers remotely and securely 
 We provide the IPSec service to customers for management of their environments. It is not recommended for production workloads.
 
 
-## Setting up an IPSec Connection
+## Setting up an IPSec connection
 
-### Negotiation Parameters
+### Negotiation parameters
 ![Negotiation Parameters](images/IPSec_VPN.png)
 
 You will need to know the following information for the remote side of the IPSec VPN:
@@ -39,7 +39,7 @@ You will need to know the following information for the remote side of the IPSec
 
 Once you have this information available, you can configure the basic negotiation parameters of the VPN connection.
 
-### Protected Networks
+### Protected networks
 
 In the VPN connection properties, you must define the networks on the remote end of the tunnel as well as the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPSec tunnel.
 
@@ -49,7 +49,7 @@ In the VPN connection properties, you must define the networks on the remote end
 
 With the IPSec VPN, you also are allowed to define Private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection.  This allows you to have Private Internet traffic forwarded to one of your internal IP addresses of a machine behind your VPN, without exposing the remote location to full Internet access.  
 
-### Network Address Translation/Assigned Static NAT Subnets
+### Network Address Translation/assigned static NAT subnets
 
 To configure a remote VPN IP with a static NAT entry: 
 

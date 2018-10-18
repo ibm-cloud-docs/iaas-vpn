@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-10-17"
 
 
 ---
@@ -28,7 +28,7 @@ lastupdated: "2018-02-28"
 <!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
-# Getting Help and Support 
+# Getting help and support 
 {: #gettinghelp}
 
 If you have problems or questions when using VPN, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).

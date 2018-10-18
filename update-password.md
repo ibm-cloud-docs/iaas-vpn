@@ -7,7 +7,7 @@ lastupdated: "2017-12-01"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Update a User's VPN Password
+# Update a user's VPN password
 
 VPN passwords are required for any VPN connectivity. Passwords may be set by any user with VPN Administration permissions associated with an account, such as a local sysadmin. Follow the steps below to update a user’s VPN password.
 

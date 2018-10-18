@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Set up SSL VPN Connections
+# Set up SSL VPN connections
 
 Windows, Linux Fedora, and Linux require individualized connection instructions, which are shown in this document. Here are some examples of how you can use an SSL VPN connection:
 
@@ -29,25 +29,23 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 * You may minimize your browser session at any time and continue to use other applications securely on the private network. 
 * Once you are finished, disconnect by selecting the disconnect button to the right, or simply close the window.
 
-## Linux Fedora (FireFox)
+## Linux Fedora 
+
+**Note**: Firefox no longer supports NPAPI plugins (java applets). Use a different browser to perform these steps. 
 
 It is recommended that you run all commands as root. (`setuid root`)
 
 1. Download Java from `http://java.com/en/download/manual.jsp`. This is a Linux self-extracting file.
-* Close FireFox.
+* Close your browser.
 * Move the file to where you want to install Java (usually in `/usr/local`)
 * Make the file executable using the command `chmod +x jre-6u1-linux-i586.bin`
 * Run the installer using the command `./jre-6u1-linux-i586.bin`
 * Agree to the terms and install.
 * Once it is finished installed you must now create a symlink.
 
-## Linux Example
-```
-cd /usr/lib/firefox-1.0.4/plugins/
-ln -s /usr/local/jre-6u1/plugin/i386/ns7/libjavaplugin_oji.so .
-```
+## Linux example
 
-1. Open up Firefox and go to `http://www.softlayer.com/vpn-access`.
+1. Open your browser and go to `http://www.softlayer.com/vpn-access`.
 * Login with your customer portal username and password.
 * Once connected, select the **Network** tab.
 * You should see a connect/install button. Select it and you should be prompted to install a Java component.

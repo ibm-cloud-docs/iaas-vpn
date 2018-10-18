@@ -1,10 +1,10 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-10-17"
 ---
 
-# PPTP VPN Deprecation
+# PPTP VPN deprecation
 
 PPTP VPN was deprecated effective June 12, 2018, and it is no longer offered to customers. Thank you for your interest. To find out about some possible alternatives, read on.
 

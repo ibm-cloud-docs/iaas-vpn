@@ -21,7 +21,7 @@ lastupdated: "2018-07-23"
 
 If you're unfamiliar with IPMI, read our [Basic Overview](ipmi.html).
 
-## Tips and Tricks
+## Tips and tricks
 
 1. Your IPMI IP and Private IP are one digit apart - don't get them mixed up.
 2. You cannot use SSH or RDC to connect to the IPMI card, you must use the software.

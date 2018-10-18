@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Activate or Deactivate SSL VPN Access for a User
+# Activate or deactivate SSL VPN access for a user
 
 SSL VPN enables a user to create a secure tunnel from a remote desktop to the {{site.data.keyword.BluSoftlayer_notm}} private network, using a standard web browser. The {{site.data.keyword.BluSoftlayer_notm}} SSL VPN is compatible with Java-capable web browsers, and the SSL VPN service is provided free to all users. Activate or deactivate SSL VPN access for a user with these steps:
 

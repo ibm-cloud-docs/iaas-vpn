@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Customize Subnet Access
+# Customize subnet access
 
 {{site.data.keyword.BluSoftlayer_notm}} allows customers to set up VPN access from user accounts to specific private subnets. This setup must be performed by a user with VPN Administration access, such as a local system administrator.
 

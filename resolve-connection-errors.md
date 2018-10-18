@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-01"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Resolve Errors Connecting to SSL VPN with Windows
+# Resolve errors connecting to SSL VPN with Windows
 
 If you are getting errors when connecting to SSL VPN with Windows, you can troubleshoot with the following steps:
 

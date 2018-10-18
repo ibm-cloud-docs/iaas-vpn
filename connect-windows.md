@@ -7,7 +7,7 @@ lastupdated: "2017-12-01"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Connect to SSL VPN - Windows 7 and Higher
+# Connect to SSL VPN - Windows 7 and higher
 
 To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you may need to do a few steps on your computer to ensure your ability to connect.
 

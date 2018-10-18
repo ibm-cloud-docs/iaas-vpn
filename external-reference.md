@@ -1,12 +1,12 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-17"
+lastupdated: "2018-10-17"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# External Reference Documentation
+# External reference documentation
 
 For further information about IPSec VPN and DNS, please see these articles:
 

@@ -1,15 +1,15 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-20-03"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Standalone VPN Clients - Windows, Linux, and Mac OS X
+# Standalone VPN clients - Windows, Linux, and Mac OS X
 
-## Windows Standalone Client
+## Windows standalone client
 
 Windows (8/7/Vista/XP) 32-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip
 
@@ -26,7 +26,7 @@ Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/Arra
  * If you have issues, uninstall any Array programs using the Windows Control Panel, reboot, then reconnect.
  * Does not work on Windows 8 RT.
 
-## Linux Standalone Client
+## Linux standalone client
 
 1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
 
@@ -50,7 +50,7 @@ Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubunt
   ```
      # If you are using systemd, you might not have /etc/rc.local file, and you will get an error that says "Auto start script file was not found in system!"
      # Make an empty one. systemd will know what to do with it
-     # <https://askubuntu.com/a/919598>
+     # <https://askubuntu\.com/a/919598>
 
      $ printf '%s\n' '#!/bin/bash' 'exit 0' | sudo tee -a /etc/rc.local
      $ sudo chmod +x /etc/rc.local
@@ -63,7 +63,7 @@ Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubunt
  * To start the MotionPro client, you must input at least the `hostname` and `username` as arguments.
  * 'Site' may be either a domain name or an IP address.
 
-## Mac OS X 10.10 Standalone Client
+## Mac OS X 10.10 standalone client
 
 **Note**: MacOS 10.11 is not supported. 
 Steps for the MacOS StandAlone Array SSL VPN Motion Pro Plus client:

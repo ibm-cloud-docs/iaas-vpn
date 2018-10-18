@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-07-23"
+lastupdated: "2018-10-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-## IPMI Concepts
+## IPMI concepts
 
 Intelligent Platform Management Interface (IPMI) is an internet protocol, which went into use in 1998. It provides a way to “speak” directly to the hardware of your cloud, in a message-based communication style.
 
