@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018
-lastupdated: "2018-10-16"
+lastupdated: "2018-10-29"
 ---
 
 {:shortdesc: .shortdesc}
@@ -55,3 +55,7 @@ Customer status categories include those that are able to be updated by a user a
 * **VPN Only** - The user only has access to VPN connectivity and may not access the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). This status may be manually selected or changed at any time.
 * **Inactive** - The user has not utilized the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) or VPN in the last 60 days. This is a system-generated status.
 * **cancel_pending** - An administrator on the account has canceled this user and the cancellation is currently being processed. This status is a system-generated status.
+
+## How do I set up SSL VPN?
+
+For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](connect-windows.html#connect-to-ssl-vpn-windows-7-and-higher).
