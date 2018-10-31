@@ -58,4 +58,4 @@ Customer status categories include those that are able to be updated by a user a
 
 ## How do I set up SSL VPN?
 
-For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](https://../../docs/infrastructure/iaas-vpn/connect-windows.html#connect-to-ssl-vpn-windows-7-and-higher).
+For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](connect-windows.html#connect-to-ssl-vpn-windows-7-and-higher).
