@@ -1,11 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-07-23"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-03"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Use SSL VPN
 
@@ -16,10 +21,8 @@ lastupdated: "2018-07-23"
 ## Now I'm connected...what do I do?
 
 1. Use SSH or RDC (terminal services) to connect to your server's private IP address (10.x.x.x) for server management.
-2. To utilize remote console or reboot functions, connect to your IPMI 2.0 Card through the SuperMicro software - refer to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) for download instructions.
+2. To utilize remote console or reboot functions, connect to your IPMI 2.0 Card through the SuperMicro software - refer to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) for download instructions.
 3. You can map a drive to your server (Windows) or mount a drive to your server (Red Hat).
-
-If you're unfamiliar with IPMI, read our [Basic Overview](ipmi.html).
 
 ## Tips and tricks
 
@@ -29,8 +32,8 @@ If you're unfamiliar with IPMI, read our [Basic Overview](ipmi.html).
 4. Your IPMI card "listens" on the private IP interface and re-directs IPMI traffic to the IPMI card.
 
 ## Product-specific IPMI instructions
-* For more information about using IPMI on a CIFS share, see [Mounting an ISO on a bare metal server](https://console.bluemix.net/docs/bare-metal/mount-iso-bare-metal-server.html#option-1-preferred-using-ipmi-iso-on-a-cifs-share-).
-* For more information about using IPMI with VMWare, see [Installing VMware vSphere ESXi via Remote Console and Virtual Media](https://console.bluemix.net/docs/infrastructure/vmware/installing-vmware-vsphere-esxi-remote-console-and-virtual-media.html).
+* For more information about using IPMI on a CIFS share, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-option-1-preferred-using-ipmi-iso-on-a-cifs-share-#option-1-preferred-using-ipmi-iso-on-a-cifs-share-).
+* For more information about using IPMI with VMWare, see [Installing VMware vSphere ESXi via Remote Console and Virtual Media](/docs/infrastructure/vmware?topic=VMware-installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media).
 
 * For more information about using IPMI with IBM POWER hardware, see [Installing IPMItool](https://www.ibm.com/support/knowledgecenter/TI0003H/p8eih/p8eih_ipmitool.htm).
 

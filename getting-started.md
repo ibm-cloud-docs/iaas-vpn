@@ -7,6 +7,12 @@ lastupdated: "2018-10-16"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
 # Getting started with Virtual Private Networking (VPN)
 
 ## What is IBM Cloud VPN?
@@ -17,7 +23,8 @@ VPN access enables users to manage all servers remotely and securely over the IB
 * Access your server through its private 10.x.x.x IP address by SSH or RDP.
 * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
-**Note: PPTP VPN services are deprecated effective June 12, 2018, as described in [our anouncement](pptp-deprecation.html).**
+**PPTP VPN services are deprecated effective June 12, 2018, as described in [our anouncement](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation).**
+{:deprecated}
 
 A number of services require access through the private network, and the VPN is one method that allows private network access. A VPN is good to use when you need to log in to the private network, do your work, and then log out. For example, this access often is needed to reach the KVM of the server.
 

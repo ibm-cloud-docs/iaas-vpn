@@ -6,6 +6,11 @@ lastupdated: "2018-10-17"
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Set up SSL VPN connections
 
@@ -13,16 +18,16 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 
 * Remote Desktop to your server's backend IP address (10.4.X.X) for administration of your Windows 2003 servers.
 * SSH to your server's backend IP address (10.4.X.X) for administering your UNIX servers.
-* Use an IPMI client to control your server using the backend IPMI address (10.4.X.X). You can download the IPMI client tool once connected by going to http://downloads.service.softlayer.com.
+* Use an IPMI client to control your server using the backend IPMI address (10.4.X.X). You can download the IPMI client tool once connected by going to http://downloads.softlayer.local/ipmi/ (You must be connected to SoftLayer Private VPN).
   * **Note:** IPMIView requires Java to be installed.  http://www.sun.com/java/
 * Testing your website on the backend IPs before you make them live on your public IPs.
 * File transfer of secure data between your server(s) and your home/office.
 * Backup of configuration files your server(s) to your home/office.
-* Securely connect to our Web Portal at http://control.softlayer.com.
+* Securely connect to our [Web Portal](http://control.softlayer.com/).
 
 ## Windows (Internet Explorer)
 
-1. Open Internet Explorer and navigate to http://www.softlayer.com/vpn-access.
+1. Open Internet Explorer and navigate to `http://www.softlayer.com/vpn-access`.
 * Once you have entered your username and password, you will be prompted to install an ActiveX plug-in. You must install this plug-in to connect to your backend network. 
 * You also must have administrative rights on your workstation to install the ActiveX plug-in. If you do not have rights to install the plug-in, ask your local System Administrator to install it for you. 
 * Once the ActiveX plug-in is installed, an Array SSL VPN network connector launches and establishes a connection to the VPN device. If successful, a red '**A**' appears in your task bar. You may click on the '**A**' at any time to see the status of your SSL VPN connection: its status, assigned IP address, assigned DNS servers, network routes, and time connected. 

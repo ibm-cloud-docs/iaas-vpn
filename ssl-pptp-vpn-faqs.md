@@ -1,11 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-10-29"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-18"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # VPN FAQ
 
@@ -20,7 +25,7 @@ IBM Cloud VPN access is designed to allow users to remotely manage all servers s
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
 
-Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility. PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
+Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility. PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 
 <a name="152"></a>
@@ -40,11 +45,11 @@ Our SSL VPN gateway is a security product from Array Networks.  The gateway itse
 
 **SSL VPN** allows a user to create a secure tunnel from the remote desktop to the {{site.data.keyword.BluSoftlayer_notm}} Private Network. It is compatible with a variety of operating systems.
 
-**PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. However, PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
+**PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. However, PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 ## Why am I unable to add additional users for PPTP VPN?
 
-PPTP is deprecated. See [PPTP VPN Deprecation](pptp-deprecation.html) for more information.
+PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 ## What are the available categories for a user's VPN management status within the Customer Portal?
 
@@ -58,4 +63,4 @@ Customer status categories include those that are able to be updated by a user a
 
 ## How do I set up SSL VPN?
 
-For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](connect-windows.html#connect-to-ssl-vpn-windows-7-and-higher).
+For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](/docs/infrastructure/iaas-vpn?topic=VPN-connect-to-ssl-vpn-windows-7-and-higher).

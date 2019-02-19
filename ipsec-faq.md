@@ -1,16 +1,18 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-17"
+lastupdated: "2018-11-13"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
 
 
 # IPSec VPN FAQ
 
 ## What is IBM Cloud VPN?
+{: faq}
 
 IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for unlimited file transfers, out-of-band management, and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
@@ -20,5 +22,6 @@ IBM Cloud VPN access is designed to allow users to remotely manage all servers s
 
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
+{: faq}
 
 Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility.
