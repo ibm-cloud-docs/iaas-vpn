@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-06"
+
+keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,10 +17,14 @@ lastupdated: "2019-02-18"
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+{:faq: data-hd-content-type='faq'}
 
 # VPN FAQ
+{:#vpn-faq}
 
 ## What is IBM Cloud VPN?
+{:#what-is-ibm-cloud-vpn}
+{:faq}
 
 IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
@@ -24,34 +34,46 @@ IBM Cloud VPN access is designed to allow users to remotely manage all servers s
 
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
+{:#does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
+{:faq}
 
 Currently the SSL VPN gateway uses a browser-based SSL VPN plugin or a proprietary client for creating connections. We will continue to bring more VPN connectivity options to the private network. The SSL VPN was selected for ease of use and compatibility. PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 
-<a name="152"></a>
+
 ## Can I mount the NAS/FTP server from my remote location over the SSL VPN gateway?
+{:#can-i-mount-nas-ftp-remotely}
+{:faq}
 
 No...you only have access to your private VLAN and servers from the SSL VPN gateway. If you wish to download data from your NAS/FTP volume, you must move the data to your server then out through the VPN to the remote location.
 
 For security reasons, only servers located inside the datacenter are allowed access to the servers providing services (DNS, Update, NAS, Lockbox).
 
-<a name="175"></a>
+
 ## What vendor makes the SSL VPN and how does it work?
+{:#what-vendor-makes-ssl-vpn}
+{:faq}
 
 Our SSL VPN gateway is a security product from Array Networks.  The gateway itself runs radius to update users and passwords from our Customer Portal. If you wish to add users and give them SSL VPN access, create a new user inside the customer portal and enable SSL VPN permissions.
 
-<a name="276"></a>
+
 ## What is the difference between SSL and PPTP VPN?
+{:#what-is-the-difference-between-ssl-pptp-vpn}
+{:faq}
 
 **SSL VPN** allows a user to create a secure tunnel from the remote desktop to the {{site.data.keyword.BluSoftlayer_notm}} Private Network. It is compatible with a variety of operating systems.
 
 **PPTP VPN** allows the same secure tunnel but connects using specialized client software on a user's desktop or dedicated device. However, PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 ## Why am I unable to add additional users for PPTP VPN?
+{:#why-am-i-unable-to-add-users-for-pptp-vpn}
+{:faq}
 
 PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
 ## What are the available categories for a user's VPN management status within the Customer Portal?
+{:#what-are-available-categories-vpn-management}
+{:faq}
 
 Customer status categories include those that are able to be updated by a user and those that may appear automatically. They include:
 
@@ -62,5 +84,7 @@ Customer status categories include those that are able to be updated by a user a
 * **cancel_pending** - An administrator on the account has canceled this user and the cancellation is currently being processed. This status is a system-generated status.
 
 ## How do I set up SSL VPN?
+{:#how-do-i-set-up-ssl-vpn}
+{:faq}
 
 For detailed instructions, see [Connect to SSL VPN - Windows 7 and higher](/docs/infrastructure/iaas-vpn?topic=VPN-connect-to-ssl-vpn-windows-7-and-higher).

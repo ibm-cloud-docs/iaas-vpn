@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-06"
+
+keywords: IPSec VPN, IP address, IP traffic
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,8 +19,10 @@ lastupdated: "2019-02-18"
 {:generic: data-hd-programlang="generic"}
 
 # Set up IPSec VPN
+{:#setup-ipsec-vpn}
 
 ## What is IPSec VPN?
+{:#what-is-ipsec-vpn}
 
 IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure.   For more general information regarding IPSec, refer to the [reference documents](/docs/infrastructure/iaas-vpn?topic=VPN-external-reference-documentation).
 
@@ -29,8 +37,10 @@ We provide the IPSec service to customers for management of their environments. 
 
 
 ## Setting up an IPSec connection
+{:#setup-ipsec-connection}
 
 ### Negotiation parameters
+{:#setup-ipsec-vpn-negotiation-parameters}
 ![Negotiation Parameters](images/IPSec_VPN.png)
 
 You will need to know the following information for the remote side of the IPSec VPN:
@@ -45,16 +55,19 @@ You will need to know the following information for the remote side of the IPSec
 Once you have this information available, you can configure the basic negotiation parameters of the VPN connection.
 
 ### Protected networks
+{:#setup-ipsec-vpn-protected-networks}
 
 In the VPN connection properties, you must define the networks on the remote end of the tunnel as well as the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPSec tunnel.
 
 <span style="text-decoration: underline">For example:</span>  If your network on the remote end of the tunnel uses a single subnet 10.0.0.0 with a netmask of 255.255.255.0, you would enter IP Address 10.0.0.0 / CIDR 24 for the “Protected Customer (Remote) Subnet” section.
 
 ### Network Address Translation (NAT)
+{:#setup-ipsec-vpn-nat}
 
 With the IPSec VPN, you also are allowed to define Private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection.  This allows you to have Private Internet traffic forwarded to one of your internal IP addresses of a machine behind your VPN, without exposing the remote location to full Internet access.  
 
 ### Network Address Translation/assigned static NAT subnets
+{:#setup-ipsec-vpn-nat-static-subnets}
 
 To configure a remote VPN IP with a static NAT entry: 
 

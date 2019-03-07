@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: SSL VPN, Internet Explorer caching, Internet Explorer, Windows
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Resolve errors connecting to SSL VPN with Windows
+{:#resolve-errors-connecting-to-ssl-vpn-with-windows}
 
 If you are getting errors when connecting to SSL VPN with Windows, you can troubleshoot with the following steps:
 

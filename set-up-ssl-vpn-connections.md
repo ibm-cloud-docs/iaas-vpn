@@ -1,7 +1,13 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: Linux Fedora, SSL VPN connections Windows, backend IP address
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2018-10-17"
 {:generic: data-hd-programlang="generic"}
 
 # Set up SSL VPN connections
+{:#setup-ssl-vpn-connections}
 
 Windows, Linux Fedora, and Linux require individualized connection instructions, which are shown in this document. Here are some examples of how you can use an SSL VPN connection:
 
@@ -26,6 +33,7 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 * Securely connect to our [Web Portal](http://control.softlayer.com/).
 
 ## Windows (Internet Explorer)
+{:#setup-ssl-vpn-connections-windows}
 
 1. Open Internet Explorer and navigate to `http://www.softlayer.com/vpn-access`.
 * Once you have entered your username and password, you will be prompted to install an ActiveX plug-in. You must install this plug-in to connect to your backend network. 
@@ -35,8 +43,10 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 * Once you are finished, disconnect by selecting the disconnect button to the right, or simply close the window.
 
 ## Linux Fedora 
+{:#setup-ssl-vpn-connections-linux}
 
-**Note**: Firefox no longer supports NPAPI plugins (java applets). Use a different browser to perform these steps. 
+Firefox no longer supports NPAPI plugins (java applets). Use a different browser to perform these steps.
+{:note}
 
 It is recommended that you run all commands as root. (`setuid root`)
 
@@ -49,6 +59,7 @@ It is recommended that you run all commands as root. (`setuid root`)
 * Once it is finished installed you must now create a symlink.
 
 ## Linux example
+{:#setup-ssl-vpn-connections-linux-example}
 
 1. Open your browser and go to `http://www.softlayer.com/vpn-access`.
 * Login with your customer portal username and password.

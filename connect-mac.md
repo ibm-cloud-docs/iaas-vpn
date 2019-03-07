@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: SSL VPN , MAC OSX 10x
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Connect to SSL VPN – MAC OSX 10x and higher
+{:#connect-ssl-vpn-mac-osx}
 
 Install the latest version of Mac MotionPro client v1.1.7 from the Apple Store. Be sure to uninstall any previous versions before updating.
 

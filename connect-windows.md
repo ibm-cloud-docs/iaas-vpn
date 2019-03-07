@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-06"
+
+keywords: User Access Control, User Accounts, SSL VPN
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Connect to SSL VPN - Windows 7 and higher
+{:#connect-ssl-vpn-windows7}
 
 To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you may need to do a few steps on your computer to ensure your ability to connect.
 
@@ -29,6 +36,7 @@ To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you may need 
 Once the previous steps are complete, you should be able to log in. 
 
 ## Log In
+{:#connect-windows-login}
 
 1. Go to [www.softlayer.com/vpn-access](http://www.softlayer.com/vpn-access) and log in using your portal username and password. 
 * Be sure your user [has SSL VPN Access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deactivate-ssl-vpn-access-for-a-user).  

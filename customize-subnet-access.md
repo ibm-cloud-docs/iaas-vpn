@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: subnet access, IBM Cloud, VPN access
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Customize subnet access
+{:#customize-subnet-access}
 
 {{site.data.keyword.BluSoftlayer_notm}} allows customers to set up VPN access from user accounts to specific private subnets. This setup must be performed by a user with VPN Administration access, such as a local system administrator.
 

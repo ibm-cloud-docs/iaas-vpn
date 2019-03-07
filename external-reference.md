@@ -1,12 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: IPSec VPN, SSL connection
+
+subcollection: iaas-vpn
+
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # External reference documentation
+{:#iaas-vpn-external-reference}
 
 For further information about IPSec VPN and DNS, please see these articles:
 
@@ -16,6 +24,7 @@ For further information about IPSec VPN and DNS, please see these articles:
 
 
 ## Troubleshooting your SSL connection
+{:#troubleshooting-ssl-connection}
 
 If you have problems diagnosing your SSL VPN connection, try these sources:
 

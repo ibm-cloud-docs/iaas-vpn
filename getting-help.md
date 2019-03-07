@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017,2018
-lastupdated: "2018-10-17"
+  years: 2017-2019
+lastupdated: "2019-03-06"
+ 
+keywords: support ticket, questions, IBM support ticket
 
+subcollection: iaas-vpn
 
 ---
 
@@ -34,7 +35,7 @@ lastupdated: "2018-10-17"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting help and support 
-{: #gettinghelp}
+{: #gettinghelp-with-iaas-vpn}
 
 If you have problems or questions when using VPN, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}).
 {:shortdesc}

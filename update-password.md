@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+lastupdated: "2019-03-06"
+
+keywords: VPN passwords, VPN Administration permissions
+
+subcollection: iaas-vpn
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-03"
 {:generic: data-hd-programlang="generic"}
 
 # Update a user's VPN password
+{:#update-users-vpn-password}
 
 VPN passwords are required for any VPN connectivity. Passwords may be set by any user with VPN Administration permissions associated with an account, such as a local sysadmin. Follow the steps below to update a user’s VPN password.
 

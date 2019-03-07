@@ -1,14 +1,30 @@
 ---
+
 copyright:
-  years: 2018
-lastupdated: "2018-10-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-06"
+
+keywords: PPTP VPN deprecation, PPTP VPN, IBM Cloud, private network
+
+subcollection: iaas-vpn
+
 ---
 
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
 # PPTP VPN deprecation
+{:#pptp-vpn-deprecation}
 
 PPTP VPN was deprecated effective June 12, 2018, and it is no longer offered to customers. Thank you for your interest. To find out about some possible alternatives, read on.
 
 ## What is VPN?
+{:#pptp-vpn-deprecation-what-is-vpn}
 VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
 * Establish a VPN connection to the private network by SSL, **PPTP** or IPSec
@@ -16,12 +32,15 @@ VPN access enables users to manage all servers remotely and securely over the IB
 * Connect to your server’s IPMI IP address for additional server management or rescue needs
 
 ## PPTP Deprecation
+{:#pptp-deprecation-vpn}
 As other VPN options become more secure and versatile, the need for PPTP is diminished. {{site.data.keyword.BluSoftlayer_notm}} provides several other options, such as SSL or IPSec, that are more sophisticated and protective than PPTP.
 
-## **For these reasons, {{site.data.keyword.BluSoftlayer_notm}} no longer is offering PPTP as of June 12th, 2018.**
+**For these reasons, {{site.data.keyword.BluSoftlayer_notm}} no longer is offering PPTP as of June 12th, 2018.**
+{:important}
 
 
 ## Frequently Asked Questions
+{:#pptp-vpn-deprecation-faq}
 
 **Q: Why was PPTP deprecated?**
 
