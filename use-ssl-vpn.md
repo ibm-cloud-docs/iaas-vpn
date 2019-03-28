@@ -44,7 +44,7 @@ subcollection: iaas-vpn
 {:#product-specific-impi-instructions}
 
 * For more information about using IPMI on a CIFS share, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-option-1-preferred-using-ipmi-iso-on-a-cifs-share-#option-1-preferred-using-ipmi-iso-on-a-cifs-share-).
-* For more information about using IPMI with VMWare, see [Installing VMware vSphere ESXi via Remote Console and Virtual Media](/docs/infrastructure/vmware?topic=VMware-installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media).
+* For more information about using IPMI with VMWare, see [Installing VMware vSphere ESXi via Remote Console and Virtual Media](/docs/infrastructure/vmware?topic=VMware-installing-vsphere-esxi).
 
 * For more information about using IPMI with IBM POWER hardware, see [Installing IPMItool](https://www.ibm.com/support/knowledgecenter/TI0003H/p8eih/p8eih_ipmitool.htm).
 

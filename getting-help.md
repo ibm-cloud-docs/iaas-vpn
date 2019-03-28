@@ -37,7 +37,7 @@ subcollection: iaas-vpn
 # Getting help and support 
 {: #gettinghelp-with-iaas-vpn}
 
-If you have problems or questions when using VPN, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}).
+If you have problems or questions when using VPN, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Support Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/unifiedsupport/cases/add).
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
