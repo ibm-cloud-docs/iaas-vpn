@@ -1,0 +1,32 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="VPN" audience="service" arm="4032109" href="/docs/infrastructure/iaas-vpn?topic=infrastructure/iaas-vpn-getting-started-with-virtual-private-networking-vpn-" path="infrastructure/iaas-vpn"}
+VPN (Virtual Private Network)
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about-vpn.md
+    pptp-deprecation.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    use-ssl-vpn.md
+    set-up-ipsec-vpn.md
+    set-up-ssl-vpn-connections.md
+    update-password.md
+    activate-a-user.md
+    connect-windows.md
+    connect-mac.md
+    customize-subnet-access.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ssl-pptp-vpn-faqs.md
+    resolve-connection-errors.md
+    getting-help.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    external-reference.md
+    {: .navgroup-end}
