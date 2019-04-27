@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-26"
 
-keywords: IPSec VPN, IP address, IP traffic
+keywords: IPSec VPN, IP address, IP traffic, IaaS VPN
 
 subcollection: iaas-vpn
 
@@ -24,7 +24,7 @@ subcollection: iaas-vpn
 ## What is IPSec VPN?
 {:#what-is-ipsec-vpn}
 
-IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure.   For more general information regarding IPSec, refer to the [reference documents](/docs/infrastructure/iaas-vpn?topic=VPN-external-reference-documentation).
+IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure.   For more general information regarding IPSec, refer to the [reference documents](/docs/infrastructure/iaas-vpn?topic=VPN-iaas-vpn-external-reference).
 
 
 IBM Cloud's VPN access allows users to manage all servers remotely and securely over IBM Cloud's private network.  A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel.  With VPN access, you can:

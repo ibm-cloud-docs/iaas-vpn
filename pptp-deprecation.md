@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-26"
 
 keywords: PPTP VPN deprecation, PPTP VPN, IBM Cloud, private network
 
@@ -49,8 +49,8 @@ As other VPN options become more secure and versatile, the need for PPTP is dimi
 **Q: What other VPN access types are available other than PPTP?**
 
 **A:** {{site.data.keyword.BluSoftlayer_notm}} offers several options that require only simple configuration.
-  1. SSL VPN is a quick-access connection that connects you to our private network directly from a browser. The SSL VPN is compatible with Windows XP or higher and ActiveX, Fedora, Ubuntu, and Mac OSX. Global access to our private network is available at a single URL, which allows you to choose the nearest VPN endpoint. Please see [Set Up SSL VPN Connection](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ssl-vpn-connections) for more details on getting started with this option.
-  2. IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. For more general information regarding IPSec, refer to [Set Up IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) and the other [reference documents](/docs/infrastructure/iaas-vpn?topic=VPN-external-reference-documentation) to get started using this service. 
+  1. SSL VPN is a quick-access connection that connects you to our private network directly from a browser. The SSL VPN is compatible with Windows XP or higher and ActiveX, Fedora, Ubuntu, and Mac OSX. Global access to our private network is available at a single URL, which allows you to choose the nearest VPN endpoint. Please see [Set Up SSL VPN Connection](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ssl-vpn-connections) for more details on getting started with this option.
+  2. IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. For more general information regarding IPSec, refer to [Set Up IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn) and the other [reference documents](/docs/infrastructure/iaas-vpn?topic=VPN-iaas-vpn-external-reference) to get started using this service. 
 
 **Q: What if my business practices require PPTP?**
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-26"
 
 keywords: User Access Control, User Accounts, SSL VPN
 
@@ -39,5 +39,5 @@ Once the previous steps are complete, you should be able to log in.
 {:#connect-windows-login}
 
 1. Go to [www.softlayer.com/vpn-access](http://www.softlayer.com/vpn-access) and log in using your portal username and password. 
-* Be sure your user [has SSL VPN Access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deactivate-ssl-vpn-access-for-a-user).  
+* Be sure your user [has SSL VPN Access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deacivate-ssl-vpn-access-for-a-user).  
 * Also, be sure that you have set a VPN password. To do so, update your [User Profile Page](https://control.softlayer.com/account/user/profile) and fill out the box that says **VPN Password**.

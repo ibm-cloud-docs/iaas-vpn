@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-26"
 
-keywords: Use SSL VPN Navigate, private IP address, private VLAN
+keywords: Use SSL VPN Navigate, private IP address, private VLAN, IaaS VPN
 
 subcollection: iaas-vpn
 
@@ -43,7 +43,7 @@ subcollection: iaas-vpn
 ## Product-specific IPMI instructions
 {:#product-specific-impi-instructions}
 
-* For more information about using IPMI on a CIFS share, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-option-1-preferred-using-ipmi-iso-on-a-cifs-share-#option-1-preferred-using-ipmi-iso-on-a-cifs-share-).
+* For more information about using IPMI on a CIFS share, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso#bm-mount-iso-opt-1).
 * For more information about using IPMI with VMWare, see [Installing VMware vSphere ESXi via Remote Console and Virtual Media](/docs/infrastructure/vmware?topic=VMware-installing-vsphere-esxi).
 
 * For more information about using IPMI with IBM POWER hardware, see [Installing IPMItool](https://www.ibm.com/support/knowledgecenter/TI0003H/p8eih/p8eih_ipmitool.htm).

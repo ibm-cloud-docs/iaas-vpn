@@ -11,9 +11,9 @@ lastupdated: "2018-10-17"
 
 ## Windows standalone client
 
-Windows (8/7/Vista/XP) 32-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip
+Windows (8/7/Vista/XP) 32-bit:  `https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip`
 
-Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win64_v1.1.3.zip
+Windows (8/7/Vista/XP) 64-bit:  `https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win64_v1.1.3.zip`
 
 1. Download one of the files listed above, depending on your operating system.
 * Run MotionProSetup to install software.
@@ -30,15 +30,15 @@ Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/Arra
 
 1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
 
-CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh
+CentOS 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh`
 
-Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh
+Redhat 32-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh`
 
-Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh
+Redhat 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh`
 
-Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh
+Ubuntu 32-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh`
 
-Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
+Ubuntu 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
 
 
 1. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
