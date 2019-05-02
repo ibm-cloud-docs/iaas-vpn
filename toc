@@ -24,6 +24,7 @@ Virtual Private Networks (VPN)
     {: .navgroup id="help"}
     ssl-pptp-vpn-faqs.md
     resolve-connection-errors.md
+    standalone-vpn-clients.md
     getting-help.md
     {: .navgroup-end}
     

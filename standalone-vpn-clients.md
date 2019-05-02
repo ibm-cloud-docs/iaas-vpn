@@ -1,51 +1,64 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-10-17"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-05-02"
+
+keywords: Standalone VPN clients, Virtual Private Network, MotionPro
+
+subcollection: iaas-vpn
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
+{:pre: .pre}
+{:codeblock: .codeblock}
 
 # Standalone VPN clients - Windows, Linux, and Mac OS X
+{: #standalone-vpn-clients}
 
 ## Windows standalone client
+{: #windows-standalone-client}
 
-Windows (8/7/Vista/XP) 32-bit:  `https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip`
+1. Download one of these files, depending on your operating system.
+  * Windows (8/7/Vista/XP) 32-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip
+  * Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win64_v1.1.3.zip
 
-Windows (8/7/Vista/XP) 64-bit:  `https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win64_v1.1.3.zip`
+2. Install and set up.
+  * Run MotionProSetup to install the software.
+  * Run MotionPro, then at the opening screen select **Profile > Add**.
+  * Create a profile by giving it a Site Name, then choose a hostname from the list of [SSL VPN sites](#ssl-vpn-pops). Next, enter your VPN username and password and press **Save**.
+  * Finally, double-click the profile you just created to connect to the VPN.
 
-1. Download one of the files listed above, depending on your operating system.
-* Run MotionProSetup to install software.
-* Run MotionPro and at the opening screen select **Profile -> Add**.
-* Create a profile by giving it a Site Name, choosing a hostname from the list of SSL VPN sites (below). Then enter your VPN username and password and press **Save**.
-* Finally, double-click the profile you just created to connect to the VPN.
+`Site` may be either a domain name or an IP address. 
 
-**Notes**
- * 'Site' may be either a domain name or an IP address.
- * If you have issues, uninstall any Array programs using the Windows Control Panel, reboot, then reconnect.
- * Does not work on Windows 8 RT.
+If you have issues, uninstall any Array programs using the Windows Control Panel, reboot, then reconnect.
+
+Does not work on Windows 8 RT.
+{:note}
 
 ## Linux standalone client
+{: #linux-standalone-client}
 
 1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
+  * CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh
+  * Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh
+  * Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh
+  * Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh
+  * Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
 
-CentOS 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh`
+2. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
 
-Redhat 32-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh`
+3. Run the script:  `./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh.`
+  * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
+  * To stop it:  `[control-c]`
 
-Redhat 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh`
-
-Ubuntu 32-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh`
-
-Ubuntu 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
-
-
-1. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
-1. Run the script:  `./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh.`
-   * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
-   * To stop it:  `[control-c]`
-1. Enable rc.local, if needed.
+4. Enable rc.local, if needed.
     
   ```
      # If you are using systemd, you might not have /etc/rc.local file, and you will get an error that says "Auto start script file was not found in system!"
@@ -59,30 +72,39 @@ Ubuntu 64-bit: `https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubun
      $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
 ```     
 
-**Notes:**  
- * To start the MotionPro client, you must input at least the `hostname` and `username` as arguments.
- * 'Site' may be either a domain name or an IP address.
+To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` may be either a domain name or an IP address.
+{:tip}
 
 ## Mac OS X 10.10 standalone client
+{: #macos-standalone-client}
 
-**Note**: MacOS 10.11 is not supported. 
+MacOS 10.11 is not supported. 
+{:note}
+
 Steps for the MacOS StandAlone Array SSL VPN Motion Pro Plus client:
 
-1. Install "Motion Pro Plus" client from the Apple store.
-* Locate Motion Pro Plus client under Applications folder and open the application.
-* Click 'Profile' and then 'Add'.
-* Fill in Site Name, Host, and Username, then click Ok.
-* Click VPN at the top left, then connect.
+1. Install the "Motion Pro Plus" client from the Apple store.
+  * Locate the  Motion Pro Plus client under the **Applications** folder and open the application.
+  * Click **Profile**, then **Add**.
+  * Fill in the Site Name, Host, and Username information, then click **Ok**.
+  * Click **VPN** at the top left, then **Connect**.
 
-An example may be found with the following:
+An example is detailed below:
 
 ![Figure 1](images/snip20170425_1.png)
 
 If the tunnel isn't directing traffic correctly, you may need to [add routes manually](https://discussions.apple.com/thread/2735376).
 
-*Please uninstall any previous versions before updating.*
+Uninstall any previous versions before updating.
+{:important}
+
+## Array Networks VPN Standalone Client
+{: #array-networks-vpn-standalone-client}
+
+If any of the clients mentioned earlier in this document do not work for you, check the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) support page for a list of downloadable links to Windows, Linux, and MacOS standalone clients.
 
 ## SSL VPN POPs (sites)
+{: #ssl-vpn-pops}
 
 * vpn.ams01.softlayer.com
 * vpn.ams03.softlayer.com
@@ -119,4 +141,5 @@ If the tunnel isn't directing traffic correctly, you may need to [add routes man
 * vpn.tok02.softlayer.com
 
 
-**Please note: Uninstall any previous versions of the client before installing the new version.**
+Uninstall any previous versions of the client before installing the new version.
+{:important}

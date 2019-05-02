@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-04-26"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -24,7 +24,6 @@ subcollection: iaas-vpn
 
 ## What is IBM Cloud VPN?
 {:#what-is-ibmcloud-vpn}
-
 
 VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
@@ -61,7 +60,8 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 
 Your next step is to create a VPN password. Each user can create and update their VPN password in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). To do so, select your name at the top right, which takes you to the **Edit profile** page. You can also select **Account -> Users** and then select your user name.
 
-      Note: The link reads "Master User". This link will read your name for sub users.
+The link reads "Master User". This link will read your name for sub users.
+{:note}
 
 On the **Edit User Profile** page, just scroll down and initialize or update the VPN password.
 
@@ -72,6 +72,5 @@ On the **Edit User Profile** page, just scroll down and initialize or update the
 
 Now that the VPN access has been established, you can log in.
 
-1. To log into the SSL VPN, visit [vpn.softlayer.com](https://vpn.softlayer.com/) and select any of the login points. You can use any VPN access point, and you are given the same access permissions to the private network in all the datacenters.
-* If you have trouble logging into one location, try another location.
+* For Window OS, you can use Internet Explorer to log into the SSL VPN by visiting [vpn.softlayer.com](https://vpn.softlayer.com/) and selecting any of the login points. You can use any VPN access point, and you are given the same access permissions to the private network in all the datacenters. If you have trouble logging into one location, try another location.
 * Alternatively, you can log in using a standalone client SSL VPN.
