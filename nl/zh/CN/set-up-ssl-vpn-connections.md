@@ -25,8 +25,8 @@ Windows、Linux Fedora 和 Linux 需要在本文档中所示的个性化连接�
 
 * 从远程桌面连接到服务器的后端 IP 地址 (10.4.X.X)，以管理 Windows 2003 服务器。
 * 通过 SSH 连接到服务器的后端 IP 地址 (10.4.X.X)，以管理 UNIX 服务器。
-* 使用 IPMI 客户机通过后端 IPMI 地址 (10.4.X.X) 来控制服务器。连接后，可以通过转至 http://downloads.softlayer.local/ipmi/（必须连接到 SoftLayer 专用 VPN）来下载 IPMI 客户机工具。
-  * **注：**IPMIView 需要安装 Java (http://www.sun.com/java/)。
+* 使用 IPMI 客户机通过后端 IPMI 地址 (10.4.X.X) 来控制服务器。连接后，可以通过转至 http://downloads.softlayer.local/ipmi/ （必须连接到 SoftLayer 专用 VPN）来下载 IPMI 客户机工具。
+  * **注：**IPMIView 需要安装 Java。 http://www.sun.com/java/
 * 使 Web 站点在公共 IP 上运行之前，请先在后端 IP 上测试 Web 站点。
 * 在服务器与家庭/办公室之间进行安全数据的文件传输。
 * 将服务器的配置文件备份到家庭/办公室。
