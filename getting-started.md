@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-04-26"
+lastupdated: "2019-06-03"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -19,11 +19,11 @@ subcollection: iaas-vpn
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Getting started with Virtual Private Networking (VPN)
-{:#gettingstarted-with-virtual-private-networking}
+# Getting started tutorial
+{: #getting-started}
 
-## What is IBM Cloud VPN?
-{:#what-is-ibmcloud-vpn}
+## What is IBM Cloud Virtual Private Networking (VPN)?
+{: #what-is-ibmcloud-vpn}
 
 VPN access enables users to manage all servers remotely and securely over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
@@ -39,7 +39,7 @@ A number of services require access through the private network, and the VPN is 
 Each user account can be given VPN access and can be limited regarding the subnets to which it needs access. You must have VPN access enabled and you must create a VPN password before you can log in to the VPN.
 
 ## Enable each user's VPN access
-{:#enable-user-vpn-access}
+{: #enable-user-vpn-access}
 
 To get started, you'll need to enable VPN access on each account that needs VPN access. Every account starts with VPN access **disabled**, including your team's master account. To enable VPN access, follow these steps:
 
@@ -56,7 +56,7 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 ![Assign VPN type access to a user](images/vpntype01.png)
 
 ## Set the VPN password
-{:#set-vpn-password}
+{: #set-vpn-password}
 
 Your next step is to create a VPN password. Each user can create and update their VPN password in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). To do so, select your name at the top right, which takes you to the **Edit profile** page. You can also select **Account -> Users** and then select your user name.
 
@@ -68,7 +68,7 @@ On the **Edit User Profile** page, just scroll down and initialize or update the
 ![ Edit Profile VPN password fields](images/vpnpasswordfields.png)
 
 ## Log in to the VPN
-{:#login-to-the-vpn}
+{: #login-to-the-vpn}
 
 Now that the VPN access has been established, you can log in.
 

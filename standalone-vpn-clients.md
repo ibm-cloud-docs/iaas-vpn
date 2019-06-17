@@ -75,6 +75,15 @@ Does not work on Windows 8 RT.
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` may be either a domain name or an IP address.
 {:tip}
 
+Please use one of the following AG endpoints which are proven to work well with Linux VPN clients:
+* vpn.lon04.softlayer.com
+* vpn.lon05.softlayer.com
+* vpn.lon06.softlayer.com
+* vpn.sjc04.softlayer.com
+* vpn.syd04.softlayer.com
+* vpn.wdc06.softlayer.com
+* vpn.wdc07.softlayer.com
+
 ## Mac OS X 10.10 standalone client
 {: #macos-standalone-client}
 
