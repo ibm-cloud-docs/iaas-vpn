@@ -38,7 +38,7 @@ VPN 存取可讓您透過 IBM Cloud 專用網路，遠端管理與您帳戶相�
 
  * 我們的專用網路提供一種無成本的方式來與伺服器進行通訊以及管理伺服器。VPN 是此專用網路的閘道。
  * 全球的存取點能建立最佳且最快速的存取與互動。IBM Cloud 目前在許多城市都有 VPN 存取點。
- * 如需取得 {{site.data.keyword.BluSoftlayer_notm}} 專用網路的 VPN 存取點清單，請造訪 `http://www.softlayer.com/vpn-access`。
+ * 如需取得 {{site.data.keyword.BluSoftlayer_notm}} 專用網路的 VPN 存取點清單，請造訪 http://www.softlayer.com/vpn-access 。
 
 ## 如何運作
 {:#iaas-vpn-how-it-works}
