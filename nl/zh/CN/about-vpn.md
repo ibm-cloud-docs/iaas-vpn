@@ -38,7 +38,7 @@ subcollection: iaas-vpn
 
  * 通过我们的专用网络，可以免费与服务器通信并管理服务器。VPN 是此专用网络的网关。
  * 访问点遍布全球，可创建最佳、最快的访问和交互。IBM Cloud 目前在许多城市拥有 VPN 访问点。
- * 请访问 http://www.softlayer.com/vpn-access，以获取 {{site.data.keyword.BluSoftlayer_notm}} 专用网络的 VPN 访问点列表。
+ * 请访问 http://www.softlayer.com/vpn-access 以获取 {{site.data.keyword.BluSoftlayer_notm}} 专用网络的 VPN 访问点列表。
 
 ## 工作方式
 {:#iaas-vpn-how-it-works}
