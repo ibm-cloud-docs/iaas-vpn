@@ -38,7 +38,7 @@ VPN 액세스를 사용하면 IBM Cloud 사설 네트워크를 통해 원격으�
 
  * 사설 네트워크는 무료로 서버와 통신하고 서버를 관리하는 방법을 제공합니다. VPN은 이 사설 네트워크에 대한 게이트웨이입니다.
  * 가능한 한 전 세계에서 액세스 지점이 가장 좋고 빠른 액세스 및 상호작용을 작성합니다. IBM Cloud는 현재 많은 도시에 VPN 액세스 지점을 갖고 있습니다.
- * {{site.data.keyword.BluSoftlayer_notm}} 사설 네트워크에 대한 VPN 액세스 지점의 목록에 대해서는 http://www.softlayer.com/vpn-access를 방문하십시오.
+ * {{site.data.keyword.BluSoftlayer_notm}} 사설 네트워크에 대한 VPN 액세스 지점의 목록에 대해서는 http://www.softlayer.com/vpn-access 를 방문하십시오.
 
 ## 작동 방식
 {:#iaas-vpn-how-it-works}
