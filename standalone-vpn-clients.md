@@ -26,8 +26,8 @@ subcollection: iaas-vpn
 {: #windows-standalone-client}
 
 1. Download one of these files, depending on your operating system.
-  * Windows (8/7/Vista/XP) 32-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win32_v1.1.3.zip
-  * Windows (8/7/Vista/XP) 64-bit:  https://speedtest.dal05.softlayer.com/array/ArrayMotionProSetup_win64_v1.1.3.zip
+  * Windows (10/8/7/Vista) 32-bit:  https://speedtest.dal05.softlayer.com/array/MotionProSetup_win32_v1.2.4.zip
+  * Windows (10/8/7/Vista) 64-bit:  https://speedtest.dal05.softlayer.com/array/MotionProSetup_win64_v1.2.4.zip
 
 2. Install and set up.
   * Run MotionProSetup to install the software.
@@ -46,15 +46,15 @@ Does not work on Windows 8 RT.
 {: #linux-standalone-client}
 
 1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
-  * CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.1.1.sh
+  * CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.2.3.sh
   * Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh
-  * Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.1.1.sh
+  * Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.2.3.sh
   * Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh
-  * Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
+  * Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
 
-2. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh`
+2. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
-3. Run the script:  `./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh.`
+3. Run the script to install:  `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh.`
   * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
   * To stop it:  `[control-c]`
 
@@ -69,20 +69,25 @@ Does not work on Windows 8 RT.
      $ sudo chmod +x /etc/rc.local
 
      # Try installing again
-     $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
+     $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
 ```     
 
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` may be either a domain name or an IP address.
 {:tip}
 
 Please use one of the following AG endpoints which are proven to work well with Linux VPN clients:
-* vpn.lon04.softlayer.com
-* vpn.lon05.softlayer.com
-* vpn.lon06.softlayer.com
-* vpn.sjc04.softlayer.com
-* vpn.syd04.softlayer.com
-* vpn.wdc06.softlayer.com
-* vpn.wdc07.softlayer.com
+  * vpn.dal12.softlayer.com
+  * vpn.fra.softlayer.com (FRA04)
+  * vpn.lon04.softlayer.com
+  * vpn.lon05.softlayer.com
+  * vpn.lon06.softlayer.com
+  * vpn.mil01.softlayer.com
+  * vpn.sjc04.softlayer.com
+  * vpn.syd04.softlayer.com
+  * vpn.syd05.softlayer.com
+  * vpn.tok.softlayer.com (TOK04 and TOK05)
+  * vpn.wdc06.softlayer.com
+  * vpn.wdc07.softlayer.com
 
 ## Mac OS X 10.10 standalone client
 {: #macos-standalone-client}
@@ -110,7 +115,7 @@ Uninstall any previous versions before updating.
 ## Array Networks VPN Standalone Client
 {: #array-networks-vpn-standalone-client}
 
-If any of the clients mentioned earlier in this document do not work for you, check the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) support page for a list of downloadable links to Windows, Linux, and MacOS standalone clients.
+If any of the clients mentioned earlier in this document do not work for you, check the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) support page or their [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to Windows, Linux, and MacOS standalone clients.
 
 ## SSL VPN POPs (sites)
 {: #ssl-vpn-pops}

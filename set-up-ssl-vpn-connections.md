@@ -30,13 +30,13 @@ Windows, Linux Fedora, and Linux require individualized connection instructions,
 * Testing your website on the backend IPs before you make them live on your public IPs.
 * File transfer of secure data between your server(s) and your home/office.
 * Backup of configuration files your server(s) to your home/office.
-* Securely connect to our [Web Portal](http://control.softlayer.com/).
+* Securely connect to our [{{site.data.keyword.cloud}} Console](http://{DomainName}/).
 
 ## Windows (Internet Explorer)
 {:#setup-ssl-vpn-connections-windows}
 
-1. Open Internet Explorer and navigate to `http://www.softlayer.com/vpn-access`.
-* Once you have entered your username and password, you will be prompted to install an ActiveX plug-in. You must install this plug-in to connect to your backend network. 
+1. Open Internet Explorer and navigate to `https://www.ibm.com/cloud-computing/bluemix/vpn-access`.
+* Once you have entered your username and password, you may be prompted to install an ActiveX plug-in. You must install this plug-in to connect to your backend network. 
 * You also must have administrative rights on your workstation to install the ActiveX plug-in. If you do not have rights to install the plug-in, ask your local System Administrator to install it for you. 
 * Once the ActiveX plug-in is installed, an Array SSL VPN network connector launches and establishes a connection to the VPN device. If successful, a red '**A**' appears in your task bar. You may click on the '**A**' at any time to see the status of your SSL VPN connection: its status, assigned IP address, assigned DNS servers, network routes, and time connected. 
 * You may minimize your browser session at any time and continue to use other applications securely on the private network. 
@@ -61,8 +61,8 @@ It is recommended that you run all commands as root. (`setuid root`)
 ## Linux example
 {:#setup-ssl-vpn-connections-linux-example}
 
-1. Open your browser and go to `http://www.softlayer.com/vpn-access`.
-* Login with your customer portal username and password.
+1. Open your browser and go to `https://www.ibm.com/cloud-computing/bluemix/vpn-access`.
+* Login with your console username and password.
 * Once connected, select the **Network** tab.
 * You should see a connect/install button. Select it and you should be prompted to install a Java component.
 * Let the component install to the default path, which you might have to create manually. (`/usr/local/array_vpn`)
