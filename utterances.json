@@ -1,0 +1,74 @@
+{
+  "what-is-ibm-cloud-vpn":[
+     "what is ibm cloud vpn",
+     "outline vpn",
+     "define vpn",
+     "vpn definition",
+     "ibm cloud vpn description",
+     "vpn description",
+     "vpn overview",
+     "vpn over view",
+     "describe vpn"
+   ],
+ "does-ssl-vpn-perform-pptp-ipsed-vpn-protocols":[
+    "point to point tunneling protocol",
+    "point-to-point tunneling protocol",
+    "PPTP",
+    "vpn IPSec",
+    "vpn IP Security",
+    "vpn IP Sec",
+    "ibm cloud VPN",
+    "Virtual Private Network"
+  ],
+  "can-i-mount-nas-ftp-remotely":[
+     "vpn mount ftp server",
+     "vpn mounting ftp",
+     "remote mount vpn",
+     "vpn mount remotely",
+     "attach nas vpn",
+     "vpn attaching nas",
+     "connecting vpn",
+     "connect vpn"
+  ],
+  "what-vendor-makes-ssl-vpn":[
+     "who created vpn",
+     "vendor that created vpn",
+     "vpn developed by"
+  ],
+  "what-is-the-difference-between-ssl-pptp-vpn":[
+     "secure vpn",
+     "vpn tunnel",
+     "pptp compatible",
+     "compare ssl pptp vpn",
+     "difference between ssl pptp"
+  ],
+  "why-am-i-unable-to-add-users-for-pptp-vpn";[
+     "is PPTP deprecated",
+     "deprecation of PPTP",
+     "deprecating pptp",`
+     "add pptp vpn won't work",
+     "unable add pptp vpn",
+     "can't add users pptp"
+  ],
+  "what-are-available-categories-vpn-management";[
+     "vpn status",
+     "vpn management",
+     "manage vpn",
+     "vpn category",
+     "vpn categories",
+     "vpn active",
+     "vpn disabled",
+     "VPN only",
+     "vpn inactive",
+     "vpn cancel_pending"
+  ],
+  "how-do-i-set-up-ssl-vpn";[
+     "setup vpn",
+     "set up vpn",
+     "vpn quick-access",
+     "vpn quick access",
+     "connect vpn",
+     "vpn connection",
+     "vpn connects"
+  ]
+}

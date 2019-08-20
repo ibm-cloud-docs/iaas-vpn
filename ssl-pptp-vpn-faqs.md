@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-12"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -16,6 +16,7 @@ subcollection: iaas-vpn
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
 {:faq: data-hd-content-type='faq'}
 
@@ -54,7 +55,7 @@ For security reasons, only servers located inside the datacenter are allowed acc
 {:#what-vendor-makes-ssl-vpn}
 {:faq}
 
-Our SSL VPN gateway is a security product from Array Networks.  The gateway itself runs radius to update users and passwords from our Customer Portal. If you wish to add users and give them SSL VPN access, create a new user inside the customer portal and enable SSL VPN permissions.
+Our SSL VPN gateway is a security product from Array Networks.  The gateway itself runs radius to update users and passwords from our customer portal. If you wish to add users and give them SSL VPN access, create a new user inside the customer portal and enable SSL VPN permissions.
 
 
 ## What is the difference between SSL and PPTP VPN?
@@ -71,16 +72,16 @@ Our SSL VPN gateway is a security product from Array Networks.  The gateway itse
 
 PPTP is deprecated. See [PPTP VPN Deprecation](/docs/infrastructure/iaas-vpn?topic=VPN-pptp-vpn-deprecation) for more information.
 
-## What are the available categories for a user's VPN management status within the Customer Portal?
+## What are the available categories for a user's VPN management status within the customer portal?
 {:#what-are-available-categories-vpn-management}
 {:faq}
 
 Customer status categories include those that are able to be updated by a user and those that may appear automatically. They include:
 
-* **Active** - The user has access to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) and VPN based on permissions set by the account administrator. This status may be manually selected or changed at any time.
-* **Disabled** - The user does not have access to any permissions or subscriptions on the account, including [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) and VPN. If set to disabled by another user on the account, this status may be manually selected and/or changed at any time.
-* **VPN Only** - The user only has access to VPN connectivity and may not access the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). This status may be manually selected or changed at any time.
-* **Inactive** - The user has not utilized the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) or VPN in the last 60 days. This is a system-generated status.
+* **Active** - The user has access to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/){:external} and VPN based on permissions set by the account administrator. This status may be manually selected or changed at any time.
+* **Disabled** - The user does not have access to any permissions or subscriptions on the account, including [customer portal](https://control.softlayer.com/){:external} and VPN. If set to disabled by another user on the account, this status may be manually selected and/or changed at any time.
+* **VPN Only** - The user only has access to VPN connectivity and may not access the [customer portal](https://control.softlayer.com/){:external}. This status may be manually selected or changed at any time.
+* **Inactive** - The user has not utilized the [customer portal](https://control.softlayer.com/){:external} or VPN in the last 60 days. This is a system-generated status.
 * **cancel_pending** - An administrator on the account has canceled this user and the cancellation is currently being processed. This status is a system-generated status.
 
 ## How do I set up SSL VPN?
