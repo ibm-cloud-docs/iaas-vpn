@@ -8,6 +8,11 @@ Virtual Private Networks (VPN)
     getting-started.md
     about-vpn.md
     pptp-deprecation.md
+    
+    {: .topicgroup}
+    Tutorials
+        /tutorials/solution-tutorials-configuring-IPSEC-VPN
+        /tutorials/solution-tutorials-secure-network-enclosure
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

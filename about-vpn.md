@@ -12,13 +12,20 @@ subcollection: iaas-vpn
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:tip: .tip}
+{:note: .note}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # About VPN
 {:#about-iaas-vpn}
 
 VPN access enables you to manage all servers and services associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows **out-of-band management and server rescue** through an encrypted VPN tunnel.
 
-Communicating using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) allow for VPN access customization at the user level.
+Communicating using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [customer portal](https://{DomainName}/) allow for VPN access customization at the user level.
 
 ## What are some ways to use the SSL VPN?
 {:#ways-to-use-iaas-vpn}
@@ -38,7 +45,7 @@ This out-of-band secure gateway gives you access to your server over the private
 
  * Our private network gives you a cost-free way to communicate with and manage servers. The VPN is the gateway to this private network.
  * Access points throughout the world create the best and quickest access and interaction possible. IBM Cloud currently has VPN access points in many cities.
- * Visit http://www.softlayer.com/vpn-access for a list of VPN access points to the {{site.data.keyword.BluSoftlayer_notm}} private network.
+ * Visit [VPN Access](https://www.ibm.com/cloud/vpn-access) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
 
 ## How it works
 {:#iaas-vpn-how-it-works}
