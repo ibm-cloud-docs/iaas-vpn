@@ -17,8 +17,8 @@
     "vpn IPSec",
     "vpn IP Security",
     "vpn IP Sec",
-    "ibm cloud VPN",
-    "Virtual Private Network"
+    "ibm cloud VPN IPSec",
+    "Virtual Private Network and PPTP"
   ],
   "can-i-mount-nas-ftp-remotely": [
      "vpn mount ftp server",
@@ -27,8 +27,8 @@
      "vpn mount remotely",
      "attach nas vpn",
      "vpn attaching nas",
-     "connecting vpn",
-     "connect vpn"
+     "connecting vpn to nas ",
+     "connect vpn to FTP server"
   ],
   "what-vendor-makes-ssl-vpn": [
      "who created vpn",
@@ -68,6 +68,7 @@
      "vpn quick-access",
      "vpn quick access",
      "connect vpn",
+     "connecting vpn"
      "vpn connection",
      "vpn connects"
   ]
