@@ -88,6 +88,6 @@ Customer status categories include those that are able to be updated by a user a
 {:#how-do-i-set-up-ssl-vpn}
 {:faq}
 
-SLL VPN is a quick-access connection that connects you to our private network directly from a browser. For detailed instructions on how to set up SSL VPN, see [Connect to SSL VPN - Windows 7 and higher](/docs/infrastructure/iaas-vpn?topic=VPN-connect-ssl-vpn-windows7#connect-ssl-vpn-windows7).
+SSL VPN is a quick-access connection that connects you to our private network directly from a browser. For detailed instructions on how to set up SSL VPN, see [Connect to SSL VPN - Windows 7 and higher](/docs/infrastructure/iaas-vpn?topic=VPN-connect-ssl-vpn-windows7#connect-ssl-vpn-windows7).
 
 
