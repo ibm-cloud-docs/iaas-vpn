@@ -46,5 +46,5 @@ Follow these steps to connect to an SSL VPN endpoint:
 {:#now-im-connected-what-do-i-do}
 
 1. Use SSH or remote desktop to connect to your server's primary private IP address.
-2. Use remote management to [mount an ISO to your](/docs/bare-metal?topic=bare-metal-bm-mount-iso) server.
+2. Use remote management to [mount an ISO to your server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
 3. Use remote management functions that aren't provided by the [{{site.data.keyword.cloud}} console](http://{DomainName}/){:external}. To do so, access your bare metal or virtual server's respective **KVM Console** by selecting **Classic Infrastructure > Devices > (your server) > Remote Management > Actions > KVM Console**.

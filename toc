@@ -10,8 +10,8 @@ Virtual Private Networks (VPN)
 
     {: .topicgroup}
     Tutorials
-        /tutorials/solution-tutorials-configuring-IPSEC-VPN
         /tutorials/solution-tutorials-secure-network-enclosure
+        /tutorials/solution-tutorials-configuring-IPSEC-VPN
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -33,6 +33,6 @@ Virtual Private Networks (VPN)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    external-reference.md    
+    external-reference.md
     available-vpn-endpoints.md
     {: .navgroup-end}
