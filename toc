@@ -7,8 +7,7 @@ Virtual Private Networks (VPN)
     {: .navgroup id="learn"}
     getting-started.md
     about-vpn.md
-    pptp-deprecation.md
-    
+
     {: .topicgroup}
     Tutorials
         /tutorials/solution-tutorials-configuring-IPSEC-VPN
@@ -32,7 +31,8 @@ Virtual Private Networks (VPN)
     standalone-vpn-clients.md
     getting-help.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
-    external-reference.md
+    external-reference.md    
+    available-vpn-endpoints.md
     {: .navgroup-end}

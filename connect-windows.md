@@ -13,31 +13,42 @@ subcollection: iaas-vpn
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Connect to SSL VPN - Windows 7 and higher
+# Connecting to SSL VPN - Windows 7 and higher
 {:#connect-ssl-vpn-windows7}
 
-To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you may need to do a few steps on your computer to ensure your ability to connect.
+To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you must turn off User Access Control (UAC), enable the Administrator account, and ensure that you **Run as administrator** before you connect to the SSL VPN page.
+{:shortdesc}
 
-**1. Turn off User Access Control (UAC) in the control panel**
+Follow these steps on your computer:
 
-1. Navigate to **Start -> Control Panel -> User Accounts -> Change User Account Control Settings**
-* **Uncheck** the box next to **Use User Account Control (UAC) to help protect your computer**.
+1. Turn off UAC:
+																							   
 
-**2. Enable the Administrator Account**
+  1. Select **Start > Control Panel > User Accounts > Change User Account Control Settings**.
 
-1. Go to **Start -> Control Panel -> Administrative Tools -> Computer Management -> Local Users and Groups -> Users ->** 
-* Right-click the **Administrator** user and select **Properties** 
-* Uncheck the box for **Account is disabled**.
+  2. Clear the **Use User Account Control (UAC) to help protect your computer** checkbox, or drag the slider down to **Never notify**. Then, click **OK**.
+																   
+											  
 
-**3. Run Internet Explorer as Administrator before connecting to the SSL VPN page**
+2. Enable the Administrator account:
 
-1. Right-click on the Internet Explorer icon and select **Run as administrator** from the menu.
+  1. Select **Start > Control Panel > Administrative Tools > Computer Management > Local Users and Groups > Users**.
 
-Once the previous steps are complete, you should be able to log in. 
+  2. Right-click the **Administrator** user and select **Properties**.
 
-## Log In
-{:#connect-windows-login}
+  3. Clear the **Account is disabled** checkbox and then click **OK**.
+						 
 
-1. Go to [www.softlayer.com/vpn-access](http://www.softlayer.com/vpn-access) and log in using your portal username and password. 
-* Be sure your user [has SSL VPN Access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deacivate-ssl-vpn-access-for-a-user).  
-* Also, be sure that you have set a VPN password. To do so, update your [User Profile Page](https://control.softlayer.com/account/user/profile) and fill out the box that says **VPN Password**.
+3. Ensure that your browser is set to **Run as administrator** before you connect to the SSL VPN page.
+
+																																																
+
+After you complete these steps, you can log in.
+
+## Logging in
+{:#connect-ssl-windows-login}
+
+1. Ensure that your user has [VPN access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deacivate-ssl-vpn-access-for-a-user).
+2. Review the list of available [VPN connection locations](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints), and select a location near you.
+3. Follow the prompts to accept use of the VPN client software.
+4. When prompted, enter your VPN login credentials.

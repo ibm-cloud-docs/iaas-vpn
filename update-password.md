@@ -10,23 +10,33 @@ subcollection: iaas-vpn
 
 ---
 
-
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
+{:term: .term}
 
-# Update a user's VPN password
-{:#update-users-vpn-password}
+# Updating a user's SSL VPN password
+{:#update-users-ssl-vpn-password}
 
-VPN passwords are required for any VPN connectivity. Passwords may be set by any user with VPN Administration permissions associated with an account, such as a local sysadmin. Follow the steps below to update a user’s VPN password.
+VPN passwords are required for any VPN connectivity. Passwords can be set by any user with VPN Administration permissions associated with an account, such as an account owner or parent user.
+{:shortdesc}
 
-1. Log in to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Go to the **Manage** dropdown menu and select **Access (IAM)**
-* Select **Users** to display a list of users.
-* Select the user name.
-* Enter the new password in the **VPN Password** text box and again in the **Confirm Password** checkbox.
-* Click the **Save Changes** button to submit the update.
+Follow these steps to update a user’s VPN password:
+
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
+1. From the menu bar, click **Manage** &gt; **Access (IAM)**.
+2. Select **Users**, and then click **User details**.
+3. On the **User details page**, go to **VPN access for classic infrastructure**.
+4. Select the Edit icon ![Edit icon](../icons/icon_write.svg) to enter a new VPN password.
+5. Click **Update password**.
