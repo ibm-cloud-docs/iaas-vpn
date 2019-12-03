@@ -39,7 +39,7 @@ Follow these steps to connect to an SSL VPN endpoint:
 
 ## Other ways to connect
 
-* [Windows&reg; 7](#connect-ssl-vpn-windows7).
+* [Windows&reg; 7](#connect-ssl-vpn-windows7)
 * [Mac OSX](#connect-ssl-vpn-mac-osx)
 
 ## Next steps
