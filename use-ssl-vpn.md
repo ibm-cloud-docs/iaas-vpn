@@ -37,11 +37,6 @@ Follow these steps to connect to an SSL VPN endpoint:
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
-## Other ways to connect
-
-* [Windows&reg; 7](#connect-ssl-vpn-windows7)
-* [Mac OSX](#connect-ssl-vpn-mac-osx)
-
 ## Next steps
 {:#now-im-connected-what-do-i-do}
 
