@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-11-20"
+lastupdated: "2019-12-02"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
