@@ -37,7 +37,7 @@ If you're getting errors when you connect to SSL VPN on Windows, you can trouble
 3. Accept and install the ActiveX applet.
 4. Turn off software to block pop-up ad windows, which can block the ActiveX applet.
 5. Check Personal Firewalls - allow ActiveX.
-6. Allow caching. For example, in Edge (select **internet Options > Settings**, then **Caches and databases**). Select **Allow website caches and databases**.
+6. Allow caching. For example, in Edge (select **Internet Options > Settings**, then **Caches and databases**). Select **Allow website caches and databases**.
 8. Restart your system.
 
 
