@@ -47,7 +47,7 @@ The following domain names represent the regional entry points for SSL VPN conne
   * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.tor01.softlayer.com](https://vpn.tor01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.wdc.softlayer.com](https://vpn.wdc.softlayer.com/prx/000/http/localhost/login/index.html)
-  * [vpn.wdc04.softlayer.com]https://vpn.wdc04.softlayer.com/prx/000/http/localhost/login)
+  * [vpn.wdc04.softlayer.com](https://vpn.wdc04.softlayer.com/prx/000/http/localhost/login)
   * [vpn.wdc06.softlayer.com](https://vpn.wdc06.softlayer.com/prx/000/http/localhost/login/index.html)
   * [vpn.wdc07.softlayer.com](https://vpn.wdc07.softlayer.com/prx/000/http/localhost/login/index.html)
 * [vpn.atl01.softlayer.com](https://vpn.atl01.softlayer.com/prx/000/http/localhost/login)
