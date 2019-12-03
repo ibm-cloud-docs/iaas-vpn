@@ -23,25 +23,16 @@ Follow these steps on your computer:
 
 1. Turn off UAC:
 
-
   1. Select **Start > Control Panel > User Accounts > Change User Account Control Settings**.
+  1. Clear the **Use User Account Control (UAC) to help protect your computer** checkbox, or drag the slider down to **Never notify**. Then, click **OK**.
 
-  2. Clear the **Use User Account Control (UAC) to help protect your computer** checkbox, or drag the slider down to **Never notify**. Then, click **OK**.
-
-
-
-2. Enable the Administrator account:
+1. Enable the Administrator account:
 
   1. Select **Start > Control Panel > Administrative Tools > Computer Management > Local Users and Groups > Users**.
+  1. Right-click the **Administrator** user and select **Properties**.
+  1. Clear the **Account is disabled** checkbox and click **OK**.
 
-  2. Right-click the **Administrator** user and select **Properties**.
-
-  3. Clear the **Account is disabled** checkbox and then click **OK**.
-
-
-3. Ensure that your browser is set to **Run as administrator** before you connect to the SSL VPN page.
-
-
+1. Ensure that your browser is set to **Run as administrator** before you connect to the SSL VPN page.
 
 After you complete these steps, you can log in.
 

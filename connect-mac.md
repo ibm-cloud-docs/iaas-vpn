@@ -36,17 +36,17 @@ To connect to SSL VPN, follow these steps:
 
 1. Install the latest version of the MotionPro Plus client from the Apple Store.
 
-Be sure to uninstall any previous versions of the client before you install the new version.
-{:important}
+  Be sure to uninstall any previous versions of the client before you install the new version.
+  {:important}
 
-2. In the **Basic** view, enter a title and then select a gateway from the available [VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints).
-3. Optionally, enter your VPN username as defined in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
-4. Click **OK** to save your changes. The MotionPro Plus Welcome page is shown.
-5. Click **Login** and enter your username and password to connect and authenticate.
+1. In the **Basic** view, enter a title and then select a gateway from the available [VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints).
+1. Optionally, enter your VPN username as defined in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
+1. Click **OK** to save your changes. The MotionPro Plus Welcome page is shown.
+1. Click **Login** and enter your username and password to connect and authenticate.
 
-Your VPN username can be different from your {{site.data.keyword.cloud}} username.
-{:note}
+  Your VPN username can be different from your {{site.data.keyword.cloud}} username.
+  {:note}
 
-6. Click **OK** to log in. A successful "Connected" page is shown:
+1. Click **OK** to log in. A successful "Connected" page is shown:
 
-![SSL VPN connected page](images/motionpro_plus_connected.png)
+  ![SSL VPN connected page](images/motionpro_plus_connected.png)
