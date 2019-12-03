@@ -27,7 +27,7 @@ subcollection: iaas-vpn
 {:term: .term}
 
 # Available VPN endpoints
-{:#available-vpn-endpoints}
+{:#available}
 
 The following domain names represent the regional entry points for SSL VPN connectivity. Some data centers provide a domain that returns all endpoints in the data center, and allows for dispersion of connections throughout. Use these domain names to configure VPN client software, or simply click on one to initiate a browser-assisted connection experience.
 {:shortdesc}
