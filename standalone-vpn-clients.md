@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-05-02"
+lastupdated: "2019-12-02"
 
 keywords: Standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -12,56 +12,55 @@ subcollection: iaas-vpn
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:deprecated: .deprecated}
-{:pre: .pre}
 {:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
+{:term: .term}
 
-# Standalone VPN clients - Windows, Linux, and Mac OS X
+# Standalone VPN clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
 ## Windows standalone client
 {: #windows-standalone-client}
 
-1. Download one of these files, depending on your operating system.
-  * Windows (10/8/7/Vista) 32-bit:  https://speedtest.dal05.softlayer.com/array/MotionProSetup_win32_v1.2.4.zip
-  * Windows (10/8/7/Vista) 64-bit:  https://speedtest.dal05.softlayer.com/array/MotionProSetup_win64_v1.2.4.zip
+1. Depending on your operating system, download the latest MotionPro 32-bit or 64-bit files from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
 
-2. Install and set up.
-  * Run MotionProSetup to install the software.
-  * Run MotionPro, then at the opening screen select **Profile > Add**.
-  * Create a profile by giving it a Site Name, then choose a hostname from the list of [SSL VPN sites](#ssl-vpn-pops). Next, enter your VPN username and password and press **Save**.
-  * Finally, double-click the profile you just created to connect to the VPN.
+2. Install and set up MotionPro:
+   1. Run MotionProSetup to install the software.
+   2. Run the MotionPro Setup Wizard. Then click the MotionPro icon on your desktop and select **Profile > Add**.
+   3. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [SSL VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints)). Next, enter your VPN Username and Password and click **Save**.
+   4. Double-click the profile that you created to connect to the VPN.
 
-`Site` may be either a domain name or an IP address. 
+If you have issues, uninstall any Array programs using the Windows Control Panel, restart, and then reconnect.
 
-If you have issues, uninstall any Array programs using the Windows Control Panel, reboot, then reconnect.
-
-Does not work on Windows 8 RT.
+MotionPro does not work on Windows 8 RT.
 {:note}
 
 ## Linux standalone client
 {: #linux-standalone-client}
 
-1. Download the appropriate MotionPro client for your Linux distribution. For this example, we use Ubuntu.
-  * CentOS 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_CentOS_x86-64_1.2.3.sh
-  * Redhat 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-32_1.1.1.sh
-  * Redhat 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_RedHat_x86-64_1.2.3.sh
-  * Ubuntu 32-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-32_1.1.1.sh
-  * Ubuntu 64-bit: https://speedtest.dal05.softlayer.com/array/MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
+1. Download the appropriate MotionPro client for your Linux distribution from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
 
-2. Make it executable: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
+2. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
-3. Run the script to install:  `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh.`
+3. Run the script to install. For example:  `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
+
   * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
   * To stop it:  `[control-c]`
 
-4. Enable rc.local, if needed.
-    
+4. Enable `rc.local`, if needed. For example:
+
   ```
-     # If you are using systemd, you might not have /etc/rc.local file, and you will get an error that says "Auto start script file was not found in system!"
+     # If you are using systemd, you might not have the /etc/rc.local file, and you will get an "Auto start script file was not found in system!" error.
      # Make an empty one. systemd will know what to do with it
      # <https://askubuntu\.com/a/919598>
 
@@ -72,88 +71,32 @@ Does not work on Windows 8 RT.
      $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
 ```     
 
-To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` may be either a domain name or an IP address.
+To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {:tip}
-
-Please use one of the following AG endpoints which are proven to work well with Linux VPN clients:
-  * vpn.dal12.softlayer.com
-  * vpn.fra.softlayer.com (FRA04)
-  * vpn.lon04.softlayer.com
-  * vpn.lon05.softlayer.com
-  * vpn.lon06.softlayer.com
-  * vpn.mil01.softlayer.com
-  * vpn.sjc04.softlayer.com
-  * vpn.syd04.softlayer.com
-  * vpn.syd05.softlayer.com
-  * vpn.tok.softlayer.com (TOK04 and TOK05)
-  * vpn.wdc06.softlayer.com
-  * vpn.wdc07.softlayer.com
 
 ## Mac OS X 10.10 standalone client
 {: #macos-standalone-client}
 
-MacOS 10.11 is not supported. 
+MacOS 10.11 is not supported.
 {:note}
 
-Steps for the MacOS StandAlone Array SSL VPN Motion Pro Plus client:
+To install and set up  the MotionPro Plus client for the MacOS StandAlone Array SSL VPN from the Apple store:
 
-1. Install the "Motion Pro Plus" client from the Apple store.
-  * Locate the  Motion Pro Plus client under the **Applications** folder and open the application.
-  * Click **Profile**, then **Add**.
-  * Fill in the Site Name, Host, and Username information, then click **Ok**.
-  * Click **VPN** at the top left, then **Connect**.
+1. Locate the MotionPro Plus client under the **Applications** folder and open the application.
+2. Click **Profile**, then **Add**.
+3. Fill in the Site Name, Host, and Username information, then click **OK**.
+4. Click **VPN** at the top left, then **Connect**.
 
-An example is detailed below:
+For example:
 
 ![Figure 1](images/snip20170425_1.png)
 
-If the tunnel isn't directing traffic correctly, you may need to [add routes manually](https://discussions.apple.com/thread/2735376).
+If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376).
 
-Uninstall any previous versions before updating.
+Uninstall any previous versions of the client before installing a new version.
 {:important}
 
-## Array Networks VPN Standalone Client
+## Array Networks VPN standalone client
 {: #array-networks-vpn-standalone-client}
 
-If any of the clients mentioned earlier in this document do not work for you, check the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) support page or their [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to Windows, Linux, and MacOS standalone clients.
-
-## SSL VPN POPs (sites)
-{: #ssl-vpn-pops}
-
-* vpn.ams01.softlayer.com
-* vpn.ams03.softlayer.com
-* vpn.dal01.softlayer.com
-* vpn.dal05.softlayer.com
-* vpn.dal06.softlayer.com
-* vpn.dal07.softlayer.com
-* vpn.dal09.softlayer.com
-* vpn.sea01.softlayer.com
-* vpn.wdc01.softlayer.com
-* vpn.wdc04.softlayer.com
-* vpn.hou02.softlayer.com
-* vpn.sjc01.softlayer.com
-* vpn.sjc03.softlayer.com
-* vpn.sng01.softlayer.com
-* vpn.atl01.softlayer.com
-* vpn.chi01.softlayer.com
-* vpn.den01.softlayer.com
-* vpn.lax01.softlayer.com
-* vpn.mia01.softlayer.com
-* vpn.nyc01.softlayer.com
-* vpn.hkg02.softlayer.com
-* vpn.lon02.softlayer.com
-* vpn.sao01.softlayer.com
-* vpn.mil01.softlayer.com
-* vpn.mel01.softlayer.com
-* vpn.tor01.softlayer.com
-* vpn.mex01.softlayer.com
-* vpn.fra02.softlayer.com
-* vpn.par01.softlayer.com
-* vpn.syd01.softlayer.com
-* vpn.che01.softlayer.com
-* vpn.mon01.softlayer.com
-* vpn.tok02.softlayer.com
-
-
-Uninstall any previous versions of the client before installing the new version.
-{:important}
+If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to standalone clients.
