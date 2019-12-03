@@ -79,4 +79,4 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.seo01.softlayer.com](https://vpn.seo01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.sng01.softlayer.com](https://vpn.sng01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.syd01.softlayer.com](hhttps://vpn.syd01.softlayer.com/prx/000/http/localhost/login)
-* [vpn.tok02.softlayer.com](https://vpn.tok02.softlayer.com/prx/000/http/localhost/login)
+* [vpn.tok02.softlayer.com](https://vpn.tok02.softlayer.com/)
