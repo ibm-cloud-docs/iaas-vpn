@@ -42,7 +42,7 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.hou02.softlayer.com](https://vpn.hou02.softlayer.com/prx/000/http/localhost/login)
 * [vpn.mex01.softlayer.com](https://vpn.mex01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.mon01.softlayer.com](https://vpn.mon01.softlayer.com/prx/000/http/localhost/login)
-* [vpn.sea01.softlayer.com](hhttps://vpn.sea01.softlayer.com/prx/000/http/localhost/login)
+* [vpn.sea01.softlayer.com](https://vpn.sea01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.sjc.softlayer.com](https://vpn.sjc.softlayer.com/prx/000/http/localhost/login/index.html)
   * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.tor01.softlayer.com](https://vpn.tor01.softlayer.com/prx/000/http/localhost/login)
