@@ -37,7 +37,7 @@ Here are some examples of how you can use an SSL VPN connection:
 * Remote desktop to your server's backend IP address (10.4.X.X) for administration of your Windows 2003 servers.
 * SSH to your server's backend IP address (10.4.X.X) for administering your UNIX servers.
 * Use an IPMI client to control your server using the backend IPMI address (10.4.X.X). You can download the IPMI client tool after you are connected by going to http://downloads.softlayer.local/ipmi/ (You must be connected to SoftLayer Private VPN.)
-  * **Note:** IPMIView requires Java to be installed.  http://www.sun.com/java/
+  **Note:** IPMIView requires Java to be installed.  http://www.sun.com/java/
 * Testing your website on the backend IPs before you make them live on your public IPs.
 * File transfer of secure data between your server(s) and your home/office.
 * Backup of configuration files your server(s) to your home/office.
