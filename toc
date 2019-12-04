@@ -33,6 +33,5 @@ Virtual Private Networks (VPN)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    external-reference.md
     available-vpn-endpoints.md
     {: .navgroup-end}
