@@ -7,11 +7,6 @@ Virtual Private Networks (VPN)
     {: .navgroup id="learn"}
     getting-started.md
     about-vpn.md
-
-    {: .topicgroup}
-    Tutorials
-        /tutorials/solution-tutorials-secure-network-enclosure
-        /tutorials/solution-tutorials-configuring-IPSEC-VPN
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
