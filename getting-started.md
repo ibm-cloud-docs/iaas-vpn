@@ -88,10 +88,10 @@ Now that the VPN access is configured, you can log in by either using your brows
 
 ### Using a browser
 
-1. For supported operating systems, simply click on any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints).
+1. For supported operating systems, simply click on any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
 ### Using a standalone SSL VPN client
 
-See [Standalone VPN clients](/docs/infrastructure/iaas-vpn?topic=VPN-standalone-vpn-clients) for available options and usage instructions.
+See [Standalone VPN clients](/docs/infrastructure/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.

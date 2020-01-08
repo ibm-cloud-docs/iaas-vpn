@@ -39,7 +39,7 @@ To connect to SSL VPN, follow these steps:
   Be sure to uninstall any previous versions of the client before you install the new version.
   {:important}
 
-1. In the **Basic** view, enter a title and then select a gateway from the available [VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints).
+1. In the **Basic** view, enter a title and then select a gateway from the available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 1. Optionally, enter your VPN username as defined in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
 1. Click **OK** to save your changes. The MotionPro Plus Welcome page is shown.
 1. Click **Login** and enter your username and password to connect and authenticate.

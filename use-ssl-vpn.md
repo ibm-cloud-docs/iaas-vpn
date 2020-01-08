@@ -33,7 +33,7 @@ SSL VPN establishes a VPN connection between your system and the {{site.data.key
 
 Follow these steps to connect to an SSL VPN endpoint:
 
-1. For supported operating systems, click any one of the available [SSL VPN connection locations](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints).
+1. For supported operating systems, click any one of the available [SSL VPN connection locations](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 

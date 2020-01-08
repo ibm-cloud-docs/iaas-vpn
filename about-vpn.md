@@ -45,7 +45,7 @@ This out-of-band secure gateway gives you access to your server over the private
 
  * Our private network gives you a cost-free way to communicate with and manage servers. The VPN is the gateway to this private network.
  * Access points throughout the world create the best and quickest access and interaction possible. IBM Cloud currently has VPN access points in many cities.
- * Visit [Available VPN endpoints](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
+ * Visit [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
 
 ## How it works
 {:#iaas-vpn-how-it-works}

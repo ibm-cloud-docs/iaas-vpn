@@ -39,7 +39,7 @@ After you complete these steps, you can log in.
 ## Logging in
 {:#connect-ssl-windows-login}
 
-1. Ensure that your user has [VPN access](/docs/infrastructure/iaas-vpn?topic=VPN-activate-or-deacivate-ssl-vpn-access-for-a-user).
-2. Review the list of available [VPN connection locations](/docs/iaas-vpn?topic=VPN-available-vpn-endpoints), and select a location near you.
+1. Ensure that your user has [VPN access](/docs/infrastructure/iaas-vpn?topic=iaas-vpn-activate-or-deacivate-ssl-vpn-access-for-a-user).
+2. Review the list of available [VPN connection locations](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints), and select a location near you.
 3. Follow the prompts to accept use of the VPN client software.
 4. When prompted, enter your VPN login credentials.
