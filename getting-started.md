@@ -94,4 +94,4 @@ Now that the VPN access is configured, you can log in by either using your brows
 
 ### Using a standalone SSL VPN client
 
-See [Standalone VPN clients](/docs/infrastructure/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.
+See [Standalone VPN clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.

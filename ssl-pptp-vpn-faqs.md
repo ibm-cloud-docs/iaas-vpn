@@ -77,4 +77,4 @@ Our SSL VPN gateway is a security product from Array Networks. The gateway itsel
 {:#how-do-i-set-up-ssl-vpn}
 {:faq}
 
-SSL VPN is a quick-access connection that connects you to our private network directly from a browser. For detailed instructions on how to set up SSL VPN, see [Connecting to SSL VPN (Windows 7 and higher)](/docs/infrastructure/iaas-vpn?topic=iaas-vpn-connect-ssl-vpn-windows7#connect-ssl-vpn-windows7).
+SSL VPN is a quick-access connection that connects you to our private network directly from a browser. For detailed instructions on how to set up SSL VPN, see [Connecting to SSL VPN (Windows 7 and higher)](/docs/iaas-vpn?topic=iaas-vpn-connect-ssl-vpn-windows7#connect-ssl-vpn-windows7).
