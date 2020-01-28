@@ -38,12 +38,12 @@ These FAQs provide answers to common questions about SSL VPNs.
 
 {{site.data.keyword.cloud}} VPN access is designed to allow users to remotely manage all servers securely over the {{site.data.keyword.cloud_notm}} private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-* Establish a VPN connection to the private network by using SSL or IPSec
+* Establish a VPN connection to the private network by using SSL or IPsec
 * Access your server through its private 10.x.x.x IP address by using SSH or RDP
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
 
-## Does the SSL VPN also perform IPSec or other VPN protocols?
+## Does the SSL VPN also perform IPsec or other VPN protocols?
 {:#does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
 {:faq}
 

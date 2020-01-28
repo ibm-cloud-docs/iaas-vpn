@@ -43,13 +43,13 @@ If you're getting errors when you connect to SSL VPN on Windows, you can trouble
 
 After you're properly connected, an "A" appears in the system tray.
 
-### Resolving IPSec VPN connection errors on Windows
+### Resolving IPsec VPN connection errors on Windows
 {:#resolve-errors-connecting-to-ipsec-vpn-with-windows}
 
-If you're getting errors when you connect to IPSec VPN on Windows, troubleshoot your issue by following these steps.
+If you're getting errors when you connect to IPsec VPN on Windows, troubleshoot your issue by following these steps.
 {:shortdesc}
 
-1. Check for proper credentials and IPSec permissions in [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+1. Check for proper credentials and IPsec permissions in [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
 2. Check your time, date, and time zone on your computer.   
 3. Accept and install the ActiveX applet.
 4. Turn off software to block pop-up ad windows, which can block the ActiveX applet.

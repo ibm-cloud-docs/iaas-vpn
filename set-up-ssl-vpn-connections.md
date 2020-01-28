@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2017-2019
 lastupdated: "2019-11-11"
 
-keywords: IPSec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
+keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
 subcollection: iaas-vpn
 

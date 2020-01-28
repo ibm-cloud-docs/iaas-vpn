@@ -9,7 +9,7 @@ lastupdated: "2018-11-13"
 {:faq: data-hd-content-type='faq'}
 
 
-# IPSec VPN FAQ
+# IPsec VPN FAQ
 
 ## What is IBM Cloud VPN?
 {: faq}

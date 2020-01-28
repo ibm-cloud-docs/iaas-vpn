@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2017-2019
 lastupdated: "2019-11-11"
 
-keywords: IPSec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
+keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
 subcollection: iaas-vpn
 
@@ -26,13 +26,13 @@ subcollection: iaas-vpn
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
 
-# Setting up an IPSec VPN connection
+# Setting up an IPsec VPN connection
 {:#setup-ipsec-vpn}
 
-## What is IPSec VPN?
+## What is IPsec VPN?
 {:#what-is-ipsec-vpn}
 
-IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure. 
+IPsec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure.
 {:shortdesc}
 
 IBM Cloud VPN access allows users to manage all servers remotely and securely over the IBM Cloud Private network. A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
@@ -41,13 +41,13 @@ IBM Cloud VPN access allows users to manage all servers remotely and securely ov
    * Access your server via its private 10.x.x.x IP address via SSH or RDP.
    * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
-We provide the IPSec service to customers for management of their environments. It is not recommended for production workloads.
+We provide the IPsec service to customers for management of their environments. It is not recommended for production workloads.
 
 ### Negotiation parameters
 {:#setup-ipsec-vpn-negotiation-parameters}
 ![Negotiation Parameters](images/IPSec_VPN.png)
 
-You will need to know the following information for the remote side of the IPSec VPN:
+You will need to know the following information for the remote side of the IPsec VPN:
 
 - Static IP address for VPN endpoint
 - Preshared key (Password)
@@ -62,14 +62,14 @@ After you have this information available, you can configure the basic negotiati
 ### Protected networks
 {:#setup-ipsec-vpn-protected-networks}
 
-In the VPN connection properties, you must define the networks on the remote end of the tunnel and the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPSec tunnel.
+In the VPN connection properties, you must define the networks on the remote end of the tunnel and the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPsec tunnel.
 
 For example: If your network on the remote end of the tunnel uses a single subnet `10.0.0.0` with a netmask of `255.255.255.0`, you would enter IP address `10.0.0.0 / CIDR 24` for the “Protected Customer (Remote) Subnet” section.
 
 ### Network Address Translation (NAT)
 {:#setup-ipsec-vpn-nat}
 
-With the IPSec VPN, you also are allowed to define private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection. This allows you to have private internet traffic that is forwarded to one of your internal IP addresses of a system behind your VPN, without exposing the remote location to full internet access.  
+With the IPsec VPN, you also are allowed to define private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection. This allows you to have private internet traffic that is forwarded to one of your internal IP addresses of a system behind your VPN, without exposing the remote location to full internet access.  
 
 ### Network Address Translation/assigned static NAT subnets
 {:#setup-ipsec-vpn-nat-static-subnets}

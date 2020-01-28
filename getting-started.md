@@ -34,7 +34,7 @@ Virtual Private Networking (VPN) access enables users to manage all servers remo
 
 With VPN access, you can:
 
-* Establish a VPN connection to the private network via SSL, or IPSec.
+* Establish a VPN connection to the private network via SSL, or IPsec.
 * Access your server through its primary private IP address by SSH or RDP.
 * Connect to your server’s IPMI IP address for low-level server management or rescue needs.
 
