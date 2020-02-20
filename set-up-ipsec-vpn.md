@@ -11,7 +11,7 @@ lastupdated: "2017-11-01"
 
 ## What is IPSec VPN?
 
-IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. For more general information regarding IPSec, refer to the [reference documents](external-reference.html).
+IPSec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks which otherwise would be considered insecure. IPSec Tunnel endpoints can be located anywhere and still provide access to your entire private network or the networks you specify.  IPSec Tunnels are incompatible if you are using a Zone or Cloud Service Endpoints.  For more general information regarding IPSec, refer to the [reference documents](external-reference.html).
 
 {{site.data.keyword.BluSoftlayer_notm}} provides a tunnel mode configuration which provides you with an encrypted site-to-site network, allowing networks at multiple remote locations to communicate securely.
 
