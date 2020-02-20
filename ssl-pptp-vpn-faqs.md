@@ -11,12 +11,16 @@ lastupdated: "2018-01-24"
 
 ## What is IBM Cloud VPN?
 
-IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for unlimited file transfers, out-of-band management, and server rescue through an encrypted VPN tunnel. With VPN access, you can:
+IBM Cloud VPN access is designed to allow users to remotely manage all servers securely over the IBM Cloud private network.  A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be created to any IBM Cloud Datacenter or PoP providing geographic redundancy.  With VPN access, you can:
 
 * Establish a VPN connection to the private network using SSL, PPTP or IPSEC
 * Access your server via its private 10.x.x.x IP address using SSH or RDP
 * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
+
+## What if I cannot connect to the SSL or IPSEC VPN endpoint of my choice?
+
+Geographic redundancy exists to allow access into your private network from anywhere in the world you choose to connect from.  If one location does not connect, try using a different dataceneter.
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
 
