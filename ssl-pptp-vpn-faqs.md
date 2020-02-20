@@ -20,7 +20,7 @@ IBM Cloud VPN access is designed to allow users to remotely manage all servers s
 
 ## What if I cannot connect to the SSL or IPSEC VPN endpoint of my choice?
 
-Geographic redundancy exists to allow access into your private network from anywhere in the world you choose to connect from.  If one location does not connect, try using a different dataceneter.
+Geographic redundancy exists to allow access into your private network from anywhere in the world you choose to connect from.  If one location does not connect you can open a support ticket for more information or you can use a different dataceneter during the interruption.
 
 ## Does the SSL VPN also perform PPTP, IPSEC or other VPN protocols?
 
