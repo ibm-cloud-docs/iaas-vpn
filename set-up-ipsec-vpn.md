@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-11-11"
+  years: 1994, 2020
+lastupdated: "2020-02-21"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -32,12 +32,12 @@ subcollection: iaas-vpn
 ## What is IPsec VPN?
 {:#what-is-ipsec-vpn}
 
-IPsec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations, using a tunnel mode that provides an encrypted, site-to-site network. It allows trusted data to pass through networks that otherwise would be considered insecure.
+IPsec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks, which otherwise would be considered insecure. IPsec tunnel endpoints can be located anywhere and still provide access to your entire private network, or the networks you specify. IPSec tunnels are incompatible if you are using a zone, or cloud service endpoints.
 {:shortdesc}
 
 IBM Cloud VPN access allows users to manage all servers remotely and securely over the IBM Cloud Private network. A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-   * Establish a VPN connection to the private network via SSL or IPSEC.
+   * Establish a VPN connection to the private network via SSL or IPsec.
    * Access your server via its private 10.x.x.x IP address via SSH or RDP.
    * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
