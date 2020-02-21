@@ -45,7 +45,7 @@ With VPN access, you can:
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
 ## What if I cannot connect to the SSL or IPsec VPN endpoint of my choice?
-Geographic redundancy exists to allow access into your private network from anywhere in the world you choose to connect from. If one location does not connect, try using a different data center.
+Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an IBM Support ticket for more information, or you can use a different data center during the interruption.
 
 ## Does the SSL VPN also perform IPsec or other VPN protocols?
 {:#does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
