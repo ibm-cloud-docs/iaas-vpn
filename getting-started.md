@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-12-02"
+  years: 1994, 2020
+lastupdated: "2020-02-21"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -29,7 +29,7 @@ subcollection: iaas-vpn
 # Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking
 {: #getting-started}
 
-Virtual Private Networking (VPN) access enables users to manage all servers remotely and securely over the {{site.data.keyword.cloud}} private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel.
+Virtual Private Networking (VPN) access enables users to manage all servers remotely and securely over the {{site.data.keyword.cloud}} private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be initiated to any IBM Cloud data center or PoP allowing you geographic redundancy.
 {:shortdesc}
 
 With VPN access, you can:
