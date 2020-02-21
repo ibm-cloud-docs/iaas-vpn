@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-11"
+  years: 1994, 2020
+lastupdated: "2020-02-21"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -36,12 +36,16 @@ These FAQs provide answers to common questions about SSL VPNs.
 {:#what-is-ibm-cloud-vpn}
 {:faq}
 
-{{site.data.keyword.cloud}} VPN access is designed to allow users to remotely manage all servers securely over the {{site.data.keyword.cloud_notm}} private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
+{{site.data.keyword.cloud}} VPN access is designed to allow users to remotely manage all servers securely over the {{site.data.keyword.cloud_notm}} private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be created to any IBM Cloud data center or PoP providing geographic redundancy.
+
+With VPN access, you can:
 
 * Establish a VPN connection to the private network by using SSL or IPsec
 * Access your server through its private 10.x.x.x IP address by using SSH or RDP
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
+## What if I cannot connect to the SSL or IPsec VPN endpoint of my choice?
+Geographic redundancy exists to allow access into your private network from anywhere in the world you choose to connect from. If one location does not connect, try using a different data center.
 
 ## Does the SSL VPN also perform IPsec or other VPN protocols?
 {:#does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
