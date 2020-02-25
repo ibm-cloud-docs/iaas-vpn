@@ -10,15 +10,21 @@
      "vpn over view",
      "describe vpn"
    ],
+   "what-if-i-cannot-connect-to-the-ssl-or-ipsec-vpn-endpoint-of-my-choice-": [
+     "can not connect to the vpn end point",
+     "cannot connect to the vpn endpoints",
+     "can't connect to the vpn access point",
+     "unable to get my end point vpn connection",
+     "unable to connect to SSL vpn endpoint",
+     "can't connect to the IPsec vpn access end point"
+   ],   
  "does-ssl-vpn-perform-pptp-ipsed-vpn-protocols": [
-    "point to point tunneling protocol",
-    "point-to-point tunneling protocol",
-    "PPTP",
-    "vpn IPsec",
-    "vpn IP Security",
-    "vpn IP Sec",
-    "ibm cloud VPN IPsec",
-    "Virtual Private Network and PPTP"
+    "SSL vpn perform IPsec or other VPN protocols",
+    "VPN also perform IPSEC protocols",
+    "SSL VPN use a browser-based SSL VPN plug-in",
+    "available VPN connectivity options",
+    "what vpn ipsec connectivity options",
+    "VPN has IPSEC connection protocols"
   ],
   "can-i-mount-nas-ftp-remotely": [
      "vpn mount ftp server",
@@ -27,30 +33,16 @@
      "vpn mount remotely",
      "attach nas vpn",
      "vpn attaching nas",
-     "connecting vpn to nas ",
+     "connecting vpn to nas",
      "connect vpn to FTP server"
   ],
   "what-vendor-makes-ssl-vpn": [
      "who created vpn",
      "vendor that created vpn",
-     "vpn developed by"
+     "vpn developed by",
+     "vendor who makes vpn"
   ],
-  "what-is-the-difference-between-ssl-pptp-vpn": [
-     "secure vpn",
-     "vpn tunnel",
-     "pptp compatible",
-     "compare ssl pptp vpn",
-     "difference between ssl pptp"
-  ],
-  "why-am-i-unable-to-add-users-for-pptp-vpn": [
-     "is PPTP deprecated",
-     "deprecation of PPTP",
-     "deprecating pptp",
-     "add pptp vpn won't work",
-     "unable add pptp vpn",
-     "can't add users pptp"
-  ],
-  "what-are-available-categories-vpn-management": [
+    "what-are-available-categories-vpn-management": [
      "vpn status",
      "vpn management",
      "manage vpn",
