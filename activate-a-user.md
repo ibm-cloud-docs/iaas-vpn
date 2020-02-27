@@ -25,14 +25,19 @@ subcollection: iaas-vpn
 # Activating or deactivating SSL VPN access for a user
 {:#activate-or-deacivate-ssl-vpn-access-for-a-user}
 
-SSL VPN enables a user to create a secure tunnel from a remote desktop to the {{site.data.keyword.cloud_notm}} private network, using a standard web browser. The {{site.data.keyword.cloud_notm}} SSL VPN is compatible with Java-capable web browsers, and the SSL VPN service is provided free to all users. Activate or deactivate SSL VPN access for a user with these steps:
+To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
-1. Navigate to the {{site.data.keyword.cloud_notm}} [dashboard](https://{DomainName}/).
-1. From the **Classic Infrastructure** section, select **User list**.
-1. In the **Users** page, scroll to the user's name, or use the **Filter** option to search the list.
-1. Select the **List of actions** menu icon in the user's entry, and choose **Manage user details**.
-1. In the **Manage** page, select the Classic Infrastructure tab.
-1. From the **Permissions** tab, expand the **Network** menu.
-1. Select or deselect **Manage IPSEC Network Tunnels** to activate or deactivate SSL VPN access for that user.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
+1. Click **Manage > Access (IAM)**, and select **Users**.
+
+   If you need to add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv){:external}.
+   {:note}
+1. Select the name of the user that you want to assign SSL VPN access.
+1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.
+1. Select the **Enable SSL VPN Access** checkbox and click **Save**.
+
+  For example:
+
+  ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
 
 **Note:** SSL access must be activated before a user can connect using SSL.
