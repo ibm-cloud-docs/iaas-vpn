@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-08-21"
+  years: 1994, 2020
+lastupdated: "2020-02-28"
 
 keywords: SSL VPN access, user SSL VPN, IBM Cloud SSL VPN
 
@@ -38,5 +38,5 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
   For example:
 
   ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
-  
+
 **Note:** SSL access must be activated before a user can connect using SSL.
