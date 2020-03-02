@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-11-11"
+  years: 1994, 2020
+lastupdated: "2020-03-02"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -29,14 +29,14 @@ subcollection: iaas-vpn
 # Setting up an SSL VPN connection
 {:#setup-ssl-vpn-connections}
 
-Windows, Linux Fedora, and Linux require individualized connection instructions.
+Windows, Linux, and macOS require individualized connection instructions.
 {:shortdesc}
 
 Here are some examples of how you can use an SSL VPN connection:
 
-* Remote desktop to your server's backend IP address (10.4.X.X) for administration of your Windows 2003 servers.
-* SSH to your server's backend IP address (10.4.X.X) for administering your UNIX servers.
-* Use an IPMI client to control your server using the backend IPMI address (10.4.X.X). You can download the IPMI client tool after you are connected by going to http://downloads.softlayer.local/ipmi/ (You must be connected to SoftLayer Private VPN.)
+* Remote desktop to your server's backend IP address (10.X.X.X) for administration of your Windows 2012/2016 servers.
+* SSH to your server's backend IP address (10.X.X.X) for administering your Linux servers.
+* Use an IPMI client to control your server using the backend IPMI address (10.X.X.X). You can download the IPMI client tool after you are connected by going to http://downloads.softlayer.local/ipmi/ (You must be connected to SoftLayer Private VPN.)
   **Note:** IPMIView requires Java to be installed.  http://www.sun.com/java/
 * Testing your website on the backend IPs before you make them live on your public IPs.
 * File transfer of secure data between your server(s) and your home/office.
@@ -46,7 +46,7 @@ Here are some examples of how you can use an SSL VPN connection:
 ## Windows  
 {:#setup-ssl-vpn-connections-windows}
 
-1. Open Internet Explorer and navigate to `https://www.ibm.com/cloud-computing/bluemix/vpn-access`.
+1. Open Internet Explorer and navigate to `https://www.ibm.com/cloud/vpn-access`.
 * After you enter your username and password, you might be prompted to install an ActiveX plug-in. You must install this plug-in to connect to your backend network.
 * You also must have administrative rights on your workstation to install the ActiveX plug-in. If you do not have rights to install the plug-in, ask your local system administrator to install it for you.
 * After the ActiveX plug-in is installed, an Array SSL VPN network connector launches and establishes a connection to the VPN device. If successful, a red '**A**' appears in your taskbar. You can click the '**A**' at any time to see the status of your SSL VPN connection: its status, assigned IP address, assigned DNS servers, network routes, and time connected.
