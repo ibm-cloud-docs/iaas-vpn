@@ -1,41 +1,34 @@
 ---
 
 copyright:
-  years: 2017-2019
-lastupdated: "2019-11-11"
+  years: 2015, 2020
+lastupdated: "2020-03-17"
 
-keywords: support ticket, questions, IBM support ticket
+keywords: getting help, getting support
 
-subcollection: iaas-vpn
+subcollection: <!--Your subcollection value -->
 
 ---
+<!-- Copyright info and last updated date at top of file: REQUIRED
+    The copyright and lastupdated info is YAML content that must occur at the top of the MD file, before attributes are listed.
+    It must be --- surrounded by 3 dashes ---
+    The value "years" can contain just one year or a two years separated by a comma. (years: 2014, 2016)
+    The value "lastupdated" must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
+    The value for "years" must be indented 2 spaces under "copyright", followed by "lastupdated" which should start on its own non-indented line. -->
 
+<!-- Common attributes used in the template are defined as follows: -->
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
 {:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
 {:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:term: .term}
 
 # Getting help and support
 {: #gettinghelp-with-iaas-vpn}
 
-If you have problems or questions when using VPN, you can get help by searching for information or by asking questions through one of the forums. You can also open a support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/unifiedsupport/cases/add){:external}.
-{:shortdesc}
+<!-- If the release phase of your service is beta, be sure to indicate that with the first occurrence of the service name in the short description, for example, "If you have problems or questions when using Cost and Asset Management (Beta), you can..." Use the following template if your service is beta or GA. If your service is experimental, use the Getting help template below. -->
+If you have problems or questions when using VPN, you can go directly to the [{{site.data.keyword.Bluemix}} Support page](https://{DomainName}/unifiedsupport/supportcenter) to review featured FAQs, view cloud status, or post questions on Stack Overflow. You can also open a support case.
+{: shortdesc}
 
-When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
-
-* If you have technical questions about VPN, post your question on [Stack Overflow](https://stackoverflow.com/search?q=vpn+ibm-cloud){:external} and tag your question with `vpn` and `ibm-cloud`.
-
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/vpn.html?smartspace=ibm-cloud){:external} forum. Include the  `vpn` and `ibm-cloud` tags.
-
-For information about opening an IBM support case, or about support levels and case severities, see [Getting support](/docs/get-support?topic=get-support-getting-customer-support).
+* You can check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
+<!--Insert the appropriate Stack Overflow tag for your service for <service_keyword> in text below:  -->
+* You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. When using the forum to ask a question, tag your question with "ibm-cloud" and "vpn" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+* If you still can't resolve the problem, you can open a support case. For information about opening a support case, or about case severities and response times, see [Working with support cases](/docs/get-support?topic=get-support-open-case) or [Escalating support cases](/docs/get-support?topic=get-support-escalation).
