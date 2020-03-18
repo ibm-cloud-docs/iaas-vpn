@@ -64,8 +64,8 @@ It is recommended that you run all commands as root. (`setuid root`)
 1. Download Java from `http://java.com/en/download/manual.jsp`. This is a Linux self-extracting file.
 * Close your browser.
 * Move the file to where you want to install Java (usually in `/usr/local`)
-* Make the file executable using the command `chmod +x jre-6u1-linux-i586.bin`
-* Run the installer by using the command `./jre-6u1-linux-i586.bin`
+* Make the file executable using the command `chmod +x jre-8u241-linux-i586.bin`
+* Run the installer by using the command `./jre-8u241-linux-i586.bin`
 * Agree to the terms and install.
 * After installation completes, you must create a symlink.
 
