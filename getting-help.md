@@ -24,11 +24,12 @@ subcollection: <!--Your subcollection value -->
 # Getting help and support
 {: #gettinghelp-with-iaas-vpn}
 
-<!-- If the release phase of your service is beta, be sure to indicate that with the first occurrence of the service name in the short description, for example, "If you have problems or questions when using Cost and Asset Management (Beta), you can..." Use the following template if your service is beta or GA. If your service is experimental, use the Getting help template below. -->
-If you have problems or questions when using VPN, you can go directly to the [{{site.data.keyword.Bluemix}} Support page](https://{DomainName}/unifiedsupport/supportcenter) to review featured FAQs, view cloud status, or post questions on Stack Overflow. You can also open a support case.
-{: shortdesc}
+If you have problems or questions when you use {{site.data.keyword.cloud}} IaaS VPN, you can search for information or ask questions through one of the following forums. You can also open am IBM Support case in the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
+{:shortdesc}
 
-* You can check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
-<!--Insert the appropriate Stack Overflow tag for your service for <service_keyword> in text below:  -->
-* You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. When using the forum to ask a question, tag your question with "ibm-cloud" and "vpn" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
-* If you still can't resolve the problem, you can open a support case. For information about opening a support case, or about case severities and response times, see [Working with support cases](/docs/get-support?topic=get-support-open-case) or [Escalating support cases](/docs/get-support?topic=get-support-escalation).
+When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+
+* If you have technical questions about IaaS VPN, post your question on [Stack Overflow](https://stackoverflow.com/search?q=direct-link+ibm-cloud){: external} and tag your question with **direct-link** and **vpn**.
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){: external} forum. Include the **vpn** and **ibm-cloud** tags. 
+
+For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
