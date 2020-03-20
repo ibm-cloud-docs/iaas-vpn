@@ -1,7 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="iaas-vpn" category="network" audience="service" href="/docs/iaas-vpn?topic=iaas-vpn-getting-started" path="iaas-vpn"}
+{: .toc subcollection="iaas-vpn" category="network" audience="service" href="/docs/iaas-vpn?topic=iaas-vpn-getting-started" 
+console-page="/catalog/infrastructure/ipsec-vpn" path="iaas-vpn"}
 Virtual Private Networks (VPN)
 
     {: .navgroup id="learn"}
