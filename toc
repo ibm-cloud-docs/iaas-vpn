@@ -7,6 +7,7 @@ Virtual Private Networks (VPN)
     {: .navgroup id="learn"}
     getting-started.md
     about-vpn.md
+    [What is networking?](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
