@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="iaas-vpn" category="network" audience="service" href="/docs/iaas-vpn?topic=iaas-vpn-getting-started" console-page="/catalog/infrastructure/ipsec-vpn" path="iaas-vpn"}
+{: .toc subcollection="iaas-vpn" category="network" audience="service" href="/docs/iaas-vpn?topic=iaas-vpn-getting-started" console-page="/catalog/infrastructure/ipsec-vpn" product-page="https://www.ibm.com/cloud/vpn-access" path="iaas-vpn"}
 Virtual Private Networks (VPN)
 
     {: .navgroup id="learn"}
