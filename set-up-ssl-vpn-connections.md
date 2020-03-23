@@ -25,9 +25,13 @@ subcollection: iaas-vpn
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Setting up an SSL VPN connection
 {:#setup-ssl-vpn-connections}
+{: help}
+{: support}
 
 Windows, Linux, and macOS require individualized connection instructions.
 {:shortdesc}

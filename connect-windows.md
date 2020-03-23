@@ -12,9 +12,13 @@ subcollection: iaas-vpn
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Connecting to SSL VPN (Windows 7 and higher)
 {:#connect-ssl-vpn-windows7}
+{: help}
+{: support}
 
 To connect to the {{site.data.keyword.BluSoftlayer_notm}} SSL VPN, you must turn off User Access Control (UAC), enable the Administrator account, and ensure that you **Run as administrator** before you connect to the SSL VPN page.
 {:shortdesc}

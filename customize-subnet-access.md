@@ -25,9 +25,13 @@ subcollection: iaas-vpn
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Customizing SSL VPN subnet access
 {:#customize-subnet-access}
+{: help}
+{: support}
 
 {{site.data.keyword.BluSoftlayer_notm}} allows customers to set up VPN access from user accounts to specific private subnets. This setup must be performed by a user with VPN administration access, such as a local system administrator.
 {:shortdesc}

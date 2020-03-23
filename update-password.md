@@ -28,6 +28,8 @@ subcollection: iaas-vpn
 
 # Updating a user's SSL VPN password
 {:#update-users-ssl-vpn-password}
+{: help}
+{: support}
 
 VPN passwords are required for any VPN connectivity. Passwords can be set by any user with VPN Administration permissions associated with an account, such as an account owner or parent user.
 {:shortdesc}

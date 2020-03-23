@@ -21,9 +21,13 @@ subcollection: iaas-vpn
 {:note: .note}
 {:important: .important}
 {:download: .download}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Activating or deactivating SSL VPN access for a user
 {:#activate-or-deacivate-ssl-vpn-access-for-a-user}
+{: help}
+{: support}
 
 To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 

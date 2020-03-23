@@ -25,9 +25,13 @@ subcollection: iaas-vpn
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Connecting to an SSL VPN (MacOS)
 {:#connect-ssl-vpn-mac-osx}
+{: help}
+{: support}
 
 MotionPro Plus is a free client that provides secure connectivity from your Apple device to the {{site.data.keyword.cloud}} private network through SSL VPN.
 {:shortdesc}

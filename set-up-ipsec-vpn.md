@@ -25,9 +25,13 @@ subcollection: iaas-vpn
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Setting up an IPsec VPN connection
 {:#setup-ipsec-vpn}
+{: help}
+{: support}
 
 ## What is IPsec VPN?
 {:#what-is-ipsec-vpn}
