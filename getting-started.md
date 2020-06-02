@@ -88,7 +88,7 @@ Now that the VPN access is configured, you can log in by either using your brows
 
 ### Using a browser
 
-1. For supported operating systems, simply click on any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
+1. For supported operating systems, simply click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 

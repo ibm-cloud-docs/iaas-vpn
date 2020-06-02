@@ -85,8 +85,8 @@ It is recommended that you run all commands as root. (`setuid root`)
 ## Linux example
 {:#setup-ssl-vpn-connections-linux-example}
 
-1. Open your browser and go to `https://www.ibm.com/cloud-computing/bluemix/vpn-access`.
-2. Log in with your console username and password.
+1. Open your browser and go to the [VPN access](https://www.ibm.com/cloud/vpn-access) website.
+2. Select a VPN portal link and log in with your console username and password.
 3. After you are connected, select the **Network** tab.
 4. A connect/install button appears. Select it and you should be prompted to install a Java component.
 5. Install the component in the default path, which you might have to create manually. (`/usr/local/array_vpn`)
