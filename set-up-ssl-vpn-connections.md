@@ -40,7 +40,7 @@ Here are some examples of how you can use an SSL VPN connection:
 
 * Remote desktop to your server's backend IP address (10.X.X.X) for administration of your Windows 2012/2016 servers.
 * SSH to your server's backend IP address (10.X.X.X) for administering your Linux servers.
-* Use an IPMI client to control your server using the backend IPMI address (10.X.X.X). You can download the IPMI client tool after you are connected by going to http://downloads.softlayer.local/ipmi/ (You must be connected to SoftLayer Private VPN to access.)
+* Use an IPMI client to control your server using the backend IPMI address (10.X.X.X). You can download the IPMI client tool after you are connected by going to [http://downloads.service.softlayer.com/ipmi/](http://downloads.service.softlayer.com/ipmi/). (You must be connected to SoftLayer Private VPN to access.)
 
    IPMIView requires Java to be installed.  http://www.sun.com/java/
    {:note}
