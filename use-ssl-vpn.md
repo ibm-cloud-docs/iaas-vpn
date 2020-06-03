@@ -36,7 +36,7 @@ SSL VPN establishes a VPN connection between your system and the {{site.data.key
 
 Follow these steps to connect to an SSL VPN endpoint:
 
-1. For the supported browser, Internet Explorer on Windows, click any one of the available [SSL VPN connection locations](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints). For any other operating system, [install MotionPro or the Array Standalone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
+1. For the supported browser, Internet Explorer on Windows, click any one of the available [VPN connection locations](https://www.ibm.com/cloud/vpn-access). For any other operating system, [install MotionPro or the Array Standalone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
@@ -45,4 +45,4 @@ Follow these steps to connect to an SSL VPN endpoint:
 
 1. Use SSH or remote desktop to connect to your server's primary private IP address.
 2. Use remote management to [mount an ISO to your server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
-3. Use remote management functions that aren't provided by the [{{site.data.keyword.cloud}} console](http://{DomainName}/){:external}. To do so, access your bare metal or virtual server's respective **KVM Console** by selecting **Classic Infrastructure > Devices > (your server) > Remote Management > Actions > KVM Console**.
+3. Use remote management functions that aren't provided by the {{site.data.keyword.cloud}} console. To do so, access your bare metal or virtual server's respective **KVM Console** by selecting **Classic Infrastructure > Devices > (your server) > Remote Management > Actions > KVM Console**.
