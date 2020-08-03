@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-02-21"
+lastupdated: "2020-07-13"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -88,7 +88,7 @@ Now that the VPN access is configured, you can log in by either using your brows
 
 ### Using a browser
 
-1. For supported operating systems, simply click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access).
+1. Using Internet Explorer, click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
