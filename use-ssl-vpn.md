@@ -36,7 +36,7 @@ SSL VPN establishes a VPN connection between your system and the {{site.data.key
 
 Follow these steps to connect to an SSL VPN endpoint:
 
-1. For the supported browser, Internet Explorer on Windows, click any one of the available [VPN connection locations](https://www.ibm.com/cloud/vpn-access). For any other operating system, [install MotionPro or the Array Standalone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
+1. For the supported browser, Internet Explorer on Windows, click any one of the available [VPN web portals](https://www.ibm.com/cloud/vpn-access). For any other operating system, [install MotionPro or the Array Standalone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 

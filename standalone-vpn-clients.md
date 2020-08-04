@@ -37,7 +37,7 @@ subcollection: iaas-vpn
 2. Install and set up MotionPro:
    1. Run MotionProSetup to install the software.
    2. Run the MotionPro Setup Wizard. Then click the MotionPro icon on your desktop and select **Profile > Add**.
-   3. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](https://www.ibm.com/cloud/vpn-access)). Next, enter your VPN Username and Password and click **Save**.
+   3. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN web portals](https://www.ibm.com/cloud/vpn-access)). Next, enter your VPN Username and Password and click **Save**.
    4. Double-click the profile that you created to connect to the VPN.
 
 If you have issues, uninstall any Array programs using the Windows Control Panel, restart, and then reconnect.
