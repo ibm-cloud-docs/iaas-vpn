@@ -88,7 +88,7 @@ Now that the VPN access is configured, you can log in by either using your brows
 
 ### Using a browser
 
-1. Using Internet Explorer, click on any one of the [VPN web portals](https://www.ibm.com/cloud/vpn-access).
+1. Using Internet Explorer, click on any one of the [VPN access points](https://www.ibm.com/cloud/vpn-access).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
