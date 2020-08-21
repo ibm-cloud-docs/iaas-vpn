@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-08-04"
+lastupdated: "2020-08-20"
 
 keywords: VPN endpoints
 
@@ -34,15 +34,13 @@ The following domain names represent the regional entry points for SSL VPN conne
 
 ## North America
 
-* [vpn.atl01.softlayer.com](https://vpn.atl01.softlayer.com/prx/000/http/localhost/login)
-* [vpn.chi01.softlayer.com](https://vpn.cli01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/prx/000/http/localhost/login)
+   * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal06.softlayer.com](https://vpn.dal06.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal07.softlayer.com](https://vpn.dal07.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal10.softlayer.com](https://vpn.dal10.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal12.softlayer.com](https://vpn.dal12.softlayer.com/prx/000/http/localhost/login)   
-* [vpn.den01.softlayer.com](https://vpn.den01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.hou02.softlayer.com](https://vpn.hou02.softlayer.com/prx/000/http/localhost/login)
 * [vpn.lax01.softlayer.com](https://vpn.lax01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.mex01.softlayer.com](https://vpn.mex01.softlayer.com/prx/000/http/localhost/login)
@@ -77,8 +75,6 @@ The following domain names represent the regional entry points for SSL VPN conne
    * [vpn.lon06.softlayer.com](https://vpn.lon06.softlayer.com/prx/000/http/localhost/login)
 * [vpn.osl01.softlayer.com](https://vpn.osl01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.par01.softlayer.com](https://vpn.par01.softlayer.com/prx/000/http/localhost/login)
-* [vpn.par05.softlayer.com](https://vpn.par05.softlayer.com/prx/000/http/localhost/login)
-* [vpn.par06.softlayer.com](https://vpn.par06.softlayer.com/prx/000/http/localhost/login)
 
 ## Asia / Pacific
 * [vpn.hkg02.softlayer.com](https://vpn.hkg02.softlayer.com/prx/000/http/localhost/login)
