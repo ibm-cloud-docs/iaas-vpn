@@ -28,7 +28,6 @@ Virtual Private Networks (VPN)
     getting-help.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-    [VPN web access](https://www.ibm.com/cloud/vpn-access)
+    {: .navgroup id="reference"} 
     available-vpn-endpoints.md
     {: .navgroup-end}

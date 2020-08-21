@@ -52,7 +52,7 @@ Here are some examples of how you can use an SSL VPN connection:
 ## Windows  
 {:#setup-ssl-vpn-connections-windows}
 
-1. Open Internet Explorer and navigate to [https://www.ibm.com/cloud/vpn-access](https://www.ibm.com/cloud/vpn-access) to select a VPN web portal.
+1. Open Internet Explorer and select an [Available VPN endpoint](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints) to open a VPN web portal.
 1. After you enter your username and password, you might be prompted to install an ActiveX plug-in.
 
    You must install this plug-in to connect to your backend network.
@@ -85,7 +85,7 @@ It is recommended that you run all commands as root. (`setuid root`)
 ## Linux example
 {:#setup-ssl-vpn-connections-linux-example}
 
-1. Open your browser and go to the [VPN access](https://www.ibm.com/cloud/vpn-access) website.
+1. Go to [Available VPN endpoints](docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 2. Select a VPN web portal link and log in with your console username and password.
 3. After you are connected, select the **Network** tab.
 4. A connect/install button appears. Select it and you should be prompted to install a Java component.
