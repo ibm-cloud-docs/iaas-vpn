@@ -84,7 +84,7 @@ Our SSL VPN gateway is a security product from Array Networks. The gateway itsel
 
 * **Active** - The user has access to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/){:external} and VPN based on permissions set by the account administrator. This status can be manually selected and changed at any time.
 * **Disabled** - The user does not have access to any permissions or subscriptions on the account, including [customer portal](https://control.softlayer.com/){:external} and VPN. If set to disabled by another user on the account, this status can be manually selected and changed at any time.
-* **VPN Only** - The user has access to only VPN connectivity and may not access the [customer portal](https://control.softlayer.com/){:external}. This status can be manually selected or changed at any time.
+* **VPN Only** - The user has access to only VPN connectivity and cannot access the [customer portal](https://control.softlayer.com/){:external}. This status can be manually selected or changed at any time.
 * **Inactive** - The user hasn't used the [customer portal](https://control.softlayer.com/){:external} or VPN in the last 60 days (system-generated status).
 * **cancel_pending** - An administrator on the account cancelled this user and the cancellation is being processed. (system-generated status).
 

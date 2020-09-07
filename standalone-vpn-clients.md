@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2017, 2018, 2019
 lastupdated: "2019-12-02"
 
-keywords: Standalone VPN clients, Virtual Private Network, MotionPro
+keywords: Stand-alone VPN clients, Virtual Private Network, MotionPro
 
 subcollection: iaas-vpn
 
@@ -26,26 +26,26 @@ subcollection: iaas-vpn
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
 
-# Standalone VPN clients (Windows, Linux, and Mac OS X)
+# Stand-alone VPN clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
-## Windows standalone client
+## Windows stand-alone client
 {: #windows-standalone-client}
 
 1. Depending on your operating system, download the latest MotionPro 32-bit or 64-bit files from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
 
 2. Install and set up MotionPro:
    1. Run MotionProSetup to install the software.
-   2. Run the MotionPro Setup Wizard. Then click the MotionPro icon on your desktop and select **Profile > Add**.
+   2. Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
    3. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints)). Next, enter your VPN username and password and click **Save**.
    4. Double-click the profile that you created to connect to the VPN.
 
-If you have issues, uninstall any Array programs using the Windows Control Panel, restart, and then reconnect.
+If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
 MotionPro does not work on Windows 8 RT.
 {:note}
 
-## Linux standalone client
+## Linux stand-alone client
 {: #linux-standalone-client}
 
 1. Download the appropriate MotionPro client for your Linux distribution from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
@@ -74,18 +74,18 @@ MotionPro does not work on Windows 8 RT.
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {:tip}
 
-## Mac OS X 10.10 standalone client
+## Mac OS X 10.10 stand-alone client
 {: #macos-standalone-client}
 
 MacOS 10.11 is not supported.
 {:note}
 
-To install and set up  the MotionPro Plus client for the MacOS StandAlone Array SSL VPN from the Apple store:
+To install and set up the MotionPro Plus client for the MacOS StandAlone Array SSL VPN from the Apple store:
 
 1. Locate the MotionPro Plus client under the **Applications** folder and open the application.
 2. Click **Profile**, then **Add**.
-3. Fill in the Site Name, Host, and Username information, then click **OK**.
-4. Click **VPN** at the top left, then **Connect**.
+3. Complete the Site Name, Host, and Username information, then click **OK**.
+4. Click **VPN** in the upper left, then **Connect**.
 
 For example:
 
@@ -93,10 +93,10 @@ For example:
 
 If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376).
 
-Uninstall any previous versions of the client before installing a new version.
+Uninstall any previous versions of the client before you install a new version.
 {:important}
 
-## Array Networks VPN standalone client
+## Array Networks VPN stand-alone client
 {: #array-networks-vpn-standalone-client}
 
-If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to standalone clients.
+If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to stand-alone clients.

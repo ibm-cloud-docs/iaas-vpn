@@ -40,12 +40,12 @@ With VPN access, you can:
 
 A number of services require access through the private network, and VPN is one method that allows private network access. A VPN is good to use when you need to log in to the private network, do your work, and then log out. For example, this access often is needed to reach the KVM of the server.
 
-Each user on an account can be given VPN access and can be limited regarding the subnets to which it needs access. The account user must have VPN access enabled and have a VPN password specified before attempting to login to VPN services.
+Each user on an account can be given VPN access and can be limited regarding the subnets to which it needs access. The account user must have VPN access enabled and a VPN password specified before attempting to log in to VPN services.
 
 ## Enabling SSL VPN access
 {: #enable-user-vpn-access}
 
-To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
+To get started, you must enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
@@ -84,14 +84,14 @@ To update the VPN password:
 ## Logging in to the VPN
 {: #login-to-the-vpn}
 
-Now that the VPN access is configured, you can log in by either using your browser or a standalone VPN client.
+Now that the VPN access is configured, you can log in by either using your browser or a stand-alone VPN client.
 
 ### Using a browser
 
-1. Using Internet Explorer, click on any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
+1. Using Internet Explorer, click one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
-### Using a standalone SSL VPN client
+### Using a stand-alone SSL VPN client
 
-See [Standalone VPN clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.
+See [Stand-alone VPN clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.

@@ -36,13 +36,13 @@ subcollection: iaas-vpn
 ## What is IPsec VPN?
 {:#what-is-ipsec-vpn}
 
-IPsec is a suite of protocols designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks, which otherwise would be considered insecure. IPsec tunnel endpoints can be located anywhere and still provide access to your entire private network, or the networks you specify. IPSec tunnels are incompatible if you are using a zone, or cloud service endpoints.
+IPsec is a suite of protocols that are designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks, which otherwise would be considered insecure. IPsec tunnel endpoints can be located anywhere and still provide access to your entire private network, or the networks you specify. IPsec tunnels are incompatible if you are using a zone, or cloud service endpoints.
 {:shortdesc}
 
 IBM Cloud VPN access allows users to manage all servers remotely and securely over the IBM Cloud Private network. A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-   * Establish a VPN connection to the private network via SSL or IPsec.
-   * Access your server via its private 10.x.x.x IP address via SSH or RDP.
+   * Establish a VPN connection to the private network through SSL or IPsec.
+   * Access your server by using its private 10.x.x.x IP address through SSH or RDP.
    * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
 We provide the IPsec service to customers for management of their environments. It is not recommended for production workloads.
@@ -51,7 +51,7 @@ We provide the IPsec service to customers for management of their environments. 
 {:#setup-ipsec-vpn-negotiation-parameters}
 ![Negotiation Parameters](images/IPSec_VPN.png)
 
-You will need to know the following information for the remote side of the IPsec VPN:
+You need to know the following information for the remote side of the IPsec VPN:
 
 - Static IP address for VPN endpoint
 - Preshared key (Password)
@@ -59,7 +59,7 @@ You will need to know the following information for the remote side of the IPsec
 - Authentication (MD5, SHA1, SHA256, for phase 1&2)
 - Diffie-Hellman Group (for phase 1&2)
 - Is Perfect Forward Secrecy (PFS) used?
-- Keylife time (for phase 1 & 2) - **Note:** Our system measures this value in seconds!
+- Key life time (for phase 1 & 2) - **Note:** Our system measures this value in seconds!
 
 After you have this information available, you can configure the basic negotiation parameters of the VPN connection.
 
@@ -68,7 +68,7 @@ After you have this information available, you can configure the basic negotiati
 
 In the VPN connection properties, you must define the networks on the remote end of the tunnel and the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPsec tunnel.
 
-For example: If your network on the remote end of the tunnel uses a single subnet `10.0.0.0` with a netmask of `255.255.255.0`, you would enter IP address `10.0.0.0 / CIDR 24` for the “Protected Customer (Remote) Subnet” section.
+For example, if your network on the remote end of the tunnel uses a single subnet `10.0.0.0` with a netmask of `255.255.255.0`, you would enter IP address `10.0.0.0 / CIDR 24` for the “Protected Customer (Remote) Subnet” section.
 
 ### Network Address Translation (NAT)
 {:#setup-ipsec-vpn-nat}

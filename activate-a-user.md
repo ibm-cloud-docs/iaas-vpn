@@ -29,7 +29,7 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
-To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
+To get started, you must enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
@@ -43,4 +43,4 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 
   ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
 
-**Note:** SSL access must be activated before a user can connect using SSL.
+**Note:** SSL access must be activated before a user can connect by using SSL.

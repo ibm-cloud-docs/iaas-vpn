@@ -31,7 +31,7 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
-VPN passwords are required for any VPN connectivity. Passwords can be set by any user with VPN Administration permissions associated with an account, such as an account owner or parent user.
+VPN passwords are required for any VPN connectivity. Passwords can be set by any user with VPN Administration permissions that are associated with an account, such as an account owner or parent user.
 {:shortdesc}
 
 Follow these steps to update a user’s VPN password:

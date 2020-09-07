@@ -31,12 +31,12 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
-SSL VPN establishes a VPN connection between your system and the {{site.data.keyword.cloud}} private network by using client software to adjust your system's network settings to send select traffic to the private network. Depending on the operating system that you're using, you can access SSL VPN in a few different ways. The easiest way to access SSL VPN is to select a VPN endpoint directly from your browser and follow the plug-in installation prompts. However, if you come across problems when you use the browser-based solution, so you might need to review operating system-specific instructions.
+SSL VPN establishes a VPN connection between your system and the {{site.data.keyword.cloud}} private network. It does so by using client software to adjust your system's network settings to send select traffic to the private network. Depending on the operating system that you're using, you can access SSL VPN in a few different ways. The easiest way to access SSL VPN is to select a VPN endpoint directly from your browser and follow the plug-in installation prompts. However, if you come across problems when you use the browser-based solution, so you might need to review operating system-specific instructions.
 {:shortdesc}
 
 Follow these steps to connect to an SSL VPN endpoint:
 
-1. For the supported browser, Internet Explorer on Windows, click any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints). For any other operating system, [install MotionPro or the Array Standalone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
+1. For the supported browser, Internet Explorer on Windows, click any one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints). For any other operating system, [install MotionPro or the Array Stand-alone Client](/docs/iaas-vpn?=iaas-vpn-standalone-vpn-clients) and follow the instructions on the same page to complete the connection.
 2. Follow the prompts to accept use of the SSL VPN client software.
 3. When prompted, enter your VPN login credentials.
 
