@@ -34,4 +34,4 @@ If you have problems or questions when you use {{site.data.keyword.cloud}} IaaS 
 
 If you have technical questions about IaaS VPN, post your question on [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external} and tag your question with **vpn** and **ibm-cloud**.
 
-For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar).
