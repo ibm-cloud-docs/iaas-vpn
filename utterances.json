@@ -3,6 +3,7 @@
      "what is ibm cloud vpn",
      "outline vpn",
      "define vpn",
+     "vpn",
      "vpn definition",
      "ibm cloud vpn description",
      "vpn description",
@@ -14,8 +15,10 @@
      "can not connect to the vpn end point",
      "cannot connect to the vpn endpoints",
      "can't connect to the vpn access point",
+     "i cannot connect to my VPN",
      "unable to get my end point vpn connection",
      "unable to connect to SSL vpn endpoint",
+     "VPN connect failed",
      "can't connect to the IPsec vpn access end point"
    ],   
  "does-ssl-vpn-perform-pptp-ipsed-vpn-protocols": [
@@ -57,6 +60,9 @@
   "how-do-i-set-up-ssl-vpn": [
      "setup vpn",
      "set up vpn",
+     "how to set up vpn",
+     "how to setup vpn access",
+     "looking for the vpn access",
      "vpn quick-access",
      "vpn quick access",
      "connect vpn",
