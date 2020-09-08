@@ -85,7 +85,7 @@ It is recommended that you run all commands as root. (`setuid root`)
 ## Linux example
 {:#setup-ssl-vpn-connections-linux-example}
 
-1. Go to [Available VPN endpoints](docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
+1. Go to [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 2. Select a VPN web portal link and log in with your console username and password.
 3. After you are connected, select the **Network** tab.
 4. A connect/install button appears. Select it and you are prompted to install a Java component.
