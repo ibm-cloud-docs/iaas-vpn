@@ -12,7 +12,7 @@
     "vpn over view",
     "describe vpn"
   ],
-  "what-if-i-cannot-connect-to-the-ssl-or-ipsec-vpn-endpoint-of-my-choice-": [
+  "what-if-i-cannot-connect-to-vpn-endpoint": [
     "can not connect to the vpn end point",
     "I cannot log into vpn",
     "Failed to connect to array ssl VPN",
