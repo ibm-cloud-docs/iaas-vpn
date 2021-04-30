@@ -99,4 +99,4 @@ Uninstall any previous versions of the client before you install a new version.
 ## Array Networks VPN stand-alone client
 {: #array-networks-vpn-standalone-client}
 
-If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](http://client.arraynetworks.com.cn:8080/en/troubleshooting) page for a list of downloadable links to stand-alone clients.
+If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) page for a list of downloadable links to standalone clients.
