@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2017, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-12-02"
 
 keywords: Stand-alone VPN clients, Virtual Private Network, MotionPro
@@ -32,7 +32,7 @@ subcollection: iaas-vpn
 ## Windows stand-alone client
 {: #windows-standalone-client}
 
-1. Depending on your operating system, download the latest MotionPro 32-bit or 64-bit files from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
+1. Depending on your operating system, download the latest MotionPro 32-bit or 64-bit files from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} download site.
 
 2. Install and set up MotionPro:
    1. Run MotionProSetup to install the software.
@@ -48,7 +48,7 @@ MotionPro does not work on Windows 8 RT.
 ## Linux stand-alone client
 {: #linux-standalone-client}
 
-1. Download the appropriate MotionPro client for your Linux distribution from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) download site.
+1. Download the appropriate MotionPro client for your Linux distribution from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} download site.
 
 2. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
@@ -91,7 +91,7 @@ For example:
 
 ![Figure 1](images/snip20170425_1.png)
 
-If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376).
+If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
 
 Uninstall any previous versions of the client before you install a new version.
 {:important}
@@ -99,4 +99,4 @@ Uninstall any previous versions of the client before you install a new version.
 ## Array Networks VPN stand-alone client
 {: #array-networks-vpn-standalone-client}
 
-If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html) page for a list of downloadable links to standalone clients.
+If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} page for a list of downloadable links to standalone clients.
