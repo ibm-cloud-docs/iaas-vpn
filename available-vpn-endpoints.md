@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-08-20"
+  years: 1994, 2021
+lastupdated: "2021-06-03"
 
 keywords: VPN endpoints
 
@@ -35,9 +35,8 @@ The following domain names represent the regional entry points for SSL VPN conne
 ## North America
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/prx/000/http/localhost/login)
-   * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login)
+   * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login) 
    * [vpn.dal06.softlayer.com](https://vpn.dal06.softlayer.com/prx/000/http/localhost/login)
-   * [vpn.dal07.softlayer.com](https://vpn.dal07.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal10.softlayer.com](https://vpn.dal10.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal12.softlayer.com](https://vpn.dal12.softlayer.com/prx/000/http/localhost/login)   
