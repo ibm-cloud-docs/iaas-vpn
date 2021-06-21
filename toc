@@ -14,20 +14,20 @@ Virtual Private Networks (VPN)
     use-ssl-vpn.md
     set-up-ipsec-vpn.md
     set-up-ssl-vpn-connections.md
-    update-password.md
     activate-a-user.md
+    update-password.md
+    standalone-vpn-clients.md
+    customize-subnet-access.md
     connect-windows.md
     connect-mac.md
-    customize-subnet-access.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     ssl-pptp-vpn-faqs.md
     resolve-connection-errors.md
-    standalone-vpn-clients.md
     getting-help.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"} 
+    {: .navgroup id="reference"}
     available-vpn-endpoints.md
     {: .navgroup-end}
