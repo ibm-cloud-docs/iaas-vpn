@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-07-13"
+  years: 1994, 2021
+lastupdated: "2021-06-21"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -42,15 +42,27 @@ A number of services require access through the private network, and VPN is one 
 
 Each user on an account can be given VPN access and can be limited regarding the subnets to which it needs access. The account user must have VPN access enabled and a VPN password specified before attempting to log in to VPN services.
 
+SSL VPN is a shared VPN service, which is free of charge. It is not recommended for production use.
+{: important}
+
+## Use case scenarios
+{: #use-case-scenarios}
+
+| If you plan to: | Recommended VPN option:  |
+|--------------|--------------|
+| <ul><li>Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration</li><li>Perform low-level server management with the KVM console of your classic server</li><li>Apply critical security updates to your server with public interface shut down</li><li>Establish a single person, short-lived, private network connection for occasional server and application management</li></ul> | SSL VPN |
+| <ul><li>Manage multiple servers for development or test workloads on classic through an encrypted VPN tunnel</li><li>Transfer large files regularly among different servers</li><li>Establish a long-lived network path for managing servers and the customer-deployed applications they host</li></ul> | IPsec VPN |
+| <ul><li>Establish a site-to-site SSL or IPsec VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload</li><li>Establish a site-to-site SSL or IPsec VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users</li></ul> | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
+
 ## Enabling SSL VPN access
 {: #enable-user-vpn-access}
 
-To get started, you must enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
+To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
 
-   If you need to add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv){:external}.
+   To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv){:external}.
    {:note}
 1. Select the name of the user that you want to assign SSL VPN access.
 1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.
@@ -84,14 +96,16 @@ To update the VPN password:
 ## Logging in to the VPN
 {: #login-to-the-vpn}
 
-Now that the VPN access is configured, you can log in by either using your browser or a stand-alone VPN client.
+Now that the VPN access is configured, you can log in using your browser.
 
-### Using a browser
+1. Open your web browser and click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access).
 
-1. Using Internet Explorer, click one of the [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
-2. Follow the prompts to accept use of the SSL VPN client software.
-3. When prompted, enter your VPN login credentials.
+   Supported operating systems and browser pairs are as follows:
+      * Vista/Win7/Win8/Win2003/Win2008: Chrome, 360SE, MSIE, Firefox
+      * Linux: Chrome, Firefox
+      * MacOS: Safari, Chrome
 
-### Using a stand-alone SSL VPN client
-
-See [Stand-alone VPN clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for available options and usage instructions.
+2. When prompted, enter the VPN login credentials that you configured in [Setting the VPN password](#set-vpn-password).
+  * If you have a stand-alone MotionPro client installed, your client is launched automatically. 
+  * If you do not have a client installed, the compatible version of the MotionPro client is available for you to download. 
+3. With the MotionPro client, dependent on your operating system, you can follow different steps to create a connection. For more information about connecting using a MotionPro client, see [Stand-alone clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).

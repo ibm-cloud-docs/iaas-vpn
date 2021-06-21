@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-02-21"
+  years: 1994, 2021
+lastupdated: "2021-06-21"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -39,12 +39,12 @@ These FAQs provide answers to common questions about SSL VPNs.
 {: faq}
 {: support}
 
-{{site.data.keyword.cloud}} VPN access is designed to allow users to remotely manage all servers securely over the {{site.data.keyword.cloud_notm}} private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be created to any IBM Cloud data center or PoP providing geographic redundancy.
+{{site.data.keyword.cloud}} VPN access is designed to allow users to remotely manage all servers securely over the {{site.data.keyword.cloud_notm}} private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be created to any {{site.data.keyword.cloud_notm}} data center or PoP providing geographic redundancy.
 
 With VPN access, you can:
 
 * Establish a VPN connection to the private network by using SSL or IPsec
-* Access your server through its private 10.x.x.x IP address by using SSH or RDP
+* Access your server through its private `10.x.x.x` IP address by using SSH or RDP
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
 ## What if I cannot connect to the SSL or IPsec VPN endpoint of my choice?
@@ -52,7 +52,7 @@ With VPN access, you can:
 {: faq}
 {: support}
 
-Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an IBM Support ticket for more information, or you can use a different data center during the interruption.
+Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){:external} for more information, or you can use a different data center during the interruption.
 
 ## Does the SSL VPN also perform IPsec or other VPN protocols?
 {: #does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
@@ -93,4 +93,18 @@ Our SSL VPN gateway is a security product from Array Networks. The gateway itsel
 {: faq}
 {: support}
 
-SSL VPN is a quick-access connection that connects you to our private network directly from a browser. For detailed instructions on how to set up SSL VPN, see [Connecting to SSL VPN (Windows 7 and higher)](/docs/iaas-vpn?topic=iaas-vpn-connect-ssl-vpn-windows7#connect-ssl-vpn-windows7).
+SSL VPN is a quick-access connection that connects you to our private network directly for non-production use. For detailed instructions about setting up SSL VPN, see [Getting started with SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
+
+## Why isn't auto-disconnect working?
+{: #auto-disconnect}
+{: faq}
+{: support}
+
+Auto-disconnect is working as expected because SSL VPN is designed to manage classic servers, but not for production use. There is a check against idle clients and the token is terminated if time is up.
+
+## Are there open-source alternatives to SSL VPN?
+{: #open-source-alter}
+{: faq}
+{: support}
+
+Yes, you can set up [WireGuard](https://www.wireguard.com/){:external) or [OpenVPN](https://openvpn.net/){:external) VPN servers on {{site.data.keyword.cloud_notm}} and build your own VPN tunnels from on-premises to {{site.data.keyword.cloud_notm}}.

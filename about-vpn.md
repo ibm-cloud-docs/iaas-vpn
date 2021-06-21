@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-12-02"
+lastupdated: "2021-06-21"
 
 keywords: VPN access, private network, public access
 
@@ -23,7 +23,7 @@ subcollection: iaas-vpn
 # About VPN
 {:#about-iaas-vpn}
 
-VPN access enables you to manage all servers and services that are associated with your account, remotely, over the IBM Cloud Private network. A VPN connection from your location to the private network allows **out-of-band management and server rescue** through an encrypted VPN tunnel.
+VPN access enables you to manage all servers and services that are associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows **out-of-band management and server rescue** through an encrypted VPN tunnel.
 
 Communicating by using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external} allow for VPN access customization at the user level.
 
@@ -39,6 +39,10 @@ This out-of-band secure gateway gives you access to your server over the private
 * Shut down public interface while setting up the server for the first time.
 * Shut down public interface during critical security updates.
 * Shut down public interface during security breach and resolve the issue over the private network.
+* Establish a single person, short-lived, private network connection for occasional server and application management.
+
+SSL VPN is a shared VPN service, which is free of charge. It is not recommended for production use.
+{: important}
 
 ## Key features
 {:#iaas-vpn-key-features}

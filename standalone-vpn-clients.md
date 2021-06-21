@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-12-02"
+  years: 1994, 2021
+lastupdated: "2021-06-21"
 
-keywords: Stand-alone VPN clients, Virtual Private Network, MotionPro
+keywords: Standalone VPN clients, Virtual Private Network, MotionPro
 
 subcollection: iaas-vpn
 
@@ -26,14 +26,13 @@ subcollection: iaas-vpn
 {:DomainName: data-hd-keyref="DomainName"}
 {:term: .term}
 
-# Stand-alone VPN clients (Windows, Linux, and Mac OS X)
+# Connecting to SSL VPN from MotionPro clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
-## Windows stand-alone client
+## Windows standalone client
 {: #windows-standalone-client}
 
-1. Depending on your operating system, download the latest MotionPro 32-bit or 64-bit files from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} download site.
-
+1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 2. Install and set up MotionPro:
    1. Run MotionProSetup to install the software.
    2. Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
@@ -45,10 +44,10 @@ If you have issues, uninstall any Array programs by using the Windows Control Pa
 MotionPro does not work on Windows 8 RT.
 {:note}
 
-## Linux stand-alone client
+## Linux standalone client
 {: #linux-standalone-client}
 
-1. Download the appropriate MotionPro client for your Linux distribution from the Array Networks [Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} download site.
+1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 
 2. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
@@ -74,17 +73,16 @@ MotionPro does not work on Windows 8 RT.
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {:tip}
 
-## Mac OS X 10.10 stand-alone client
+## Mac OS X 10.10 standalone client
 {: #macos-standalone-client}
 
 MacOS 10.11 is not supported.
 {:note}
 
-To install and set up the MotionPro Plus client for the MacOS StandAlone Array SSL VPN from the Apple store:
-
-1. Locate the MotionPro Plus client under the **Applications** folder and open the application.
+1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
+2. Locate the MotionPro Plus client under the **Applications** folder and open the application.
 2. Click **Profile**, then **Add**.
-3. Complete the Site Name, Host, and Username information, then click **OK**.
+3. Fill in the Site Name, Host, and Username information, then click **OK**.
 4. Click **VPN** in the upper left, then **Connect**.
 
 For example:
@@ -95,8 +93,3 @@ If the tunnel isn't directing traffic correctly, you might need to [add routes m
 
 Uninstall any previous versions of the client before you install a new version.
 {:important}
-
-## Array Networks VPN stand-alone client
-{: #array-networks-vpn-standalone-client}
-
-If any of the clients mentioned earlier in this document do not work for you, check the [Client Software Download for AG Products](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} page for a list of downloadable links to standalone clients.
