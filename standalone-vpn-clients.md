@@ -29,7 +29,7 @@ subcollection: iaas-vpn
 # Connecting to SSL VPN from MotionPro clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
-## Windows standalone client
+## Windows stand-alone client
 {: #windows-standalone-client}
 
 1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
@@ -44,7 +44,7 @@ If you have issues, uninstall any Array programs by using the Windows Control Pa
 MotionPro does not work on Windows 8 RT.
 {:note}
 
-## Linux standalone client
+## Linux stand-alone client
 {: #linux-standalone-client}
 
 1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
@@ -73,7 +73,7 @@ MotionPro does not work on Windows 8 RT.
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {:tip}
 
-## Mac OS X 10.10 standalone client
+## Mac OS X 10.10 stand-alone client
 {: #macos-standalone-client}
 
 MacOS 10.11 is not supported.
