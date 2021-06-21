@@ -12,14 +12,11 @@ Virtual Private Networks (VPN)
 
     {: .navgroup id="howto"}
     use-ssl-vpn.md
-    set-up-ipsec-vpn.md
-    set-up-ssl-vpn-connections.md
     activate-a-user.md
     update-password.md
     standalone-vpn-clients.md
     customize-subnet-access.md
-    connect-windows.md
-    connect-mac.md
+    set-up-ipsec-vpn.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
