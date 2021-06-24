@@ -32,7 +32,7 @@ subcollection: iaas-vpn
 ## Windows stand-alone client
 {: #windows-standalone-client}
 
-1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
+1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 2. Install and set up MotionPro:
    1. Run MotionProSetup to install the software.
    2. Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
@@ -47,7 +47,7 @@ MotionPro does not work on Windows 8 RT.
 ## Linux stand-alone client
 {: #linux-standalone-client}
 
-1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
+1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 
 2. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
@@ -79,7 +79,7 @@ To start the MotionPro client, you must input at least the `hostname` and `usern
 MacOS 10.11 is not supported.
 {:note}
 
-1. When you [log in to SSL VPN](docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
+1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 2. Locate the MotionPro Plus client under the **Applications** folder and open the application.
 2. Click **Profile**, then **Add**.
 3. Fill in the Site Name, Host, and Username information, then click **OK**.
