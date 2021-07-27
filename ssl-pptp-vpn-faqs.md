@@ -107,4 +107,4 @@ Auto-disconnect is working as expected because SSL VPN is designed to manage cla
 {: faq}
 {: support}
 
-Yes, you can set up [WireGuard](https://www.wireguard.com/){:external) or [OpenVPN](https://openvpn.net/){:external) VPN servers on {{site.data.keyword.cloud_notm}} and build your own VPN tunnels from on-premises to {{site.data.keyword.cloud_notm}}.
+Yes, you can set up [WireGuard](https://www.wireguard.com/){:external) or [OpenVPN](https://openvpn.net/){:external) servers on {{site.data.keyword.cloud_notm}}, and build your own VPN tunnels from on-premises to {{site.data.keyword.cloud_notm}}.
