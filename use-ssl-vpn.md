@@ -32,7 +32,7 @@ subcollection: iaas-vpn
 {: support}
 
 SSL VPN establishes a VPN connection between your system and the {{site.data.keyword.cloud}} private network by using client software to adjust your system's network settings to send select traffic to the private network. Depending on the operating system that you're using, you can access SSL VPN in a few different ways. The easiest way to access SSL VPN is to access a VPN endpoint directly from your browser and follow the installation prompts. 
-{:shortdesc}
+{: shortdesc}
 
 See [Getting started with VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) for configuring and logging in to the SSL VPN.
 

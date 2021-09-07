@@ -37,7 +37,7 @@ subcollection: iaas-vpn
 {:#what-is-ipsec-vpn}
 
 IPsec is a suite of protocols that are designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks, which otherwise would be considered insecure. IPsec tunnel endpoints can be located anywhere and still provide access to your entire private network, or the networks you specify. IPsec tunnels are incompatible if you are using a zone, or cloud service endpoints.
-{:shortdesc}
+{: shortdesc}
 
 IBM Cloud VPN access allows users to manage all servers remotely and securely over the IBM Cloud Private network. A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 

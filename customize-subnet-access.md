@@ -34,7 +34,7 @@ subcollection: iaas-vpn
 {: support}
 
 {{site.data.keyword.BluSoftlayer_notm}} allows customers to set up VPN access from user accounts to specific private subnets. This setup must be performed by a user with VPN administration access, such as a local system administrator.
-{:shortdesc}
+{: shortdesc}
 
 To customize subnet access, navigate to the VPN interface and follow these steps:
 

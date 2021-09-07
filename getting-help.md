@@ -30,7 +30,7 @@ subcollection: iaas-vpn
 {: #gettinghelp-with-iaas-vpn}
 
 If you have problems or questions when you use {{site.data.keyword.cloud}} IaaS VPN, you can search for information or ask questions by using a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
-{:shortdesc}
+{: shortdesc}
 
 If you have technical questions about IaaS VPN, post your question on [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external} and tag your question with **vpn** and **ibm-cloud**.
 

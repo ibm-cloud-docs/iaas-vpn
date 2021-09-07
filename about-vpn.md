@@ -25,7 +25,7 @@ subcollection: iaas-vpn
 
 VPN access enables you to manage all servers and services that are associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows **out-of-band management and server rescue** through an encrypted VPN tunnel.
 
-Communicating by using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external} allow for VPN access customization at the user level.
+Communicating by using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} allow for VPN access customization at the user level.
 
 ## What are some ways to use the SSL VPN?
 {:#ways-to-use-iaas-vpn}

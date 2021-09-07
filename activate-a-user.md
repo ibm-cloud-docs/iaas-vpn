@@ -31,9 +31,9 @@ subcollection: iaas-vpn
 
 To get started, you must enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
-   If you need to add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv){:external}.
+   If you need to add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv){: external}.
    {:note}
 1. Select the name of the user that you want to assign SSL VPN access.
 1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.

@@ -32,11 +32,11 @@ subcollection: iaas-vpn
 {: support}
 
 VPN passwords are required for any VPN connectivity. Passwords can be set by any user with VPN Administration permissions that are associated with an account, such as an account owner or parent user.
-{:shortdesc}
+{: shortdesc}
 
 Follow these steps to update a user’s VPN password:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 1. From the menu bar, click **Manage** &gt; **Access (IAM)**.
 2. Select **Users**, and then click **User details**.
 3. On the **User details page**, go to **VPN access for classic infrastructure**.
