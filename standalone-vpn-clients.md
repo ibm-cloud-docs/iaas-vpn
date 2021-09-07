@@ -53,8 +53,8 @@ MotionPro does not work on Windows 8 RT.
 
 3. Run the script to install. For example:  `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
-  * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
-  * To stop it:  `[control-c]`
+   * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
+   * To stop it:  `[control-c]`
 
 4. Enable `rc.local`, if needed. For example:
 
@@ -92,4 +92,4 @@ For example:
 If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
 
 Uninstall any previous versions of the client before you install a new version.
-{:important}
+{: important}
