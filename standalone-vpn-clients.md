@@ -33,16 +33,16 @@ subcollection: iaas-vpn
 {: #windows-standalone-client}
 
 1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
-2. Install and set up MotionPro:
-   1. Run MotionProSetup to install the software.
-   2. Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
-   3. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints)). Next, enter your VPN username and password and click **Save**.
-   4. Double-click the profile that you created to connect to the VPN.
+1. Install and set up MotionPro:
+   * Run MotionProSetup to install the software.
+   * Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
+   * To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints)). Next, enter your VPN username and password and click **Save**.
+   * Double-click the profile that you created to connect to the VPN.
 
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
 MotionPro does not work on Windows 8 RT.
-{:note}
+{: note}
 
 ## Linux stand-alone client
 {: #linux-standalone-client}
@@ -58,7 +58,7 @@ MotionPro does not work on Windows 8 RT.
 
 4. Enable `rc.local`, if needed. For example:
 
-  ```
+     ```
      # If you are using systemd, you might not have the /etc/rc.local file, and you will get an "Auto start script file was not found in system!" error.
      # Make an empty one. systemd will know what to do with it
      # <https://askubuntu\.com/a/919598>
@@ -68,10 +68,10 @@ MotionPro does not work on Windows 8 RT.
 
      # Try installing again
      $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
-```     
+   ```     
 
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
-{:tip}
+{: tip}
 
 ## Mac OS X 10.10 stand-alone client
 {: #macos-standalone-client}
@@ -80,10 +80,10 @@ MacOS 10.11 is not supported.
 {:note}
 
 1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
-2. Locate the MotionPro Plus client under the **Applications** folder and open the application.
-2. Click **Profile**, then **Add**.
-3. Fill in the Site Name, Host, and Username information, then click **OK**.
-4. Click **VPN** in the upper left, then **Connect**.
+1. Locate the MotionPro Plus client under the **Applications** folder and open the application.
+1. Click **Profile**, then **Add**.
+1. Fill in the Site Name, Host, and Username information, then click **OK**.
+1. Click **VPN** in the upper left, then **Connect**.
 
 For example:
 

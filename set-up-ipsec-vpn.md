@@ -29,7 +29,7 @@ subcollection: iaas-vpn
 {:support: data-reuse='support'}
 
 # Setting up an IPsec VPN connection
-{:#setup-ipsec-vpn}
+{: #setup-ipsec-vpn}
 {: help}
 {: support}
 
@@ -48,7 +48,8 @@ IBM Cloud VPN access allows users to manage all servers remotely and securely ov
 We provide the IPsec service to customers for management of their environments. It is not recommended for production workloads.
 
 ### Negotiation parameters
-{:#setup-ipsec-vpn-negotiation-parameters}
+{: #setup-ipsec-vpn-negotiation-parameters}
+
 ![Negotiation Parameters](images/IPSec_VPN.png)
 
 You need to know the following information for the remote side of the IPsec VPN:
@@ -64,19 +65,19 @@ You need to know the following information for the remote side of the IPsec VPN:
 After you have this information available, you can configure the basic negotiation parameters of the VPN connection.
 
 ### Protected networks
-{:#setup-ipsec-vpn-protected-networks}
+{: #setup-ipsec-vpn-protected-networks}
 
 In the VPN connection properties, you must define the networks on the remote end of the tunnel and the local networks for the tunnel. In the “Protected Customer (Remote) Subnet”, enter the private IP address space in CIDR notation for the remote (Non-IBM) end of the IPsec tunnel.
 
 For example, if your network on the remote end of the tunnel uses a single subnet `10.0.0.0` with a netmask of `255.255.255.0`, you would enter IP address `10.0.0.0 / CIDR 24` for the “Protected Customer (Remote) Subnet” section.
 
 ### Network Address Translation (NAT)
-{:#setup-ipsec-vpn-nat}
+{: #setup-ipsec-vpn-nat}
 
 With the IPsec VPN, you also are allowed to define private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection. This allows you to have private internet traffic that is forwarded to one of your internal IP addresses of a system behind your VPN, without exposing the remote location to full internet access.  
 
 ### Network Address Translation/assigned static NAT subnets
-{:#setup-ipsec-vpn-nat-static-subnets}
+{: #setup-ipsec-vpn-nat-static-subnets}
 
 To configure a remote VPN IP with a static NAT entry:
 
