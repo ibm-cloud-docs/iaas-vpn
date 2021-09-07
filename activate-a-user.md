@@ -25,7 +25,7 @@ subcollection: iaas-vpn
 {:support: data-reuse='support'}
 
 # Activating or deactivating SSL VPN access for a user
-{:#activate-or-deacivate-ssl-vpn-access-for-a-user}
+{: #activate-or-deacivate-ssl-vpn-access-for-a-user}
 {: help}
 {: support}
 

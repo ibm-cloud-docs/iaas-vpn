@@ -21,14 +21,14 @@ subcollection: iaas-vpn
 {:DomainName: data-hd-keyref="DomainName"}
 
 # About VPN
-{:#about-iaas-vpn}
+{: #about-iaas-vpn}
 
 VPN access enables you to manage all servers and services that are associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows **out-of-band management and server rescue** through an encrypted VPN tunnel.
 
 Communicating by using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} allow for VPN access customization at the user level.
 
 ## What are some ways to use the SSL VPN?
-{:#ways-to-use-iaas-vpn}
+{: #ways-to-use-iaas-vpn}
 
 This out-of-band secure gateway gives you access to your server over the private network. Common uses are:
 
@@ -45,23 +45,23 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 {: important}
 
 ## Key features
-{:#iaas-vpn-key-features}
+{: #iaas-vpn-key-features}
 
  * Our private network gives you a cost-free way to communicate with and manage servers. The VPN is the gateway to this private network.
  * Access points throughout the world create the best and quickest access and interaction possible. IBM Cloud currently has VPN access points in many cities.
  * See [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
 
 ## How it works
-{:#iaas-vpn-how-it-works}
+{: #iaas-vpn-how-it-works}
 
 With VPN access, use SSL to connect with the private network and manage your server and services.
 
 ## SSL VPN connections
-{:#iaas-vpn-ssl-vpn-connections}
+{: #iaas-vpn-ssl-vpn-connections}
 
 SSL VPN is a quick-access connection that connects you to our private network directly from a browser. The SSL VPN is compatible with Windows XP or higher and ActiveX, Fedora, Ubuntu, and Mac OSX. Global access to our private network is available at a single URL, which allows you to choose the nearest VPN endpoint.
 
 ## SSL VPN subnet limit
-{:#iaas-vpn-ssl-vpn-subnet-limit}
+{: #iaas-vpn-ssl-vpn-subnet-limit}
 
 The SSL VPN client has a hard 64-subnet limit that it can use to populate its routing table. If your account has more than 64 subnets, make sure that you modify your SSL VPN permissions to use manual subnet assignment. If you do not, some subnets can become unreachable through the SSL VPN.

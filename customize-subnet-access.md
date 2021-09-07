@@ -29,7 +29,7 @@ subcollection: iaas-vpn
 {:support: data-reuse='support'}
 
 # Customizing SSL VPN subnet access
-{:#customize-subnet-access}
+{: #customize-subnet-access}
 {: help}
 {: support}
 

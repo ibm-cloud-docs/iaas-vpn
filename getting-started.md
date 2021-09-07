@@ -68,9 +68,9 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.
 1. Select the **Enable SSL VPN Access** checkbox and click **Save**.
 
-  For example:
+   For example:
 
-  ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
+   ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
 
 ## Setting the VPN password
 {: #set-vpn-password}
@@ -79,8 +79,8 @@ Your next step is to update the classic infrastructure VPN password. You can upd
 
 If you have the following access, you can update the VPN password for another user:
 
-  * An IAM policy with the Editor or higher role on the User management service.
-  * You are an ancestor in the classic infrastructure hierarchy for the user and you have the Manage users classic infrastructure permission assigned.
+* An IAM policy with the Editor or higher role on the User management service.
+* You are an ancestor in the classic infrastructure hierarchy for the user and you have the Manage users classic infrastructure permission assigned.
 
 To update the VPN password:
 
@@ -88,7 +88,7 @@ To update the VPN password:
 2. Select a user from the list.
 3. From the User details view, go to the **VPN password** section.
 
-  ![Edit VPN password](images/vpn_password.png)
+   ![Edit VPN password](images/vpn_password.png)
 
 4. Click the **Edit** icon ![Edit icon](images/icon_write.svg) to enter a new VPN password.  
 5. Click **Apply** to save your changes.
@@ -98,14 +98,16 @@ To update the VPN password:
 
 Now that the VPN access is configured, you can log in using your browser.
 
-1. Open your web browser and click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access).
+1. Open your web browser and click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access){: external}.
 
    Supported operating systems and browser pairs are as follows:
+
       * Vista/Win7/Win8/Win2003/Win2008: Chrome, 360SE, MSIE, Firefox
       * Linux: Chrome, Firefox
       * MacOS: Safari, Chrome
 
 2. When prompted, enter the VPN login credentials that you configured in [Setting the VPN password](#set-vpn-password).
-  * If you have a stand-alone MotionPro client installed, your client is launched automatically. 
-  * If you do not have a client installed, the compatible version of the MotionPro client is available for you to download. 
+
+   * If you have a stand-alone MotionPro client installed, your client is launched automatically. 
+   * If you do not have a client installed, the compatible version of the MotionPro client is available for you to download. 
 3. With the MotionPro client, dependent on your operating system, you can follow different steps to create a connection. For more information about connecting using a MotionPro client, see [Stand-alone clients](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).

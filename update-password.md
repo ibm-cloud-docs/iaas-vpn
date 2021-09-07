@@ -27,7 +27,7 @@ subcollection: iaas-vpn
 {:term: .term}
 
 # Updating a user's SSL VPN password
-{:#update-users-ssl-vpn-password}
+{: #update-users-ssl-vpn-password}
 {: help}
 {: support}
 

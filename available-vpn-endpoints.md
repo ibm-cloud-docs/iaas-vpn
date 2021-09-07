@@ -27,7 +27,7 @@ subcollection: iaas-vpn
 {:term: .term}
 
 # Available VPN endpoints
-{:#available-vpn-endpoints}
+{: #available-vpn-endpoints}
 
 The following domain names represent the regional entry points for SSL VPN connectivity. Some data centers provide a domain that returns all endpoints in the data center, and allows for dispersion of connections throughout. Use these domain names to configure VPN client software, or simply click one to initiate a browser-assisted connection experience.
 {: shortdesc}
@@ -35,7 +35,7 @@ The following domain names represent the regional entry points for SSL VPN conne
 ## North America
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/prx/000/http/localhost/login)
-   * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login) 
+   * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal06.softlayer.com](https://vpn.dal06.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal10.softlayer.com](https://vpn.dal10.softlayer.com/prx/000/http/localhost/login)
