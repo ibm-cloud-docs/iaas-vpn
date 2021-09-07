@@ -63,7 +63,7 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 1. Click **Manage > Access (IAM)**, and select **Users**.
 
    To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv){: external}.
-   {:note}
+   {: note}
 1. Select the name of the user that you want to assign SSL VPN access.
 1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.
 1. Select the **Enable SSL VPN Access** checkbox and click **Save**.

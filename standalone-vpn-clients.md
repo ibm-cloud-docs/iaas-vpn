@@ -77,7 +77,7 @@ To start the MotionPro client, you must input at least the `hostname` and `usern
 {: #macos-standalone-client}
 
 MacOS 10.11 is not supported.
-{:note}
+{: note}
 
 1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
 1. Locate the MotionPro Plus client under the **Applications** folder and open the application.

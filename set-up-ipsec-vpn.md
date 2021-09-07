@@ -34,7 +34,7 @@ subcollection: iaas-vpn
 {: support}
 
 ## What is IPsec VPN?
-{:#what-is-ipsec-vpn}
+{: #what-is-ipsec-vpn}
 
 IPsec is a suite of protocols that are designed to authenticate and encrypt all IP traffic between two locations. It allows trusted data to pass through networks, which otherwise would be considered insecure. IPsec tunnel endpoints can be located anywhere and still provide access to your entire private network, or the networks you specify. IPsec tunnels are incompatible if you are using a zone, or cloud service endpoints.
 {: shortdesc}
