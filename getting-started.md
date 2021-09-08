@@ -50,9 +50,9 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 
 | If you plan to: | Recommended VPN option:  |
 |--------------|--------------|
-| <ul><li>Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration</li><li>Perform low-level server management with the KVM console of your classic server</li><li>Apply critical security updates to your server with public interface shut down</li><li>Establish a single person, short-lived, private network connection for occasional server and application management</li></ul> | SSL VPN |
-| <ul><li>Manage multiple servers for development or test workloads on classic through an encrypted VPN tunnel</li><li>Transfer large files regularly among different servers</li><li>Establish a long-lived network path for managing servers and the customer-deployed applications they host</li></ul> | IPsec VPN |
-| <ul><li>Establish a site-to-site SSL or IPsec VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload</li><li>Establish a site-to-site SSL or IPsec VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users</li></ul> | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
+| Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration  \n Perform low-level server management with the KVM console of your classic server  \n Apply critical security updates to your server with public interface shut down  \n Establish a single person, short-lived, private network connection for occasional server and application management | SSL VPN |
+| Manage multiple servers for development or test workloads on classic through an encrypted VPN tunnel  \n Transfer large files regularly among different servers  \n Establish a long-lived network path for managing servers and the customer-deployed applications they host | IPsec VPN |
+| Establish a site-to-site SSL or IPsec VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload  \n Establish a site-to-site SSL or IPsec VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
 
 ## Enabling SSL VPN access
 {: #enable-user-vpn-access}
