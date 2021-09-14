@@ -79,5 +79,12 @@
     "connecting vpn",
     "vpn connection",
     "vpn connects"
-  ]
+  ],
+  "what-vendor-makes-ssl-vpn": [
+    "why is my ssl vpn not working",
+    "SSL vpn is not working",
+    "add user to access ssl vpn",
+    "VPN connection is not working",
+    "How to add users and give them SSL VPN access"
+  ],
 }
