@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-06-21"
+lastupdated: "2021-10-06"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -110,3 +110,12 @@ Auto-disconnect is working as expected because SSL VPN is designed to manage cla
 {: support}
 
 Yes, you can set up [WireGuard](https://www.wireguard.com/){: external} or [OpenVPN](https://openvpn.net/){: external} servers on {{site.data.keyword.cloud_notm}}, and build your own VPN tunnels from on-premises to {{site.data.keyword.cloud_notm}}.
+
+## Why do I get redirected by the browser to install MotionPro client when it's already installed on my Mac?
+{: #redirect-install}
+{: faq}
+{: support}
+
+This is a known issue with the combination of the OSX Operating System (macOS BigSur 11.4) and the Firefox browser (89.0.2 64-bits). To avoid this issue, try to launch the MotionPro client from your local system rather than accessing one of the VPN endpoints from a browser. 
+
+
