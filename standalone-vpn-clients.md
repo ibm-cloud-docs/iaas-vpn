@@ -58,7 +58,7 @@ MotionPro does not work on Windows 8 RT.
 
 4. Enable `rc.local`, if needed. For example:
 
-     ```
+     ```sh
      # If you are using systemd, you might not have the /etc/rc.local file, and you will get an "Auto start script file was not found in system!" error.
      # Make an empty one. systemd will know what to do with it
      # <https://askubuntu\.com/a/919598>

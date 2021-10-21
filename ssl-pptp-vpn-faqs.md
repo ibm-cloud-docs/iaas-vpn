@@ -47,7 +47,7 @@ With VPN access, you can:
 * Access your server through its private `10.x.x.x` IP address by using SSH or RDP
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
-Our SSL VPN gateway is a security product from Array Networks. The gateway itself runs radius to update users and passwords from our customer portal. 
+Our SSL VPN gateway is a security product from Array Networks. The gateway itself runs radius to update users and passwords from our customer portal.
 
 ## What if I cannot connect to the SSL or IPsec VPN endpoint of my choice?
 {: #what-if-i-cannot-connect-to-vpn-endpoint}
@@ -116,6 +116,4 @@ Yes, you can set up [WireGuard](https://www.wireguard.com/){: external} or [Open
 {: faq}
 {: support}
 
-This is a known issue with the combination of the OSX Operating System (macOS BigSur 11.4) and the Firefox browser (89.0.2 64-bits). To avoid this issue, try to launch the MotionPro client from your local system rather than accessing one of the VPN endpoints from a browser. 
-
-
+This is a known issue with the combination of the OSX Operating System (macOS BigSur 11.4) and the Firefox browser (89.0.2 64-bits). To avoid this issue, try to launch the MotionPro client from your local system rather than accessing one of the VPN endpoints from a browser.

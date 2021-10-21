@@ -47,9 +47,9 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 ## Key features
 {: #iaas-vpn-key-features}
 
- * Our private network gives you a cost-free way to communicate with and manage servers. The VPN is the gateway to this private network.
- * Access points throughout the world create the best and quickest access and interaction possible. IBM Cloud currently has VPN access points in many cities.
- * See [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
+* Our private network gives you a cost-free way to communicate with and manage servers. The VPN is the gateway to this private network.
+* Access points throughout the world create the best and quickest access and interaction possible. IBM Cloud currently has VPN access points in many cities.
+* See [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints) for a list of VPN access points to the {{site.data.keyword.cloud_notm}} private network.
 
 ## How it works
 {: #iaas-vpn-how-it-works}

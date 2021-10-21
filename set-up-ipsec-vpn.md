@@ -41,9 +41,9 @@ IPsec is a suite of protocols that are designed to authenticate and encrypt all 
 
 IBM Cloud VPN access allows users to manage all servers remotely and securely over the IBM Cloud Private network. A VPN connection from your location to the private network gives you the capability for out-of-band management and server rescue through an encrypted VPN tunnel. With VPN access, you can:
 
-   * Establish a VPN connection to the private network through SSL or IPsec.
-   * Access your server by using its private 10.x.x.x IP address through SSH or RDP.
-   * Connect to your server’s IPMI IP address for additional server management or rescue needs.
+* Establish a VPN connection to the private network through SSL or IPsec.
+* Access your server by using its private 10.x.x.x IP address through SSH or RDP.
+* Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
 We provide the IPsec service to customers for management of their environments. It is not recommended for production workloads.
 
@@ -81,8 +81,8 @@ With the IPsec VPN, you also are allowed to define private IP addresses on the {
 
 To configure a remote VPN IP with a static NAT entry:
 
- * Select the red arrow to display the subnet list in the **Assigned Static NAT subnets** section. Each IP in the subnet is displayed.  
- * Enter the IP on the remote end of the VPN connection under the **Customer IP** column and enter a name for the mapping under the **Name** column.  
- * Select the **Add/Modify Context Address Translations** and **Apply Configurations** to save and apply the configuration.
+* Select the red arrow to display the subnet list in the **Assigned Static NAT subnets** section. Each IP in the subnet is displayed.  
+* Enter the IP on the remote end of the VPN connection under the **Customer IP** column and enter a name for the mapping under the **Name** column.  
+* Select the **Add/Modify Context Address Translations** and **Apply Configurations** to save and apply the configuration.
 
 This action sets up a static one-to-one network translation for the return traffic, which is used by your hosts behind the IBM Cloud VPN concentrator to communicate with the hosts behind the remote VPN peer. For example, all traffic for IP `10.1.255.92` will be translated and forwarded to the customer's IP `192.168.10.15`. This forwarding eliminates the need for more route entries on the {{site.data.keyword.cloud_notm}} server.
