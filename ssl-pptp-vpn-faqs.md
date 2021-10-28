@@ -32,7 +32,7 @@ subcollection: iaas-vpn
 {: #vpn-ssl-faq}
 
 These FAQs provide answers to common questions about SSL VPNs.
-{:shortdesc}
+{: shortdesc}
 
 ## What is {{site.data.keyword.cloud_notm}} VPN?
 {: #what-is-ibm-cloud-vpn}
@@ -54,7 +54,7 @@ Our SSL VPN gateway is a security product from Array Networks. The gateway itsel
 {: faq}
 {: support}
 
-Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){:external} for more information, or you can use a different data center during the interruption.
+Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){: external} for more information, or you can use a different data center during the interruption.
 
 ## Does the SSL VPN also perform IPsec or other VPN protocols?
 {: #does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
@@ -77,17 +77,17 @@ For security reasons, only servers that are located inside the data center are a
 {: faq}
 {: support}
 
-First, an account administrator must enable SSL VPN permissions for users.  As a user, you can log in to the VPN through [the web interface]( https://www.ibm.com/cloud/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
+First, an account administrator must enable SSL VPN permissions for users. As a user, you can log in to the VPN through [the web interface]( https://www.ibm.com/cloud/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
 
 ## What are the available categories for a user's VPN management status within the customer portal?
 {: #what-are-available-categories-vpn-management}
 {: faq}
 {: support}
 
-* **Active** - The user has access to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/){:external} and VPN based on permissions set by the account administrator. This status can be manually selected and changed at any time.
-* **Disabled** - The user does not have access to any permissions or subscriptions on the account, including [customer portal](https://control.softlayer.com/){:external} and VPN. If set to disabled by another user on the account, this status can be manually selected and changed at any time.
-* **VPN Only** - The user has access to only VPN connectivity and cannot access the [customer portal](https://control.softlayer.com/){:external}. This status can be manually selected or changed at any time.
-* **Inactive** - The user hasn't used the [customer portal](https://control.softlayer.com/){:external} or VPN in the last 60 days (system-generated status).
+* **Active** - The user has access to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/){: external} and VPN based on permissions set by the account administrator. This status can be manually selected and changed at any time.
+* **Disabled** - The user does not have access to any permissions or subscriptions on the account, including [customer portal](https://control.softlayer.com/){: external} and VPN. If set to disabled by another user on the account, this status can be manually selected and changed at any time.
+* **VPN Only** - The user has access to only VPN connectivity and cannot access the [customer portal](https://control.softlayer.com/){: external}. This status can be manually selected or changed at any time.
+* **Inactive** - The user hasn't used the [customer portal](https://control.softlayer.com/){: external} or VPN in the last 60 days (system-generated status).
 * **cancel_pending** - An administrator on the account cancelled this user and the cancellation is being processed. (system-generated status).
 
 ## How do I set up SSL VPN?
