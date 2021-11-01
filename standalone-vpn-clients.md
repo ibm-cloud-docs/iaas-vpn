@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-06-21"
+lastupdated: "2021-11-01"
 
-keywords: Standalone VPN clients, Virtual Private Network, MotionPro
+keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
 subcollection: iaas-vpn
 
@@ -29,36 +29,41 @@ subcollection: iaas-vpn
 # Connecting to SSL VPN from MotionPro clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
+## Prerequisite
+{: #standalone-prereqs}
+
+* If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
+* If you have already installed the compatible version of MotionPro client, launch it directly from local.  
+* In rare occasions (for example, incompatible browsers), you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}.
+
 ## Windows stand-alone client
 {: #windows-standalone-client}
 
-1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
-1. Install and set up MotionPro:
-   * Run MotionProSetup to install the software.
-   * Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
-   * To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints)). Next, enter your VPN username and password and click **Save**.
-   * Double-click the profile that you created to connect to the VPN.
+To install and set up MotionPro on Windows, follow these steps:
+
+1. Run the MotionPro Setup Wizard. Then, click the MotionPro icon on your desktop and select **Profile > Add**.
+1. To create a profile, enter a Site Name (domain name or IP address) and Host (select from available [VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints)). Next, enter your VPN username and password and click **Save**.
+1. Double-click the profile that you created to connect to the VPN.
 
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
-MotionPro does not work on Windows 8 RT.
-{: note}
+   MotionPro does not work on Windows 8 RT.
+   {:note}
 
 ## Linux stand-alone client
 {: #linux-standalone-client}
 
-1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
+To install and set up MotionPro on Linux, follow these steps:
 
-2. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
-
-3. Run the script to install. For example:  `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
+1. Make it executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
+1. Run the script to install. For example: `./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh`
 
    * Usage:  `./MotionPro --host [site] --user [username] --passwd [password]`
    * To stop it:  `[control-c]`
 
-4. Enable `rc.local`, if needed. For example:
+1. Enable `rc.local`, if needed. For example:
 
-     ```sh
+   ```sh
      # If you are using systemd, you might not have the /etc/rc.local file, and you will get an "Auto start script file was not found in system!" error.
      # Make an empty one. systemd will know what to do with it
      # <https://askubuntu\.com/a/919598>
@@ -68,28 +73,35 @@ MotionPro does not work on Windows 8 RT.
 
      # Try installing again
      $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
-   ```     
+   ```      
 
 To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {: tip}
 
-## Mac OS X 10.10 stand-alone client
-{: #macos-standalone-client}
+## MotionPro StandAlone Mac OS X
+{: #motionpro-standalone-client-mac}
 
-MacOS 10.11 is not supported.
-{: note}
-
-1. When you [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started) using the web browser, the compatible version of MotionPro client is available for you to download.
-1. Locate the MotionPro Plus client under the **Applications** folder and open the application.
-1. Click **Profile**, then **Add**.
-1. Fill in the Site Name, Host, and Username information, then click **OK**.
-1. Click **VPN** in the upper left, then **Connect**.
-
-For example:
-
-![Figure 1](images/snip20170425_1.png)
-
-If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
+To install and set up MotionPro on Mac OS, follow these steps for your particular version.
 
 Uninstall any previous versions of the client before you install a new version.
 {: important}
+
+1. Open the MotionPro Plus application.
+1. Click **Profile**, then **Create**. The Create Profile window shows.
+1. Enter the following information:
+   * Profile Name
+   * Virtual Site Host
+   * Virtual Site Port
+   * User Name
+   * Password
+
+   ![Create Profile window](images/mac-standalone.png){: caption="Create Profile window" caption-side="bottom"}
+
+1. Select the newly created profile, then click **Connect**.
+
+   ![Connecting to virtual site host](images/mac-standalone-connect.png){: caption="Connecting to virtual site host" caption-side="bottom"}
+
+   Status shows **Connecting**.
+
+If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
+{: note}
