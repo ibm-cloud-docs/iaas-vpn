@@ -53,6 +53,7 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 | Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration  \n Perform low-level server management with the KVM console of your classic server  \n Apply critical security updates to your server with public interface shut down  \n Establish a single person, short-lived, private network connection for occasional server and application management | SSL VPN |
 | Manage multiple servers for development or test workloads on classic through an encrypted VPN tunnel  \n Transfer large files regularly among different servers  \n Establish a long-lived network path for managing servers and the customer-deployed applications they host | IPsec VPN |
 | Establish a site-to-site SSL or IPsec VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload  \n Establish a site-to-site SSL or IPsec VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
+{: caption="Table 1: Recommended VPN options" caption-side="bottom"}  
 
 ## Enabling SSL VPN access
 {: #enable-user-vpn-access}
@@ -71,7 +72,7 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 
    For example:
 
-   ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
+   ![Enable SSL VPN Access](images/vpn_ssl_enable.png){: caption="Enable SSL VPN Access" caption-side="bottom"}  
 
 ## Setting the VPN password
 {: #set-vpn-password}
@@ -89,7 +90,7 @@ To update the VPN password:
 2. Select a user from the list.
 3. From the User details view, go to the **VPN password** section.
 
-   ![Edit VPN password](images/vpn_password.png)
+   ![Edit VPN password](images/vpn_password.png){: caption="Edit VPN password" caption-side="bottom"}  
 
 4. Click the **Edit** icon ![Edit icon](images/icon_write.svg) to enter a new VPN password.  
 5. Click **Apply** to save your changes.

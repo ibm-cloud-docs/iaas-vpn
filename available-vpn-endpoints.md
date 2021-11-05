@@ -33,6 +33,7 @@ The following domain names represent the regional entry points for SSL VPN conne
 {: shortdesc}
 
 ## North America
+{: #north-america}
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/prx/000/http/localhost/login)
    * [vpn.dal05.softlayer.com](https://vpn.dal05.softlayer.com/prx/000/http/localhost/login)
@@ -61,9 +62,13 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.lax01.softlayer.com](https://vpn.lax01.softlayer.com/prx/000/http/localhost/login)
 
 ## South America
+{: #south-america}
+
 * [vpn.sao01.softlayer.com](https://vpn.sao01.softlayer.com/prx/000/http/localhost/login)
 
 ## Europe / Middle East
+{: #europe-middle-east}
+
 * [vpn.ams01.softlayer.com](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.ams03.softlayer.com](https://vpn.ams03.softlayer.com/prx/000/http/localhost/login)
 * [vpn.che01.softlayer.com](https://vpn.che01.softlayer.com/prx/000/http/localhost/login)
@@ -76,6 +81,8 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.par01.softlayer.com](https://vpn.par01.softlayer.com/prx/000/http/localhost/login)
 
 ## Asia / Pacific
+{: #asia-pacific}
+
 * [vpn.hkg02.softlayer.com](https://vpn.hkg02.softlayer.com/prx/000/http/localhost/login)
 * [vpn.mel01.softlayer.com](https://vpn.mel01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.seo01.softlayer.com](https://vpn.seo01.softlayer.com/prx/000/http/localhost/login)

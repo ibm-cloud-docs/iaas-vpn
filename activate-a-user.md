@@ -42,7 +42,7 @@ To get started, you must enable VPN access on each account that needs VPN access
 
    For example:
 
-   ![Enable SSL VPN Access](images/vpn_ssl_enable.png)
+   ![Enable SSL VPN Access](images/vpn_ssl_enable.png){: caption="Enable SSL VPN Access" caption-side="bottom"}  
 
    SSL access must be activated before a user can connect by using SSL.
    {: note}

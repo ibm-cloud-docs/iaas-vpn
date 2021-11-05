@@ -34,7 +34,7 @@ subcollection: iaas-vpn
 
 * If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
 * If you have already installed the compatible version of MotionPro client, launch it directly from local.  
-* In rare occasions (for example, incompatible browsers), you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}.
+* In rare occasions (for example, incompatible browsers), you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}.
 
 ## Windows stand-alone client
 {: #windows-standalone-client}
@@ -48,7 +48,7 @@ To install and set up MotionPro on Windows, follow these steps:
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
    MotionPro does not work on Windows 8 RT.
-   {:note}
+   {: note}
 
 ## Linux stand-alone client
 {: #linux-standalone-client}
