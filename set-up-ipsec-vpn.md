@@ -50,7 +50,7 @@ We provide the IPsec service to customers for management of their environments. 
 ### Negotiation parameters
 {: #setup-ipsec-vpn-negotiation-parameters}
 
-![Negotiation Parameters](images/IPSec_VPN.png)
+![Negotiation Parameters](images/IPSec_VPN.png){: caption="Table 1. IAM platform-access user role and actions" caption-side="bottom"}
 
 You need to know the following information for the remote side of the IPsec VPN:
 
