@@ -10,15 +10,7 @@ subcollection: iaas-vpn
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 # About VPN
 {: #about-iaas-vpn}

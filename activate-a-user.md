@@ -10,19 +10,7 @@ subcollection: iaas-vpn
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:DomainName: data-hd-keyref="DomainName"}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:download: .download}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Activating or deactivating SSL VPN access for a user
 {: #activate-or-deacivate-ssl-vpn-access-for-a-user}
