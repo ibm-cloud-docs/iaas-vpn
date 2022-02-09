@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-01-09"
+lastupdated: "2022-02-09"
 
 keywords: VPN endpoints
 
