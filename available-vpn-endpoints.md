@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-01-03"
+lastupdated: "2022-01-09"
 
 keywords: VPN endpoints
 
@@ -52,6 +52,9 @@ The following domain names represent the regional entry points for SSL VPN conne
 {: #asia-pacific}
 
 * [vpn.hkg02.softlayer.com](https://vpn.hkg02.softlayer.com/prx/000/http/localhost/login)
+* [vpn.osa21.softlayer.com](https://vpn.osa21.softlayer.com/prx/000/http/localhost/login)
+* [vpn.osa22.softlayer.com](https://vpn.osa22.softlayer.com/prx/000/http/localhost/login)
+* [vpn.osa23.softlayer.com](https://vpn.osa23.softlayer.com/prx/000/http/localhost/login)
 * [vpn.seo01.softlayer.com](https://vpn.seo01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.sng01.softlayer.com](https://vpn.sng01.softlayer.com/prx/000/http/localhost/login)
 * [vpn.syd01.softlayer.com](https://vpn.syd01.softlayer.com/prx/000/http/localhost/login)
