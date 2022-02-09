@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-11-01"
+  years: 1994, 2022
+lastupdated: "2022-02-09"
 
 keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -19,8 +19,11 @@ subcollection: iaas-vpn
 {: #standalone-prereqs}
 
 * If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
-* If you have already installed the compatible version of MotionPro client, launch it directly from local.  
-* In rare occasions (for example, incompatible browsers), you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}.
+* If you already installed a compatible version of the MotionPro client, launch it directly from local.  
+* In rare instances, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}. 
+
+Uninstall any previous versions of the client before you install a new version.
+{: important}
 
 ## Windows stand-alone client
 {: #windows-standalone-client}
@@ -34,7 +37,7 @@ To install and set up MotionPro on Windows, follow these steps:
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
    MotionPro does not work on Windows 8 RT.
-   {: note}
+   {:note}
 
 ## Linux stand-alone client
 {: #linux-standalone-client}
@@ -49,7 +52,7 @@ To install and set up MotionPro on Linux, follow these steps:
 
 1. Enable `rc.local`, if needed. For example:
 
-   ```sh
+   ```sh 
      # If you are using systemd, you might not have the /etc/rc.local file, and you will get an "Auto start script file was not found in system!" error.
      # Make an empty one. systemd will know what to do with it
      # <https://askubuntu\.com/a/919598>
@@ -61,18 +64,31 @@ To install and set up MotionPro on Linux, follow these steps:
      $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.2.3.sh
    ```      
 
-To start the MotionPro client, you must input at least the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
+To start the MotionPro client, you must enter the `hostname` and `username` as arguments. `Site` can be either a domain name or an IP address.
 {: tip}
 
-## MotionPro StandAlone Mac OS X
+## MotionPro stand-alone clients for Mac OS X
 {: #motionpro-standalone-client-mac}
 
-To install and set up MotionPro on Mac OS, follow these steps for your particular version.
+### If you start from the Web browser and use the automatically installed MotionPro client
+{: #web-browser-auto-install-motionpro}
 
-Uninstall any previous versions of the client before you install a new version.
-{: important}
+If you have ever [logged on to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using a Web browser, the compatible version of MotionPro client is installed.
 
-1. Open the MotionPro Plus application.
+1. Next time you click on the desired VPN endpoint from the [VPN endpoint page](https://www.ibm.com/cloud/vpn-access) and log in, the client is automatically launched. 
+2. A profile for the selected endpoint is automatically loaded in your Web-launched MotionPro client. You do not have to create a new profile.
+3. Click **Connect**.
+
+### If you are using the manually installed MotionPro clients
+{: #manually-installed-motionpro-clients}
+
+If you have downloaded and installed the MotionPro client manually from the following pages, follow these steps to configure a connection.
+
+* Mac OS MotionPro client on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}
+* Mac OS MotionPro client (Web-Launched MP Client) on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}
+* MotionPro Plus clients from the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){:external}
+
+1. Open the Mac MotionPro or MotionPro Plus application.
 1. Click **Profile**, then **Create**. The Create Profile window shows.
 1. Enter the following information:
    * Profile Name
@@ -82,12 +98,12 @@ Uninstall any previous versions of the client before you install a new version.
    * Password
 
    ![Create Profile window](images/mac-standalone.png){: caption="Create Profile window" caption-side="bottom"}
-
-1. Select the newly created profile, then click **Connect**.
+   
+1. Select the newly created profile, then click **Connect**. 
 
    ![Connecting to virtual site host](images/mac-standalone-connect.png){: caption="Connecting to virtual site host" caption-side="bottom"}
 
-   Status shows **Connecting**.
-
+   Status shows **Connecting**. 
+ 
 If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
 {: note}
