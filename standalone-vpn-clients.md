@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-02-09"
+lastupdated: "2022-03-03"
 
 keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -15,14 +15,14 @@ subcollection: iaas-vpn
 # Connecting to SSL VPN from MotionPro clients (Windows, Linux, and Mac OS X)
 {: #standalone-vpn-clients}
 
-## Prerequisite
+## Prerequisites
 {: #standalone-prereqs}
 
 * If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
 * If you already installed a compatible version of the MotionPro client, launch it directly from local.  
 * On rare occasions, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}. 
 
-Uninstall any previous versions of the client before you install a new version.
+Uninstall any previous versions of the client and restart your system before you install a new version.
 {: important}
 
 ## Windows stand-alone client
@@ -36,7 +36,7 @@ To install and set up MotionPro on Windows, follow these steps:
 
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
-   MotionPro does not work on Windows 8 RT.
+   MotionPro does not work on Windows 8 RT. To download the MotionPro version compatible with Windows 11, click [here](https://support.arraynetworks.net/prx/000/http/supportportal.arraynetworks.net/downloads/motionpro/Windows/Win11/MotionProSetup_win11.zip){: external}.
    {:note}
 
 ## Linux stand-alone client
