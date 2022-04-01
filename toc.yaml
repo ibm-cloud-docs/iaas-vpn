@@ -5,6 +5,7 @@
 toc:
   properties:
     subcollection: iaas-vpn
+    service-name: is.vpn
     version: 2
     category: network_edge
     audience: service
