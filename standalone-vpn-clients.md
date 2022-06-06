@@ -20,7 +20,7 @@ subcollection: iaas-vpn
 
 * If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
 * If you already installed a compatible version of the MotionPro client, launch it directly from local.  
-* On rare occasions, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}. 
+* On rare occasions, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}. 
 
 Uninstall any previous versions of the client and restart your system before you install a new version.
 {: important}
@@ -37,7 +37,7 @@ To install and set up MotionPro on Windows, follow these steps:
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
    MotionPro does not work on Windows 8 RT. To download the MotionPro version compatible with Windows 11, click [here](https://support.arraynetworks.net/prx/000/http/supportportal.arraynetworks.net/downloads/motionpro/Windows/Win11/MotionProSetup_win11.zip){: external}.
-   {:note}
+   {: note}
 
 ## Linux stand-alone client
 {: #linux-standalone-client}
@@ -62,7 +62,7 @@ If you have issues, uninstall any Array programs by using the Windows Control Pa
 `sudo ./vpn_cmdline -s`
 
 The preceding steps do not work with Linux installed on Windows. MotionPro will authenticate, but will not establish a connection.
-{:note}
+{: note}
 
 ## MotionPro stand-alone clients for Mac OS X
 {: #motionpro-standalone-client-mac}
@@ -84,11 +84,11 @@ The automatically downloaded MotionPro client does not work on MacOS Monterey (V
 
 If you have downloaded and installed the MotionPro client manually from the following pages, complete these steps to configure a connection.
 
-* Mac OS MotionPro client on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external}
-* Mac OS MotionPro client (Web-Launched MP Client) on the [Array Networks Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){:external} website.
+* Mac OS MotionPro client on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}
+* Mac OS MotionPro client (Web-Launched MP Client) on the [Array Networks Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} website.
 
-The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){:external}, are not supported. 
-{:important}
+The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){: external}, are not supported. 
+{: important}
 
 1. Open the Mac MotionPro or MotionPro Plus application.
 1. Click **Profile**, then **Create**. The Create Profile window shows.
