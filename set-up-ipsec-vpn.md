@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-02-21"
+  years: 1994, 2022
+lastupdated: "2022-07-14"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -72,4 +72,8 @@ To configure a remote VPN IP with a static NAT entry:
 This action sets up a static one-to-one network translation for the return traffic, which is used by your hosts behind the IBM Cloud VPN concentrator to communicate with the hosts behind the remote VPN peer. For example, all traffic for IP `10.1.255.92` will be translated and forwarded to the customer's IP `192.168.10.15`. This forwarding eliminates the need for more route entries on the {{site.data.keyword.cloud_notm}} server.
 
 Due to security reasons, IBM does not provide specific hardware or software/operating system information about the equipment used to host our IPsec and SSL VPN services.  
-{: note}
+{: note} 
+
+### Known restrictions
+{: #restrictions}
+Due to incompatibilities with our IBM CLoud IPsec VPN service, you are unable to build IPsec VPN tunnels with other major cloud providers, such as AWS, Azure, and Google Cloud. If you feel that building an IPsec VPN tunnel between your IBM Cloud environment and any of these providers is necessary, reach out to the IBM Sales team to discuss options that are available, such as a personal gateway appliance. 
