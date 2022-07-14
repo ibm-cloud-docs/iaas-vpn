@@ -70,3 +70,6 @@ To configure a remote VPN IP with a static NAT entry:
 * Select the **Add/Modify Context Address Translations** and **Apply Configurations** to save and apply the configuration.
 
 This action sets up a static one-to-one network translation for the return traffic, which is used by your hosts behind the IBM Cloud VPN concentrator to communicate with the hosts behind the remote VPN peer. For example, all traffic for IP `10.1.255.92` will be translated and forwarded to the customer's IP `192.168.10.15`. This forwarding eliminates the need for more route entries on the {{site.data.keyword.cloud_notm}} server.
+
+Due to security reasons, IBM does not provide specific hardware or software/operating system information about the equipment used to host our IPsec and SSL VPN services.  
+{: note}
