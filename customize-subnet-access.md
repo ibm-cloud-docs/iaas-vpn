@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-11"
+  years: 1994, 2022
+lastupdated: "2022-07-27"
 
 keywords: subnet access, IBM Cloud, VPN access
 
@@ -23,6 +23,9 @@ subcollection: iaas-vpn
 To customize subnet access, navigate to the VPN interface and follow these steps:
 
 1. Select the **Manual** radio button in the **Subnets** column.
-2. Select the **Edit** link in the **Manual Overrides** column.
-3. Select or clear the checkboxes in the **Grant Access** column of the subnets for which you want to update accessibility.
-4. Select the **Save** link to apply your changes. Or, select the **Cancel** link to return to the previous screen without saving your changes.
+1. Select the **Edit** link in the **Manual Overrides** column.
+1. Select or clear the checkboxes in the **Grant Access** column of the subnets for which you want to update accessibility.
+1. Select the **Save** link to apply your changes. Or, select the **Cancel** link to return to the previous screen without saving your changes.
+
+If you have more than 64 subnets on an account, you will not be able to access your device/subnet. When you have your SSL VPN subnet assignment assigned to `Automatic`, it only provides you access with the first 64 subnets on the account; the other subnets aren't included. To fix this issue, you can set your SSL VPN subnet assignment to `Manual` and manually select the devices/subnets where your user need access.
+{: note}
