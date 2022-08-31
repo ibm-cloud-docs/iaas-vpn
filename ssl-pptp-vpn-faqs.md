@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-10-06"
+  years: 1994, 2022
+lastupdated: "2022-08-17"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -38,7 +38,7 @@ Our SSL VPN gateway is a security product from Array Networks. The gateway itsel
 {: faq}
 {: support}
 
-Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from.  If one location does not connect, you can open an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){: external} for more information, or you can use a different data center during the interruption.
+Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from. If one location doesn't connect, you can use a different data center during the interruption. If multiple locations are failing to connect, visit our Troubleshooting section.
 
 ## Does the SSL VPN also perform IPsec or other VPN protocols?
 {: #does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
@@ -61,7 +61,7 @@ For security reasons, only servers that are located inside the data center are a
 {: faq}
 {: support}
 
-First, an account administrator must enable SSL VPN permissions for users. As a user, you can log in to the VPN through [the web interface]( https://www.ibm.com/cloud/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
+First, an account administrator must enable SSL VPN permissions for users.  As a user, you can log in to the VPN through [the web interface]( https://www.ibm.com/cloud/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
 
 ## What are the available categories for a user's VPN management status within the customer portal?
 {: #what-are-available-categories-vpn-management}
@@ -81,13 +81,6 @@ First, an account administrator must enable SSL VPN permissions for users. As a 
 
 SSL VPN is a quick-access connection that connects you to our private network directly for non-production use. For detailed instructions about setting up SSL VPN, see [Getting started with SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
 
-## Why isn't auto-disconnect working?
-{: #auto-disconnect}
-{: faq}
-{: support}
-
-Auto-disconnect is working as expected because SSL VPN is designed to manage classic servers, but not for production use. There is a check against idle clients and the token is terminated if time is up.
-
 ## Are there open-source alternatives to SSL VPN?
 {: #open-source-alter}
 {: faq}
@@ -95,9 +88,11 @@ Auto-disconnect is working as expected because SSL VPN is designed to manage cla
 
 Yes, you can set up [WireGuard](https://www.wireguard.com/){: external} or [OpenVPN](https://openvpn.net/){: external} servers on {{site.data.keyword.cloud_notm}}, and build your own VPN tunnels from on-premises to {{site.data.keyword.cloud_notm}}.
 
-## Why do I get redirected by the browser to install MotionPro client when it's already installed on my Mac?
-{: #redirect-install}
+## What is the process of installing MotionPro on Windows, Mac, or Linux?
+{: #os-install}
 {: faq}
 {: support}
 
-This is a known issue with the combination of the OSX Operating System (macOS BigSur 11.4) and the Firefox browser (89.0.2 64-bits). To avoid this issue, try to launch the MotionPro client from your local system rather than accessing one of the VPN endpoints from a browser.
+1. Uninstall your current version of MotionPro (if applicable).
+1. Restart your system.
+1. Download and install the latest version of MotionPro.
