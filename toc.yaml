@@ -45,4 +45,12 @@ toc:
         topics:
         - ssl-pptp-vpn-faqs.md
         - resolve-connection-errors.md
+        - topicgroup:
+            label: Troubleshooting
+            topics:
+            - ts-auto-disconnect.md
+            - ts-browser-redirect.md
+            - ts-cannot-access-devices.md
+            - ts-login-error.md
+            - ts-motionpro-pkg-cannot-open.md
         - getting-help.md
