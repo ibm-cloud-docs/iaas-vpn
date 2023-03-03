@@ -58,3 +58,4 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.syd.softlayer.com](https://vpn.syd.softlayer.com/){: external}
 * [vpn.tok.softlayer.com](https://vpn.tok.softlayer.com/){: external}
    * [vpn.tok02.softlayer.com](https://vpn.tok02.softlayer.com/){: external}
+   
