@@ -28,9 +28,5 @@ To get started, you must enable VPN access on each account that needs VPN access
 1. From the Manage _User_ page, select the **Classic Infrastructure** tab and then click **VPN subnets**.
 1. Select the **Enable SSL VPN Access** checkbox and click **Save**.
 
-   For example:
-
-   ![Enable SSL VPN Access](images/vpn_ssl_enable.png){: caption="Enable SSL VPN Access" caption-side="bottom"}  
-
    SSL access must be activated before a user can connect by using SSL.
    {: note}

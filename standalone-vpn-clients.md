@@ -99,14 +99,8 @@ The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/
    * Virtual Site Port
    * User Name
    * Password
-
-   ![Create Profile window](images/mac-standalone.png){: caption="Create Profile window" caption-side="bottom"}
    
-1. Select the newly created profile, then click **Connect**. 
-
-   ![Connecting to virtual site host](images/mac-standalone-connect.png){: caption="Connecting to virtual site host" caption-side="bottom"}
-
-   Status shows **Connecting**. 
+1. Select the newly created profile, then click **Connect**. Status shows **Connecting**. 
  
 If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
 {: note}
