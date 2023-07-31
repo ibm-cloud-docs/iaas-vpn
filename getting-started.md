@@ -79,7 +79,7 @@ To update the VPN password:
 
 Now that the VPN access is configured, you can log in using your browser.
 
-1. Open your web browser and click on any one of the [available VPN endpoints](https://www.ibm.com/cloud/vpn-access){: external}.
+1. Open your web browser and click on any one of the [available VPN endpoints](https://test.cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints){: external}.
 
    Supported operating systems and browser pairs are as follows:
 
