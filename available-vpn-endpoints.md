@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-11-18"
+  years: 1994, 2023
+lastupdated: "2023-08-01"
 
 keywords: VPN endpoints
 
@@ -22,8 +22,8 @@ The following domain names represent the regional entry points for SSL VPN conne
 {: #north-america}
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/){: external}
-   * [vpn.dal04.softlayer.com](https://vpn.dal04.softlayer.com/){: external}
-   * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/){: external} 
+   * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/){: external}
+   * [vpn.dal10.softlayer.com](https://vpn.dal10.softlayer.com/){: external}
 * [vpn.mon01.softlayer.com](https://vpn.mon01.softlayer.com/){: external}
 * vpn.sjc.softlayer.com
    * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/){: external}
@@ -32,6 +32,8 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.tor.softlayer.com](https://vpn.tor.softlayer.com/){: external}
 * [vpn.wdc.softlayer.com](https://vpn.wdc.softlayer.com/){: external}
    * [vpn.wdc01.softlayer.com](https://vpn.wdc01.softlayer.com/){: external}
+   * [vpn.wdc04.softlayer.com](https://vpn.wdc04.softlayer.com/){: external}
+   * [vpn.wdc06.softlayer.com](https://vpn.wdc06.softlayer.com/){: external}
 
 ## South America
 {: #south-america}
