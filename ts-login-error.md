@@ -4,7 +4,7 @@ copyright:
   years: 2022
 lastupdated: "2022-08-17"
 
-keywords: 
+keywords:
 
 subcollection: iaas-vpn
 
@@ -37,6 +37,6 @@ To resolve this issue, follow these steps:
 1. Ensure that SSL VPN access is enabled for your user. For more information, see [Activating or deactivating SSL VPN access for a user](/docs/iaas-vpn?topic=iaas-vpn-activate-or-deacivate-ssl-vpn-access-for-a-user).
 1. Update your SSL VPN password. For more information, see [Updating a user's SSL VPN password](/docs/iaas-vpn?topic=iaas-vpn-update-users-ssl-vpn-password).
 1. Ensure that you are using the latest version of MotionPro. For more information, see [Prerequisities](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients#standalone-prereqs).
-1. Toggle your SSL VPN access from on to off, then off to on.  
+1. Toggle your SSL VPN access from on to off, then off to on.
 1. Try three different VPN endpoints in different regions. For more information, click [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 1. If you have exhausted these steps and are still running into the issue, create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){: external}.

@@ -39,7 +39,7 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 | Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration  \n Perform low-level server management with the KVM console of your classic server  \n Apply critical security updates to your server with public interface shut down  \n Establish a single person, short-lived, private network connection for occasional server and application management | SSL VPN |
 | Manage multiple servers for development or test workloads on classic through an encrypted VPN tunnel  \n Transfer large files regularly among different servers  \n Establish a long-lived network path for managing servers and the customer-deployed applications they host | IPsec VPN |
 | Establish a site-to-site SSL or IPsec VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload  \n Establish a site-to-site SSL or IPsec VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
-{: caption="Table 1: Recommended VPN options" caption-side="bottom"}  
+{: caption="Table 1: Recommended VPN options" caption-side="bottom"}
 
 ## Enabling SSL VPN access
 {: #enable-user-vpn-access}
@@ -71,7 +71,7 @@ To update the VPN password:
 1. From the {{site.data.keyword.cloud_notm}} menu bar, click **Manage > Access (IAM)**, and select **Users**.
 2. Select a user from the list.
 3. From the User details view, go to the **VPN password** section.
-4. Click the **Edit** icon ![Edit icon](images/icon_write.svg) to enter a new VPN password.  
+4. Click the **Edit** icon ![Edit icon](images/icon_write.svg) to enter a new VPN password.
 5. Click **Apply** to save your changes.
 
 ## Logging in to the VPN
@@ -79,7 +79,7 @@ To update the VPN password:
 
 Now that the VPN access is configured, you can log in using your browser.
 
-1. Open your web browser and click on any one of the [available VPN endpoints](https://test.cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints){: external}.
+1. Open your web browser and click on any one of the [available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 
    Supported operating systems and browser pairs are as follows:
 
