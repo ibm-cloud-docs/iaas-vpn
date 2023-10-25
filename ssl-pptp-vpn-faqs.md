@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-08-17"
+  years: 1994, 2023
+lastupdated: "2023-10-25"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -96,3 +96,15 @@ Yes, you can set up [WireGuard](https://www.wireguard.com/){: external} or [Open
 1. Uninstall your current version of MotionPro (if applicable).
 1. Restart your system.
 1. Download and install the latest version of MotionPro.
+
+## How do I request SSL-VPN logs?
+{: #faq-ssl-cert-5}
+{: faq}
+{: support}
+
+Requesting SSL-VPN audit logs requires that you open a support case to ensure proper protocol, security, and policies are followed. For security reasons, only the primary account holder can make the request for SSL-VPN audit logs. VPN logs are not available in real time as there can be a delay in availability. Due to the sensitive nature of the content, sometimes not all information can be shared. Please provide the following items for the request:
+
+1) VPN username or IP address
+2) Date (range is preferable)
+3) Suggested times including time-zone
+4) VPN endpoint (if known)
