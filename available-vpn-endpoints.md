@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-10-25"
+lastupdated: "2023-11-17"
 
 keywords: VPN endpoints
 
@@ -43,7 +43,7 @@ The following domain names represent the regional entry points for SSL VPN conne
 {: #europe-middle-east}
 
 * [vpn.ams03.softlayer.com](https://vpn.ams03.softlayer.com/){: external}
-* [vpn.fra02.softlayer.com](https://vpn.fra02.softlayer.com/){: external}
+* [vpn.fra.softlayer.com](https://vpn.fra.softlayer.com/){: external}
 * [vpn.lon.softlayer.com](https://vpn.lon.softlayer.com/){: external}
    * [vpn.lon02.softlayer.com](https://vpn.lon02.softlayer.com/){: external}
 * [vpn.mil01.softlayer.com](https://vpn.mil01.softlayer.com/){: external}
