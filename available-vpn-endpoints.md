@@ -37,7 +37,7 @@ The following domain names represent the regional entry points for SSL VPN conne
 ## South America
 {: #south-america}
 
-* [vpn.sao.softlayer.com](https://vpn.sao.softlayer.com/){: external}
+* [vpn.sao.softlayer.com](https://vpn.sao.softlayer.com){: external}
 
 ## Europe / Middle East
 {: #europe-middle-east}
