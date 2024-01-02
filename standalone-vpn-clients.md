@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-03-10"
+  years: 1994, 2024
+lastupdated: "2024-01-02"
 
 keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -36,7 +36,7 @@ To install and set up MotionPro on Windows, follow these steps:
 
 If you have issues, uninstall any Array programs by using the Windows Control Panel, restart, and then reconnect.
 
-   MotionPro does not work on Windows 8 RT. To download the MotionPro version compatible with Windows 11, click [here](https://support.arraynetworks.net/prx/000/http/supportportal.arraynetworks.net/downloads/motionpro/Windows/Win11/MotionProSetup_win11.zip){: external}.
+   MotionPro does not work on Windows 8 RT.
    {: note}
 
 ## Linux stand-alone client
