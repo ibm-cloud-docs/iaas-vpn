@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2023
-lastupdated: "2023-11-17"
+  years: 1994, 2024
+lastupdated: "2024-01-10"
 
 keywords: VPN endpoints
 
@@ -27,7 +27,6 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.mon01.softlayer.com](https://vpn.mon01.softlayer.com/){: external}
 * [vpn.sjc.softlayer.com](https://vpn.sjc.softlayer.com/){: external}
    * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/){: external}
-   * [vpn.sjc03.softlayer.com](https://vpn.sjc03.softlayer.com/){: external}
 * [vpn.tor.softlayer.com](https://vpn.tor.softlayer.com/){: external}
 * [vpn.wdc.softlayer.com](https://vpn.wdc.softlayer.com/){: external}
    * [vpn.wdc01.softlayer.com](https://vpn.wdc01.softlayer.com/){: external}
