@@ -61,7 +61,7 @@ For security reasons, only servers that are located inside the data center are a
 {: faq}
 {: support}
 
-First, an account administrator must enable SSL VPN permissions for users.  As a user, you can log in to the VPN through [the web interface]( https://www.ibm.com/cloud/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
+First, an account administrator must enable SSL VPN permissions for users. As a user, you can log in to the VPN through [the web interface](https://www.ibm.com/products/vpn-access) or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, MacOS, or Windows. For more information, see [Logging in to the VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn).
 
 ## What are the available categories for a user's VPN management status within the customer portal?
 {: #what-are-available-categories-vpn-management}

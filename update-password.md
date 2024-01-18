@@ -26,5 +26,5 @@ Follow these steps to update a user’s VPN password:
 1. From the menu bar, click **Manage** &gt; **Access (IAM)**.
 1. Select **Users**, and then click **User details**.
 1. On the **User details page**, go to **VPN access for classic infrastructure**.
-1. Select the Edit icon ![Edit icon](../images/icon_write.svg) to enter a new VPN password.
+1. Select the **Edit** icon to enter a new VPN password.
 1. Click **Update password**.

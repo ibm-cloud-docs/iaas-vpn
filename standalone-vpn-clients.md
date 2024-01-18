@@ -19,8 +19,8 @@ subcollection: iaas-vpn
 {: #standalone-prereqs}
 
 * If you have never installed MotionPro clients, [log in to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using the web browser. The compatible version of MotionPro client is available for you to download and install.
-* If you already installed a compatible version of the MotionPro client, launch it directly from local.  
-* On rare occasions, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}. 
+* If you already installed a compatible version of the MotionPro client, launch it directly from local.
+* On rare occasions, such as if you have an incompatible browser, you might want to download MotionPro clients manually from the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}.
 
 Uninstall any previous versions of the client and restart your system before you install a new version.
 {: important}
@@ -43,11 +43,11 @@ If you have issues, uninstall any Array programs by using the Windows Control Pa
 {: #linux-standalone-client}
 
 * To install and set up MotionPro on Linux, follow these steps:
-   
+
    1. Download: `wget --no-check-certificate [latest MotionPro link]`
    1. Make the file executable. For example: `chmod +x MotionPro_Linux_Ubuntu_x64_build-9.sh`
    1. Run as a superuser. For example: `sudo ./MotionPro_Linux_Ubuntu_x64_build-9.sh`
-   
+
 * To launch the GUI:
 
 `$ MotionPro` -- This launches the GUI for the VPN client. Proceed to set up the VPN profile.
@@ -72,7 +72,7 @@ The preceding steps do not work with Linux installed on Windows. MotionPro will 
 
 If you have ever [logged on to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using a Web browser, the compatible version of MotionPro client is downloaded for you to install.
 
-1. Next time you click on the wanted VPN endpoint from the [VPN endpoint page](https://www.ibm.com/cloud/vpn-access) and log in, the client is automatically launched. 
+1. Next time you click on the wanted VPN endpoint from the [VPN endpoint page](https://www.ibm.com/products/vpn-access) and log in, the client is automatically launched.
 1. A profile for the selected endpoint is automatically loaded in your Web-launched MotionPro client. You do not have to create a new profile.
 1. Click **Connect**.
 
@@ -87,7 +87,7 @@ If you have downloaded and installed the MotionPro client manually from the foll
 * Mac OS MotionPro client on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}
 * Mac OS MotionPro client (Web-Launched MP Client) on the [Array Networks Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} website.
 
-The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){: external}, are not supported. 
+The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){: external}, are not supported.
 {: important}
 
 1. Open the Mac MotionPro or MotionPro Plus application.
@@ -99,9 +99,9 @@ The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/
    * Virtual Site Port
    * User Name
    * Password
-   
-1. Select the newly created profile, then click **Connect**. Status shows **Connecting**. 
- 
+
+1. Select the newly created profile, then click **Connect**. Status shows **Connecting**.
+
    If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
    {: note}
 

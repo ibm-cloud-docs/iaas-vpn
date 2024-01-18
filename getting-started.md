@@ -71,7 +71,7 @@ To update the VPN password:
 1. From the {{site.data.keyword.cloud_notm}} menu bar, click **Manage > Access (IAM)**, and select **Users**.
 2. Select a user from the list.
 3. From the User details view, go to the **VPN password** section.
-4. Click the **Edit** icon ![Edit icon](images/icon_write.svg) to enter a new VPN password.
+4. Click the **Edit** icon to enter a new VPN password.
 5. Click **Apply** to save your changes.
 
 ## Logging in to the VPN
