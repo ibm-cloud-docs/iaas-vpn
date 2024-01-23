@@ -23,7 +23,6 @@ The following domain names represent the regional entry points for SSL VPN conne
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/){: external}
    * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/){: external}
-   * [vpn.dal10.softlayer.com](https://vpn.dal10.softlayer.com/){: external}
 * [vpn.mon01.softlayer.com](https://vpn.mon01.softlayer.com/){: external}
 * [vpn.sjc.softlayer.com](https://vpn.sjc.softlayer.com/){: external}
    * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/){: external}
