@@ -46,10 +46,10 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 
 To get started, you'll need to enable VPN access on each account that needs VPN access. To enable SSL VPN access, follow these steps:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
 
-   To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv){: external}.
+   To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv&interface=ui){: external}.
    {: note}
 
 1. Select the name of the user that you want to assign SSL VPN access.
