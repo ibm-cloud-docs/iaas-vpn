@@ -22,7 +22,7 @@ VPN passwords are required for any VPN connectivity. Passwords can be set by any
 
 Follow these steps to update a user’s VPN password:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 1. From the menu bar, click **Manage** &gt; **Access (IAM)**.
 1. Select **Users**, and then click **User details**.
 1. On the **User details page**, go to **VPN access for classic infrastructure**.
