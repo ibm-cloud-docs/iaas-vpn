@@ -30,7 +30,6 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.wdc.softlayer.com](https://vpn.wdc.softlayer.com/){: external}
    * [vpn.wdc01.softlayer.com](https://vpn.wdc01.softlayer.com/){: external}
    * [vpn.wdc04.softlayer.com](https://vpn.wdc04.softlayer.com/){: external}
-   * [vpn.wdc06.softlayer.com](https://vpn.wdc06.softlayer.com/){: external}
 
 ## South America
 {: #south-america}
