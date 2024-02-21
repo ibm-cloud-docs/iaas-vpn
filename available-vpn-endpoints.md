@@ -22,13 +22,10 @@ The following domain names represent the regional entry points for SSL VPN conne
 {: #north-america}
 
 * [vpn.dal.softlayer.com](https://vpn.dal.softlayer.com/){: external}
-   * [vpn.dal09.softlayer.com](https://vpn.dal09.softlayer.com/){: external}
 * [vpn.mon01.softlayer.com](https://vpn.mon01.softlayer.com/){: external}
 * [vpn.sjc.softlayer.com](https://vpn.sjc.softlayer.com/){: external}
-   * [vpn.sjc01.softlayer.com](https://vpn.sjc01.softlayer.com/){: external}
 * [vpn.tor.softlayer.com](https://vpn.tor.softlayer.com/){: external}
 * [vpn.wdc.softlayer.com](https://vpn.wdc.softlayer.com/){: external}
-   * [vpn.wdc01.softlayer.com](https://vpn.wdc01.softlayer.com/){: external}
    * [vpn.wdc04.softlayer.com](https://vpn.wdc04.softlayer.com/){: external}
 
 ## South America
@@ -42,7 +39,6 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.ams03.softlayer.com](https://vpn.ams03.softlayer.com/){: external}
 * [vpn.fra.softlayer.com](https://vpn.fra.softlayer.com/){: external}
 * [vpn.lon.softlayer.com](https://vpn.lon.softlayer.com/){: external}
-   * [vpn.lon02.softlayer.com](https://vpn.lon02.softlayer.com/){: external}
 * [vpn.mil01.softlayer.com](https://vpn.mil01.softlayer.com/){: external}
 * [vpn.par.softlayer.com](https://vpn.par.softlayer.com/){: external}
    * [vpn.par01.softlayer.com](https://vpn.par01.softlayer.com/){: external}
@@ -55,4 +51,3 @@ The following domain names represent the regional entry points for SSL VPN conne
 * [vpn.sng01.softlayer.com](https://vpn.sng01.softlayer.com/){: external}
 * [vpn.syd.softlayer.com](https://vpn.syd.softlayer.com/){: external}
 * [vpn.tok.softlayer.com](https://vpn.tok.softlayer.com/){: external}
-   * [vpn.tok02.softlayer.com](https://vpn.tok02.softlayer.com/){: external}
