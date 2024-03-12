@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-06-21"
+  years: 1994, 2024
+lastupdated: "2024-03-13"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -14,6 +14,9 @@ subcollection: iaas-vpn
 
 # Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking
 {: #getting-started}
+
+On 2024 March 13, specific SSL VPN endpoints were removed from service as part of our ongoing efforts to optimize our network infrastructure and improve service quality. If you are currently using any of the deprecated URLs listed in [Important announcement: SSL VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-important-announcement), transition to the provided alternatives to avoid any disruptions in your workflow. A full, updated list of available SSL VPN endpoints is located at [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
+{: deprecated}
 
 Virtual Private Networking (VPN) access enables users to manage all servers remotely and securely over the {{site.data.keyword.cloud}} private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be initiated to any IBM Cloud data center or PoP allowing you geographic redundancy.
 {: shortdesc}

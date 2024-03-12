@@ -17,6 +17,7 @@ toc:
         id: learn
         topics:
         - getting-started.md
+        - announcement.md
         - about-vpn.md
 
      - navgroup:
