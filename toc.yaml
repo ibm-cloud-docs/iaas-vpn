@@ -1,4 +1,3 @@
-
 toc:
   properties:
     subcollection: iaas-vpn
@@ -11,7 +10,6 @@ toc:
     product-page: https://www.ibm.com/products/vpn-access
     path: iaas-vpn
     label: Virtual Private Networks (VPN)
-
   entries:
      - navgroup:
         id: learn
@@ -19,7 +17,6 @@ toc:
         - getting-started.md
         - announcement.md
         - about-vpn.md
-
      - navgroup:
         id: howto
         topics:
@@ -29,12 +26,10 @@ toc:
         - standalone-vpn-clients.md
         - customize-subnet-access.md
         - set-up-ipsec-vpn.md
-
      - navgroup:
         id: reference
         topics:
         - available-vpn-endpoints.md
-
      - navgroup:
         id: help
         topics:
