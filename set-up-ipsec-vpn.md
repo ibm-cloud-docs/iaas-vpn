@@ -17,6 +17,9 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
+**IPsec VPN is deprecated** - After 12 June 2024, IPsec VPN is no longer supported. 
+{: deprecated}
+
 ## What is IPsec VPN?
 {: #what-is-ipsec-vpn}
 
