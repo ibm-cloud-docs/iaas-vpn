@@ -17,8 +17,7 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
-The IPsec version of VPN is deprecated. As of _DD month YYYY_, you can't create new instances, and access to free instances will be removed. Existing premium plan instances are supported until _DD month YYYY_. Any instances that still exist on that date will be deleted.
-{: deprecated}
+
 
 ## What is IPsec VPN?
 {: #what-is-ipsec-vpn}

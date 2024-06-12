@@ -15,8 +15,7 @@ subcollection: iaas-vpn
 # Getting started with {{site.data.keyword.cloud_notm}} SSL Virtual Private Networking
 {: #getting-started}
 
-The IPsec version of VPN is deprecated. As of _DD month YYYY_, you can't create new instances, and access to free instances will be removed. Existing premium plan instances are supported until _DD month YYYY_. Any instances that still exist on that date will be deleted.
-{: deprecated}
+
 
 On 2024 March 13, specific SSL VPN endpoints were removed from service as part of our ongoing efforts to optimize our network infrastructure and improve service quality. If you are currently using any of the deprecated URLs listed in [Important announcement: SSL VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-important-announcement), transition to the provided alternatives to avoid any disruptions in your workflow. A full, updated list of available SSL VPN endpoints is located at [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 {: deprecated}
