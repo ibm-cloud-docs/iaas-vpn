@@ -9,7 +9,7 @@ toc:
     console-page: /catalog/infrastructure/ipsec-vpn
     product-page: https://www.ibm.com/products/vpn-access
     path: iaas-vpn
-    label: SSL VPN (IPsec VPN is deprecated)
+    label: SSL Virtual Private Network (IPsec VPN is deprecated)
   entries:
      - navgroup:
         id: learn

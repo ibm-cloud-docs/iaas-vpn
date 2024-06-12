@@ -12,7 +12,7 @@ subcollection: iaas-vpn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Important announcement: SSL VPN endpoints
+# Announcement: SSL VPN endpoints
 {: #important-announcement}
 
 On 2024 March 13, the following SSL VPN endpoints were removed from service. This change is part of our ongoing efforts to optimize our network infrastructure and improve service quality. A full, updated list of available SSL VPN endpoints is located at [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
