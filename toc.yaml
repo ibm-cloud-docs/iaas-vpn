@@ -9,7 +9,7 @@ toc:
     console-page: /catalog/infrastructure/ipsec-vpn
     product-page: https://www.ibm.com/products/vpn-access
     path: iaas-vpn
-    label: SSL Virtual Private Network
+    label: Virtual Private Networks
   entries:
      - navgroup:
         id: learn

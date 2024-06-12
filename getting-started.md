@@ -12,7 +12,7 @@ subcollection: iaas-vpn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.cloud_notm}} SSL Virtual Private Networking
+# Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking
 {: #getting-started}
 
 
