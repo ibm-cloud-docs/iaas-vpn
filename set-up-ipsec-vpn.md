@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-07-14"
+  years: 1994, 2024
+lastupdated: "2024-06-12"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -16,6 +16,8 @@ subcollection: iaas-vpn
 {: #setup-ipsec-vpn}
 {: help}
 {: support}
+
+
 
 ## What is IPsec VPN?
 {: #what-is-ipsec-vpn}
@@ -56,22 +58,22 @@ For example, if your network on the remote end of the tunnel uses a single subne
 ### Network Address Translation (NAT)
 {: #setup-ipsec-vpn-nat}
 
-With the IPsec VPN, you also are allowed to define private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection. This allows you to have private internet traffic that is forwarded to one of your internal IP addresses of a system behind your VPN, without exposing the remote location to full internet access.  
+With the IPsec VPN, you also are allowed to define private IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network that will route traffic to remote subnets on the other end of the VPN connection. This allows you to have private internet traffic that is forwarded to one of your internal IP addresses of a system behind your VPN, without exposing the remote location to full internet access.
 
 ### Network Address Translation/assigned static NAT subnets
 {: #setup-ipsec-vpn-nat-static-subnets}
 
 To configure a remote VPN IP with a static NAT entry:
 
-* Select the red arrow to display the subnet list in the **Assigned Static NAT subnets** section. Each IP in the subnet is displayed.  
-* Enter the IP on the remote end of the VPN connection under the **Customer IP** column and enter a name for the mapping under the **Name** column.  
+* Select the red arrow to display the subnet list in the **Assigned Static NAT subnets** section. Each IP in the subnet is displayed.
+* Enter the IP on the remote end of the VPN connection under the **Customer IP** column and enter a name for the mapping under the **Name** column.
 * Select the **Add/Modify Context Address Translations** and **Apply Configurations** to save and apply the configuration.
 
 This action sets up a static one-to-one network translation for the return traffic, which is used by your hosts behind the IBM Cloud VPN concentrator to communicate with the hosts behind the remote VPN peer. For example, all traffic for IP `10.1.255.92` will be translated and forwarded to the customer's IP `192.168.10.15`. This forwarding eliminates the need for more route entries on the {{site.data.keyword.cloud_notm}} server.
 
-Due to security reasons, IBM does not provide specific hardware or software/operating system information about the equipment used to host our IPsec and SSL VPN services.  
-{: note} 
+Due to security reasons, IBM does not provide specific hardware or software/operating system information about the equipment used to host our IPsec and SSL VPN services.
+{: note}
 
 ### Known restrictions
 {: #restrictions}
-Due to incompatibilities with our IBM CLoud IPsec VPN service, you are unable to build IPsec VPN tunnels with other major cloud providers, such as AWS, Azure, and Google Cloud. If you feel that building an IPsec VPN tunnel between your IBM Cloud environment and any of these providers is necessary, reach out to the IBM Sales team to discuss options that are available, such as a personal gateway appliance. 
+Due to incompatibilities with our IBM CLoud IPsec VPN service, you are unable to build IPsec VPN tunnels with other major cloud providers, such as AWS, Azure, and Google Cloud. If you feel that building an IPsec VPN tunnel between your IBM Cloud environment and any of these providers is necessary, reach out to the IBM Sales team to discuss options that are available, such as a personal gateway appliance.
