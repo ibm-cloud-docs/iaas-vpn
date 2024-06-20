@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-08-17"
+  years: 2022, 2024
+lastupdated: "2024-06-20"
 
-keywords: 
+keywords:
 
 subcollection: iaas-vpn
 
@@ -51,6 +51,6 @@ To resolve this issue, follow these steps:
 
       To check the number of subnets on your account, go to the [Subnets](https://cloud.ibm.com/networking/subnets){: external} page, then locate the number before the word “Items” at the end of the page. This is the number of subnets that you have on the account.
       {: tip}
-      
+
 1. If you were not able to ping the DNS server, log out of the VPN and toggle your SSL VPN access from on to off, then off to on. For more information click [Activating or deactivating SSL VPN access for a user](/docs/iaas-vpn?topic=iaas-vpn-activate-or-deacivate-ssl-vpn-access-for-a-user).
 1. If you have exhausted all the above steps and are still running into the issue, create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form){: external}.
