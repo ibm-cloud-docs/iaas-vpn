@@ -34,7 +34,6 @@ toc:
         id: help
         topics:
         - ssl-pptp-vpn-faqs.md
-        - resolve-connection-errors.md
         - topicgroup:
             label: Troubleshooting
             topics:
