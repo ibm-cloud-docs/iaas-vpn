@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-07-16"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -76,4 +76,5 @@ Due to security reasons, IBM does not provide specific hardware or software/oper
 
 ### Known restrictions
 {: #restrictions}
+
 Due to incompatibilities with our IBM CLoud IPsec VPN service, you are unable to build IPsec VPN tunnels with other major cloud providers, such as AWS, Azure, and Google Cloud. If you feel that building an IPsec VPN tunnel between your IBM Cloud environment and any of these providers is necessary, reach out to the IBM Sales team to discuss options that are available, such as a personal gateway appliance.
