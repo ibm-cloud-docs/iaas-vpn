@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-07-17"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -12,7 +12,7 @@ subcollection: iaas-vpn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking
+# Getting started with {{site.data.keyword.cloud_notm}}  Virtual Private Networking
 {: #getting-started}
 
 
