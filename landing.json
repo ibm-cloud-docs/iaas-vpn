@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "title": "SSL Virtual Private Networks (VPN)",
-  "introduction": "Placeholder",
+  "title": "Virtual Private Networks (VPN)",
+  "introduction": "Virtual Private Networking (VPN) access enables users to manage all servers remotely and securely over the IBM Cloud® private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be initiated to any IBM Cloud data center or PoP allowing you geographic redundancy.",
   "product_page": "https://www.ibm.com/cloud/vpn-access",
   "console_page": "/catalog/infrastructure/ipsec-vpn",
   "section_topics": {
     "links": [
       {
-        "title": "About IBM Cloud Direct Link",
-        "href": "/docs/dl?topic=dl-dl-about"
+        "title": "Getting started with IBM Cloud SSL VPN",
+        "href": "https://test.cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started"
       },
       {
-        "title": "Ordering Direct Link Dedicated",
-        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated"
+        "title": "About VPN",
+        "href": "/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn"
       },
       {
-        "title": "Ordering Direct Link Connect",
-        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
+        "title": "Using an SSL VPN",
+        "href": "/docs/iaas-vpn?topic=iaas-vpn-using-ssl-vpn"
       },
       {
-        "title": "Models for diversity in Direct Link",
-        "href": "/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link"
+        "title": "Activating or deactivating SSL VPN access for a user",
+        "href": "/docs/iaas-vpn?topic=iaas-vpn-activate-or-deacivate-ssl-vpn-access-for-a-user"
       },
       {
-        "title": "Alternatives for your Direct Link Connect deployment",
-        "href": "/docs/overview?topic=overview-get-started-checklist"
+        "title": "Available VPN endpoints",
+        "href": "/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints"
       }
     ]
   },
