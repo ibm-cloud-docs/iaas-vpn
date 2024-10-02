@@ -30,6 +30,12 @@
   },
   "section_highlights": [
     {
+      "title": "Deprecation of IPsec VPN",
+      "description": "As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted.",
+      "href": "/docs/iaas-vpn?topic=iaas-vpn-ipsec-deprecation",
+      "type": "text"
+    },
+    {
       "title": "Announcement: SSL VPN endpoints",
       "description": "On 2024 March 13, the following SSL VPN endpoints were removed from service. This change is part of our ongoing efforts to optimize our network infrastructure and improve service quality. A full, updated list of available SSL VPN endpoints is located at Available VPN endpoints.",
       "href": "/docs/iaas-vpn?topic=iaas-vpn-important-announcement",
@@ -40,7 +46,7 @@
     "view_more": "/docs/iaas-vpn?topic=iaas-vpn-ipsec-deprecation",
     "tiles": [
       {
-        "date": "03 November 2024",
+        "date": "03 October 2024",
         "title": "Deprecation of IPsec VPN",
         "description": "As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted."
       }
