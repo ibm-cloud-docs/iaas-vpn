@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "title": "Virtual Private Networks (VPN)",
+  "title": "SSL Virtual Private Networks (VPN)",
   "introduction": "Placeholder",
   "product_page": "https://www.ibm.com/cloud/vpn-access",
   "console_page": "/catalog/infrastructure/ipsec-vpn",
@@ -30,36 +30,19 @@
   },
   "section_highlights": [
     {
-      "title": "IBM Cloud Direct Link for hybrid cloud",
-      "description": "IBM Cloud Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network.",
-      "href": "/docs/dl?topic=dl-offering-video",
-      "type": "video"
-    },
-    {
-      "title": "Use IBM Direct Link for IBM Cloud network connectivity",
-      "description": "Learn how IBM Direct Link lets you provides connectivity from an on-premises external source into IBM Cloud privately and securely.",
-      "href": "https://developer.ibm.com/blogs/awb-direct-link-service-for-ibm-cloud-network-connectivity/?mhsrc=ibmsearch_a&mhq=direct%20link%20blog",
-      "type": "blog",
-      "recommended": true
+      "title": "Announcement: SSL VPN endpoints",
+      "description": "On 2024 March 13, the following SSL VPN endpoints were removed from service. This change is part of our ongoing efforts to optimize our network infrastructure and improve service quality. A full, updated list of available SSL VPN endpoints is located at Available VPN endpoints.",
+      "href": "/docs/iaas-vpn?topic=iaas-vpn-important-announcement",
+      "type": "text"
     }
   ],
-  "section_devtools": {
-    "api": "/apidocs/direct_link",
-    "cli": "/docs/dl?topic=dl-dl-cli",
-    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway"
-  },
   "section_updates": {
-    "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
+    "view_more": "/docs/iaas-vpn?topic=iaas-vpn-ipsec-deprecation",
     "tiles": [
       {
-        "date": "01 May 2024",
-        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
-        "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
-      },
-      {
-        "date": "07 March 2024",
-        "title": "VLAN tagging support for Direct Link Dedicated",
-        "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+        "date": "03 November 2024",
+        "title": "Deprecation of IPsec VPN",
+        "description": "As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted."
       }
     ]
   }
