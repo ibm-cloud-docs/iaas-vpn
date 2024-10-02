@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "title": "Virtual Private Networks (VPN)",
+  "introduction": "Placeholder",
+  "product_page": "https://www.ibm.com/cloud/vpn-access",
+  "console_page": "/catalog/infrastructure/ipsec-vpn",
+  "section_topics": {
+    "links": [
+      {
+        "title": "About IBM Cloud Direct Link",
+        "href": "/docs/dl?topic=dl-dl-about"
+      },
+      {
+        "title": "Ordering Direct Link Dedicated",
+        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated"
+      },
+      {
+        "title": "Ordering Direct Link Connect",
+        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
+      },
+      {
+        "title": "Models for diversity in Direct Link",
+        "href": "/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link"
+      },
+      {
+        "title": "Alternatives for your Direct Link Connect deployment",
+        "href": "/docs/overview?topic=overview-get-started-checklist"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud Direct Link for hybrid cloud",
+      "description": "IBM Cloud Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network.",
+      "href": "/docs/dl?topic=dl-offering-video",
+      "type": "video"
+    },
+    {
+      "title": "Use IBM Direct Link for IBM Cloud network connectivity",
+      "description": "Learn how IBM Direct Link lets you provides connectivity from an on-premises external source into IBM Cloud privately and securely.",
+      "href": "https://developer.ibm.com/blogs/awb-direct-link-service-for-ibm-cloud-network-connectivity/?mhsrc=ibmsearch_a&mhq=direct%20link%20blog",
+      "type": "blog",
+      "recommended": true
+    }
+  ],
+  "section_devtools": {
+    "api": "/apidocs/direct_link",
+    "cli": "/docs/dl?topic=dl-dl-cli",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway"
+  },
+  "section_updates": {
+    "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
+    "tiles": [
+      {
+        "date": "01 May 2024",
+        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
+        "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
+      },
+      {
+        "date": "07 March 2024",
+        "title": "VLAN tagging support for Direct Link Dedicated",
+        "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+      }
+    ]
+  }
+}
