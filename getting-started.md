@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-17"
+lastupdated: "2024-10-03"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -12,10 +12,11 @@ subcollection: iaas-vpn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.cloud_notm}}  Virtual Private Networking
+# Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking
 {: #getting-started}
 
-
+The IPsec version of VPN is deprecated. As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted.
+{: deprecated}
 
 On 2024 March 13, specific SSL VPN endpoints were removed from service as part of our ongoing efforts to optimize our network infrastructure and improve service quality. If you are currently using any of the deprecated URLs listed in [Important announcement: SSL VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-important-announcement), transition to the provided alternatives to avoid any disruptions in your workflow. A full, updated list of available SSL VPN endpoints is located at [Available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 {: deprecated}
