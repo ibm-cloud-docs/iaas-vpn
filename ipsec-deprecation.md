@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-03"
+lastupdated: "2024-10-09"
 
 keywords: deprecation, ipsec
 
@@ -28,7 +28,7 @@ The following table describes the details of the deprecation, timeline, and extr
 | Deprecation announcement | 3 October 2024 | Announcement of the IPsec VPN deprecation. | Announcement of IPsec VPN deprecation. Existing instances will continue to run. |
 | End of marketing | 3 November 2024 | No new instances of IPsec VPN can be created or purchased. Existing instances will continue to run. |
 | End of support | 27 June 2025 | Running instances of IPsec VPN are permanently disabled and deprovisioned.|
-{: caption="Table 1. Deprecation timeline" caption-side="bottom"}
+{: caption="Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
 {: #deprecation-details}
