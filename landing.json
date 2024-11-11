@@ -8,7 +8,7 @@
     "links": [
       {
         "title": "Getting started with IBM Cloud SSL VPN",
-        "href": "https://test.cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started"
+        "href": "/docs/iaas-vpn?topic=iaas-vpn-getting-started"
       },
       {
         "title": "About VPN",
@@ -37,8 +37,7 @@
     "tiles": [
       {
         "date": "03 October 2024",
-        "title": "Deprecation of IPsec VPN",
-        "description": "As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted."
+        "title": "Deprecation of IPsec VPN"
       }
     ]
   }
