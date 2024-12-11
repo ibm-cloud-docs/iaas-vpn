@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-12-11"
 
 keywords: deprecation, ipsec
 
@@ -21,7 +21,7 @@ IPsec VPN is deprecated. As of 3 November 2024, you can't create new instances o
 ## Important dates
 {: #deprecation-timeline}
 
-The following table describes the details of the deprecation, timeline, and extra information.
+The following table describes the details of the deprecation and timeline.
 
 | Stage | Date | Description |
 | --- | --- | --- |
