@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-01-10"
+  years: 1995, 2024
+lastupdated: "2024-12-11"
 
 keywords: VPN endpoints
 
@@ -15,7 +15,7 @@ subcollection: iaas-vpn
 # Available VPN endpoints
 {: #available-vpn-endpoints}
 
-The following domain names represent the regional entry points for SSL VPN connectivity. Some data centers provide a domain that returns all endpoints in the data center, and allows for dispersion of connections throughout. Use these domain names to configure VPN client software, or simply click one to initiate a browser-assisted connection experience.
+These domain names represent the regional entry points for SSL VPN connectivity. Some data centers provide a domain that returns all endpoints in the data center, and allows for dispersion of connections throughout. Use these domain names to configure VPN client software, or simply click one to initiate a browser-assisted connection experience.
 {: shortdesc}
 
 ## North America
