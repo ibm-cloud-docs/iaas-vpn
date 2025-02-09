@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-08-27"
+  years: 1994, 2025
+lastupdated: "2025-02-09"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -106,3 +106,10 @@ Requesting SSL-VPN audit logs requires that you open a support case to ensure pr
 2) Date (range is preferable)
 3) Suggested times including time-zone
 4) VPN endpoint (if known)
+
+## What ciphers are supported for SSL VPN?
+{: #faq-supported-ciphers}
+{: faq}
+{: support}
+
+Connections to SSL VPN use the following ciphers: AES256-SHA, AES128-SHA.
