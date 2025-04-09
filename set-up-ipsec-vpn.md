@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-03"
+  years: 1994, 2025
+lastupdated: "2025-04-09"
 
 keywords: IPsec VPN, IP address, IP traffic, IaaS VPN, Fedora, Windows, Linux, SSL VPN
 
@@ -17,7 +17,7 @@ subcollection: iaas-vpn
 {: help}
 {: support}
 
-IPsec VPN is deprecated. As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted.
+IPsec VPN is deprecated. As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 15 June 2025. Any instances that still exist on that date will be deleted.
 {: deprecated}
 
 ## What is IPsec VPN?

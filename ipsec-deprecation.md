@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-12-11"
+  years: 2024, 2025
+lastupdated: "2025-04-09"
 
 keywords: deprecation, ipsec
 
@@ -15,7 +15,7 @@ subcollection: iaas-vpn
 # Deprecation of IPsec VPN
 {: #ipsec-deprecation}
 
-IPsec VPN is deprecated. As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 27 June 2025. Any instances that still exist on that date will be deleted.
+IPsec VPN is deprecated. As of 3 November 2024, you can't create new instances of IPsec VPN. Existing IPsec VPN instances are supported until 15 June 2025. Any instances that still exist on that date will be deleted.
 {: deprecated}
 
 ## Important dates
@@ -27,7 +27,7 @@ The following table describes the details of the deprecation and timeline.
 | --- | --- | --- |
 | Deprecation announcement | 3 October 2024 | Announcement of the IPsec VPN deprecation. | Announcement of IPsec VPN deprecation. Existing instances will continue to run. |
 | End of marketing | 3 November 2024 | No new instances of IPsec VPN can be created or purchased. Existing instances will continue to run. |
-| End of support | 27 June 2025 | Running instances of IPsec VPN are permanently disabled and deprovisioned.|
+| End of support |  June 2025 | Running instances of IPsec VPN are permanently disabled and deprovisioned.|
 {: caption="Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
@@ -36,8 +36,8 @@ The following table describes the details of the deprecation and timeline.
 Review the following details about the IPsec VPN deprecation:
 
 * After EOM (3 Nov 2024), you won't be able to create new IPsec VPN instances from the [IBM Cloud portal](/catalog/infrastructure/ipsec-vpn).
-* After EOM (3 Nov 2024) and before EOS (27 Jun 2025), IPsec VPN will still be available to you for viewing and managing [your existing IPsec VPN instances](/classic/network/ipsecvpn).
-* After EOS (27 Jun 2025), IPsec VPN is no longer supported for any orders, updates, or deletion operations. Any IPsec VPN tunnels and configurations will be cancelled and all existing IPsec VPN instances will be deleted and then reclaimed.
+* After EOM (3 Nov 2024) and before EOS (15 June 2025), IPsec VPN will still be available to you for viewing and managing [your existing IPsec VPN instances](/classic/network/ipsecvpn).
+* After EOS (15 June 2025), IPsec VPN is no longer supported for any orders, updates, or deletion operations. Any IPsec VPN tunnels and configurations will be cancelled and all existing IPsec VPN instances will be deleted and then reclaimed.
 
 ## Next steps for current users
 {: #deprecation-next-steps}
@@ -113,7 +113,7 @@ Dependent on the gateway appliance type that you choose, read more about creatin
 ### Deleting IPsec VPN instances
 {: #service-delete}
 
-If you have converted your account to VRF, IPSec VPN stops working immediately. Only existing IPsec VPN instances within non-VRF accounts can continue to be used until End of Service (27 June 2025).
+If you have converted your account to VRF, IPSec VPN stops working immediately. Only existing IPsec VPN instances within non-VRF accounts can continue to be used until End of Service (15 June 2025).
 {: note}
 
 After you successfully migrate to VPN for VPC or gateway appliances, delete your IPsec VPN instances using the following steps when you're ready.
@@ -122,4 +122,4 @@ After you successfully migrate to VPN for VPC or gateway appliances, delete your
 2. Navigate to the existing IPsec VPN [instance list](/classic/network/ipsecvpn).
 3. In the Actions column, select **Delete**.
 
-If you don't manually delete your IPsec VPN instances before End of Service (27 June 2025), they will be deleted and reclaimed on this date.
+If you don't manually delete your IPsec VPN instances before End of Service (15 June 2025), they will be deleted and reclaimed on this date.
