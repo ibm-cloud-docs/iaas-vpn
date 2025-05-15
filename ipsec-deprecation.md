@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-05-15"
 
 keywords: deprecation, ipsec
 
@@ -107,8 +107,8 @@ Migrating to gateway appliances has the following benefits:
 
 Dependent on the gateway appliance type that you choose, read more about creating a gateway appliance in the user documentation:
 
-* [Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started)
-* [Fortinet vFSA](/docs/vfsa?topic=vfsa-getting-started)
+* [Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx)
+* [Fortinet vFSA](/docs/vfsa?topic=vfsa-getting-started-vfsa)
 
 ### Deleting IPsec VPN instances
 {: #service-delete}
