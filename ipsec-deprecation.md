@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-05-15"
+lastupdated: "2025-05-29"
 
 keywords: deprecation, ipsec
 
@@ -59,7 +59,7 @@ VPN for VPC is an IPsec VPN solution on IBM Cloud Virtual Private Cloud (VPC) th
 * High availability deployment
 * Pay-as-You-Go pricing without any upfront monthly fee
 
-#### Prerequsites: Enabling VRF for your account and creating a VPC
+#### Prerequisites: Enabling VRF for your account and creating a VPC
 {: #migrate-vpnvpc-preq}
 
 Your account must be enabled for Virtual Router Forwarding (VRF) if you choose to migrate to VPC.
