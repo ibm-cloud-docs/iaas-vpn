@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-02-09"
+lastupdated: "2025-07-09"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -27,20 +27,20 @@ These FAQs provide answers to common questions about SSL VPNs.
 
 With VPN access, you can:
 
-* Establish a VPN connection to the private network by using SSL or IPsec
+* Establish a VPN connection to the private network by using SSL
 * Access your server through its private `10.x.x.x` IP address by using SSH or RDP
 * Connect to your server’s IPMI IP address for server management or rescue needs.
 
 Our SSL VPN gateway is a security product from Array Networks. The gateway itself runs radius to update users and passwords from our customer portal.
 
-## What if I cannot connect to the SSL or IPsec VPN endpoint of my choice?
+## What if I cannot connect to the SSL VPN endpoint of my choice?
 {: #what-if-i-cannot-connect-to-vpn-endpoint}
 {: faq}
 {: support}
 
 Geographic redundancy exists to allow access into your private network from anywhere in the world that you choose to connect from. If one location doesn't connect, you can use a different data center during the interruption. If multiple locations are failing to connect, visit our Troubleshooting section.
 
-## Does the SSL VPN also perform IPsec or other VPN protocols?
+## Does the SSL VPN also perform other VPN protocols?
 {: #does-ssl-vpn-perform-pptp-ipsed-vpn-protocols}
 {: faq}
 {: support}

@@ -6,16 +6,14 @@ toc:
     category: network_edge
     audience: service
     href: /docs/iaas-vpn
-    console-page: /catalog/infrastructure/ipsec-vpn
     product-page: https://www.ibm.com/products/vpn-access
     path: iaas-vpn
-    label: Virtual Private Networks (IPsec VPN deprecated 3 Nov 2024)
+    label: Virtual Private Networks
   entries:
      - navgroup:
         id: learn
         topics:
         - getting-started.md
-        - ipsec-deprecation.md
         - announcement.md
         - about-vpn.md
      - navgroup:
@@ -26,7 +24,6 @@ toc:
         - update-password.md
         - standalone-vpn-clients.md
         - customize-subnet-access.md
-        - set-up-ipsec-vpn.md
      - navgroup:
         id: reference
         topics:

@@ -3,7 +3,6 @@
   "title": "Virtual Private Networks (VPN)",
   "introduction": "Virtual Private Networking (VPN) access enables users to manage all servers remotely and securely over the IBM Cloud® private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel. VPN tunnels can be initiated to any IBM Cloud data center or PoP allowing you geographic redundancy.",
   "product_page": "https://www.ibm.com/products/vpn-access",
-  "console_page": "/catalog/infrastructure/ipsec-vpn",
   "section_topics": {
     "links": [
       {
@@ -25,19 +24,6 @@
       {
         "title": "Available VPN endpoints",
         "href": "/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints"
-      },
-      {
-        "title": "Deprecation of IPsec VPN",
-        "href": "/docs/iaas-vpn?topic=iaas-vpn-ipsec-deprecation"
-      }
-    ]
-  },
-  "section_updates": {
-    "view_more": "/docs/iaas-vpn?topic=iaas-vpn-ipsec-deprecation",
-    "tiles": [
-      {
-        "date": "03 October 2024",
-        "title": "Deprecation of IPsec VPN"
       }
     ]
   }
