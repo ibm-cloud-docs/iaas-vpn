@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-07-09"
+lastupdated: "2025-07-14"
 
 keywords: VPN FAQ, IBM Cloud VPN access, IBM Cloud VPN
 
@@ -12,7 +12,7 @@ subcollection: iaas-vpn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# SSL VPN FAQs
+# SSL VPN FAQ
 {: #vpn-ssl-faq}
 
 These FAQs provide answers to common questions about SSL VPNs.
