@@ -10,34 +10,34 @@ toc:
     path: iaas-vpn
     label: Virtual Private Networks
   entries:
-     - navgroup:
-        id: learn
-        topics:
-        - getting-started.md
-        - announcement.md
-        - about-vpn.md
-     - navgroup:
-        id: howto
-        topics:
-        - use-ssl-vpn.md
-        - activate-a-user.md
-        - update-password.md
-        - standalone-vpn-clients.md
-        - customize-subnet-access.md
-     - navgroup:
-        id: reference
-        topics:
-        - available-vpn-endpoints.md
-     - navgroup:
-        id: help
-        topics:
-        - ssl-pptp-vpn-faqs.md
-        - topicgroup:
-            label: Troubleshooting
-            topics:
-            - ts-auto-disconnect.md
-            - ts-browser-redirect.md
-            - ts-cannot-access-devices.md
-            - ts-login-error.md
-            - ts-motionpro-pkg-cannot-open.md
-        - getting-help.md
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - announcement.md
+      - about-vpn.md
+  - navgroup:
+      id: howto
+      topics:
+      - use-ssl-vpn.md
+      - activate-a-user.md
+      - update-password.md
+      - standalone-vpn-clients.md
+      - customize-subnet-access.md
+  - navgroup:
+      id: reference
+      topics:
+      - available-vpn-endpoints.md
+  - navgroup:
+      id: help
+      topics:
+      - ssl-pptp-vpn-faqs.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - ts-auto-disconnect.md
+          - ts-browser-redirect.md
+          - ts-cannot-access-devices.md
+          - ts-login-error.md
+          - ts-motionpro-pkg-cannot-open.md
+      - getting-help.md
