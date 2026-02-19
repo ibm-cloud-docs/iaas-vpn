@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-07-09"
+  years: 1994, 2026
+lastupdated: "2026-02-19"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -34,8 +34,8 @@ SSL VPN is a shared VPN service, which is free of charge. It is not recommended 
 ## Use case scenarios
 {: #use-case-scenarios}
 
-| If you plan to: | Recommended VPN option:  |
-|--------------|--------------|
+| If you plan to: | Recommended VPN option: |
+| --------------- | ----------------------- |
 | Access your server on classic through its private IP address (`10.x.x.x`) by SSH or RDP for a short duration  \n Perform low-level server management with the KVM console of your classic server  \n Apply critical security updates to your server with public interface shut down  \n Establish a single person, short-lived, private network connection for occasional server and application management | SSL VPN |
 | Establish a site-to-site SSL VPN connection between IBM Cloud and on-premises for unlimited SSL VPN users and production workload  \n Establish a site-to-site SSL VPN connection between two on-premise enterprise data centers for unlimited SSL VPN users | VPN gateway appliances on classic (for example, Juniper vSRX or AT&T vRouter) |
 {: caption="Table 1: Recommended VPN options" caption-side="bottom"}
