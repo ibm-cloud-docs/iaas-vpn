@@ -38,7 +38,7 @@ To resolve this issue, follow these steps:
 1. Download the latest MotionPro client version available from the [Array Networks Clients page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}.
 
    Uninstall the old client. After you install the newest client, restart your PC.
-   {: #important}
+   {: important}
 
 1. Ensure that your computer is set to the correct time, time zone, and date.
 1. Disconnect from any currently running VPN clients.
