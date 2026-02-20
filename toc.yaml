@@ -38,6 +38,7 @@ toc:
           - ts-auto-disconnect.md
           - ts-browser-redirect.md
           - ts-cannot-access-devices.md
+          - ts-fails-ssl-connection.md
           - ts-login-error.md
           - ts-motionpro-pkg-cannot-open.md
       - getting-help.md
