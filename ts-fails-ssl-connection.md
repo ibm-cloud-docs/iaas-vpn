@@ -51,7 +51,7 @@ To resolve this issue, follow these steps:
       * Run the command `ipconfig /flushdns`
 
    * On Mac, follow these steps:
-      * Press the Command key + Space Bar or click the magnifying glass in the upper right corner.
+      * Press the _Command key + Space Bar_ or click the magnifying glass in the upper right corner.
       * Type "terminal".
       * Run the command `sudo killall -HUP mDNSResponder`.
 
