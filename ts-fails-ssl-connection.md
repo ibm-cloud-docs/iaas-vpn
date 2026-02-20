@@ -21,9 +21,9 @@ When connecting to the MotionPro client, an SSL connection error occurs.
 {: shortdesc}
 
 MotionPro displays the following SSL connection error:
+{: tsSymptoms}
 
    `The MotionPro client fails to establish the SSL connection. Please check the network connection and your certifcate`
-{: tsSymptoms}
 
 Possible causes include, but are not limited, to the following:
 {: tsCauses}
