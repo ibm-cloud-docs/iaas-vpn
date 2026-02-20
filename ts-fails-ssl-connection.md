@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-02-20"
 
 keywords: IBM Cloud VPN, VPN FAQ, MotionPro
 
@@ -21,8 +21,16 @@ When connecting to the MotionPro client, an SSL connection error occurs.
 {: shortdesc}
 
 MotionPro displays the following SSL connection error:
+
    `The MotionPro client fails to establish the SSL connection. Please check the network connection and your certifcate`
 {: tsSymptoms}
+
+Possible causes include, but are not limited, to the following:
+{: tsCauses}
+
+1. Outdated MotionPro client version.
+1. Incorrect system date and time.
+1. DNS cache issue.
 
 To resolve this issue, follow these steps:
 {: tsResolve}
