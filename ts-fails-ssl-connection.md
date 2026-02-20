@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-02-20"
 
 keywords: IBM Cloud VPN, VPN FAQ, MotionPro
 
@@ -21,8 +21,16 @@ When connecting to the MotionPro client, an SSL connection error occurs.
 {: shortdesc}
 
 MotionPro displays the following SSL connection error:
-   `The MotionPro client fails to establish the SSL connection. Please check the network connection and your certifcate`
 {: tsSymptoms}
+
+   `The MotionPro client fails to establish the SSL connection. Please check the network connection and your certifcate`
+
+Possible causes include, but are not limited, to the following:
+{: tsCauses}
+
+1. Outdated MotionPro client version.
+1. Incorrect system date and time.
+1. DNS cache issue.
 
 To resolve this issue, follow these steps:
 {: tsResolve}
@@ -30,7 +38,7 @@ To resolve this issue, follow these steps:
 1. Download the latest MotionPro client version available from the [Array Networks Clients page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}.
 
    Uninstall the old client. After you install the newest client, restart your PC.
-   {: #important}
+   {: important}
 
 1. Ensure that your computer is set to the correct time, time zone, and date.
 1. Disconnect from any currently running VPN clients.
@@ -43,7 +51,7 @@ To resolve this issue, follow these steps:
       * Run the command `ipconfig /flushdns`
 
    * On Mac, follow these steps:
-      * Press the Command key + Space Bar or click the magnifying glass in the upper right corner.
+      * Press the _Command key + Space Bar_ or click the magnifying glass in the upper right corner.
       * Type "terminal".
       * Run the command `sudo killall -HUP mDNSResponder`.
 
