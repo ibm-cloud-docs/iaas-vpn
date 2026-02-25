@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1995, 2024
-lastupdated: "2024-12-11"
+  years: 1995, 2026
+lastupdated: "2026-02-25"
 
 keywords: VPN endpoints
 
@@ -38,7 +38,6 @@ These domain names represent the regional entry points for SSL VPN connectivity.
 * [vpn.ams03.softlayer.com](https://vpn.ams03.softlayer.com/){: external}
 * [vpn.fra.softlayer.com](https://vpn.fra.softlayer.com/){: external}
 * [vpn.lon.softlayer.com](https://vpn.lon.softlayer.com/){: external}
-* [vpn.mil01.softlayer.com](https://vpn.mil01.softlayer.com/){: external}
 * [vpn.par.softlayer.com](https://vpn.par.softlayer.com/){: external}
    * [vpn.par01.softlayer.com](https://vpn.par01.softlayer.com/){: external}
 
