@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-04-22"
+lastupdated: "2026-08-06"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -23,4 +23,4 @@ If you experience an issue or have questions when using IaaS VPN, you can use th
 * Review the [troubleshooting](/docs/iaas-vpn?topic=iaas-vpn-troubleshoot-auto-disconnect) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](/status){: external}.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-support-cases). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).

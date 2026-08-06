@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-01-02"
+  years: 1994, 2026
+lastupdated: "2026-08-06"
 
 keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -102,7 +102,7 @@ The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/
 
 1. Select the newly created profile, then click **Connect**. Status shows **Connecting**.
 
-   If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/thread/2735376){: external}.
+   If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/verify-human/verify.html){: external}.
    {: note}
 
 If you run into issues installing the MotionPro or MotionPro Plus client, refer to the [Troubleshooting](/docs/iaas-vpn?topic=iaas-vpn-motionpro-pkg-error) section for assistance.
