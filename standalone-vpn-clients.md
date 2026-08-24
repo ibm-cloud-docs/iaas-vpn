@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-08-06"
+lastupdated: "2026-08-24"
 
 keywords: standalone VPN clients, Virtual Private Network, MotionPro
 
@@ -72,7 +72,7 @@ The preceding steps do not work with Linux installed on Windows. MotionPro will 
 
 If you have ever [logged on to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started#login-to-the-vpn) using a Web browser, the compatible version of MotionPro client is downloaded for you to install.
 
-1. Next time you click on the wanted VPN endpoint from the [VPN endpoint page](https://www.ibm.com/products/vpn-access) and log in, the client is automatically launched.
+1. Next time you click on the wanted VPN endpoint from the [IBM Cloud VPN access page](https://www.ibm.com/products/vpn-access) and log in, the client is automatically launched.
 1. A profile for the selected endpoint is automatically loaded in your Web-launched MotionPro client. You do not have to create a new profile.
 1. Click **Connect**.
 
@@ -87,7 +87,7 @@ If you have downloaded and installed the MotionPro client manually from the foll
 * Mac OS MotionPro client on the [Array Networks Clients and Tools page](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external}
 * Mac OS MotionPro client (Web-Launched MP Client) on the [Array Networks Clients and Tools](https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/downloads/downloads.html){: external} website.
 
-The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/us/app/motionpro-plus/id1218085720?mt=12){: external}, are not supported.
+The MotionPro Plus clients available in the Apple App Store are not supported.
 {: important}
 
 1. Open the Mac MotionPro or MotionPro Plus application.
@@ -102,7 +102,7 @@ The MotionPro Plus clients, located in the [Apple Store](https://apps.apple.com/
 
 1. Select the newly created profile, then click **Connect**. Status shows **Connecting**.
 
-   If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://discussions.apple.com/verify-human/verify.html){: external}.
+   If the tunnel isn't directing traffic correctly, you might need to [add routes manually](https://support.apple.com/guide/mac-help/welcome/mac){: external}.
    {: note}
 
 If you run into issues installing the MotionPro or MotionPro Plus client, refer to the [Troubleshooting](/docs/iaas-vpn?topic=iaas-vpn-motionpro-pkg-error) section for assistance.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-08-06"
+lastupdated: "2026-08-24"
 
 keywords: VPN access, IBM Cloud VPN, user account
 
@@ -48,7 +48,7 @@ To get started, you'll need to enable VPN access on each account that needs VPN 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 1. Click **Manage > Access (IAM)**, and select **Users**.
 
-   To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-users-add&interface=ui){: external}.
+   To add a user, click **Add VPN-only user** or **Invite users**. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv-cloud&interface=ui){: external}.
    {: note}
 
 1. Select the name of the user that you want to assign SSL VPN access.
@@ -78,7 +78,7 @@ To update the VPN password:
 
 Now that the VPN access is configured, you can log in using your browser.
 
-1. Open your web browser and click on any one of the [available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
+1. Open your web browser and click on any one of the [list of available VPN endpoints](/docs/iaas-vpn?topic=iaas-vpn-available-vpn-endpoints).
 
    Supported operating systems and browser pairs are as follows:
 
